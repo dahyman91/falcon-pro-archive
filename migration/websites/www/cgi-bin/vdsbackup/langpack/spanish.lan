@@ -1,0 +1,118 @@
+document_meta_charset#ISO-8859-1
+l_all_files#Todos los archivos
+l_not_aval#N/A
+l_back_pwd#Proteger copia de seguridad con contraseña
+l_back_to_start#Volver a copia de seguridad VDS
+l_backup_all#Todos
+l_backup_all_files#Todos los archivos
+l_backup_backup_title#Título de la copia de seguridad
+l_backup_content_files_only#Sólo archivos de contenido
+l_backup_data_type#Elegir tipo de datos
+l_backup_days_ago#días
+l_backup_directory#Directorio
+l_backup_email_mailboxes_only#Sólo buzones de correo
+l_backup_file#Archivo de copia de seguridad
+l_backup_last_modified#Archivo modificado en los últimos/as
+l_backup_select_data_range#Seleccionar rango de datos
+l_backup_total_size#Tamaño total de los archivos para copia de segurida
+l_backup_type#Tipo de copia de seguridad
+l_backup_virtual_user#Usuario virtual (FTP + correo electrónico)
+l_bad_cgi_param#Parámetro CGI ilegal
+l_choose_backup_name#Nombre de la copia de seguridad
+l_choose_select#Seleccione una copia de seguridad desde la que desee
+l_content_files#Archivos de contenido
+l_date_create#Fecha de creación
+l_default_backup#Realizar copia de seguridad de archivos y directori
+l_default_language#Seleccionar idioma por defecto
+l_default_restore#Restaurar archivos y directorios
+l_default_select#Seleccione la operación que quiera ejecutar
+l_delete_entry#Borrar entrada
+l_delete_index#¿Está seguro de que quiere borrar este objeto permanentemente?
+l_dir#dir
+l_dir_empty#El campo de nombre de directorio no puede estar vacío.
+l_directory#Directorio
+l_directory_view#Presentación de directorios
+l_email_files#Archivos de correo electrónico
+l_er_back_type#El tipo de copia de seguridad no es compatible
+l_error#Se produjo un error.
+l_error_error#Error
+l_error_exclude#No se puede abrir la lista de archivos excluidos.
+l_error_file_restore#No se pudo terminar de restaurar el archivo
+l_error_retore#No se pudo terminar de restaurar
+l_error_search#Error en la búsqueda
+l_error_title#Error
+l_error_unlink#no se puede vincular el archivo.
+l_error_unlock#no se puede desbloquear el archivo bloqueado.
+l_illigal_value#El campo de la plantilla contiene un valor no válid
+l_in_upload#Carga en proceso, espere un momento
+l_index_use#El nombre del índice se está usando. Vuelva a inten
+l_link_delete#Borrar
+l_list_view#Presentación en lista
+l_location#Ubicación
+l_main_title#Efectuar copia de seguridad y restaurar el sitio
+l_modify#Modificado
+l_must_pass#*
+l_name#Nombre
+l_no_action#Ejecución de CGI no válida
+l_no_backup_type#Seleccionar tipo de copia de seguridad
+l_no_cgi_index#Seleccionar archivo para cargar
+l_no_comp#antes de la compresión
+l_no_dir#Imposible acceder al directorio
+l_no_dir_select#Seleccionar directorio para la copia de seguridad
+l_no_dir_vuser#Imposible acceder al directorio para el usuario
+l_no_file#Imposible encontrar el archivo/s
+l_no_file_find#Imposible encontrar el archivo
+l_no_file_open#Imposible abrir el archivo
+l_no_file_restor#No se pudo terminar de restaurar el archivo
+l_no_files#No hay archivos
+l_no_freeze#Imposible detener VDS
+l_no_freeze_action#El método de interrupción no es compatible
+l_no_html_out#Imposible analizar plantilla HTML
+l_no_index_dir#Imposible explorar el directorio de índices
+l_no_index_files#No hay archivos de índice
+l_no_lock#Imposible bloquear el archivo
+l_no_stop_services#Imposible detener servicios VDS
+l_no_uid#Imposible encontrar UID para el usuario
+l_no_vusers#Sin usuarios
+l_no_write_file#Imposible escribir en el archivo
+l_pass_one#Contraseña
+l_pass_two#Confirmar
+l_password_miss#El campo de la contraseña está vacío
+l_password_retype#Las contraseñas no coinciden
+l_pwd_backup_name#Introducir la contraseña del archivo que desea copiar
+l_report_restore_results#Resultados al restaurar
+l_report_results#Resultados
+l_restore_ok#Se restauraron los datos con éxito
+l_select_files_restore#Seleccionar los archivos que quiera restaurar.
+l_select_vuser#Seleccione un usuario virtual.
+l_session_exp#Su sesión ha acabado
+l_size#Tamaño
+l_tar_stream_error#Imposible crear flujo de copia de seguridad
+l_top_available_files#Archivos disponibles
+l_top_backup_name#Nombre de la copia de seguridad
+l_top_backup_type#Tipo de copia de seguridad
+l_top_leftbottom_select_all#Seleccionar todos
+l_top_leftbottom_unselect_all#Borrar todos
+l_top_lefttop_directory#Presentación de directorios
+l_top_lefttop_list_view#Presentación en lista
+l_top_lefttop_tree#Presentación en árbol
+l_top_rightbottom_select_all#Seleccionar todos
+l_top_rightbottom_unselect_all#Borrar todos
+l_top_righttop_directory#Presentación de directorios
+l_top_righttop_list_view#Presentación en lista
+l_top_righttop_tree#Presentación en árbol
+l_top_selected_files#Archivos seleccionados
+l_tree_view#Presentación en árbol
+l_upload_choose#Seleccionar archivo de copia de seguridad de su ordernador
+l_upload_filename#Cargar el siguiente nombre de archivo
+l_v_user#Usuarios virtuales
+l_wait_backup_download#Copia de seguridad de la descarga
+l_wait_cancel#Para volver a trabajar normalmente, haga clic en e
+l_wait_frozen#No será posible acceder al sitio hasta que acabe la
+l_wait_please_wait#Espere a que termine la copia de seguridad...
+l_while_using#El nombre del archivo de copia de seguridad debe se
+l_wrong_backupfile#Nombre de archivo de copia de seguridad erróneo
+l_wrong_pwd#Contraseña errónea para el archivo de copia de segu
+l_zero_files_size#Documento de tamaño cero. Compruebe capacidad y per
+l_zero_size_arhive#Archivo de tamaño cero
+language_file_title#Inglés estadounidense

@@ -1,0 +1,23 @@
+From: [email]  ([name])
+To: [required-to]
+Reply-to:[email]  ([name])
+Subject: [subject]
+
+
+Name: [name]
+Address: [street]
+City: [city]
+State: [state]   Zip: [zip]
+Phone: [phone]
+==========================================================================
+Item Reference:
+[number]
+
+===========================================================================
+Payment Information:
+[type]
+[card]   [exp]
+
+===========================================================================
+Comments:
+[comments]

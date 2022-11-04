@@ -1,0 +1,93 @@
+<html>
+<head>
+<META HTTP-EQUIV="Expires" CONTENT="Mon, 06 Jan 1990 00:00:01 GMT">
+<META HTTP-EQUIV="Pragma" CONTENT="No-cache">
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=<<document_meta_charset>>">
+<LINK REL="STYLESHEET" HREF="/vdsbackup/Sphera.css" TYPE="TEXT/CSS">
+<base target="_self">
+<script>
+        function GetHeight(){
+                NetScape = (navigator.appName == "Netscape")
+                IExplore = (navigator.appName == "Microsoft Internet Explorer")
+                BrowserVer = parseInt(navigator.appVersion);
+                if (NetScape) {
+                        if (BrowserVer<5){
+                                return parseInt(self.innerHeight);
+                        }
+                        else{
+                                return parseInt(self.innerHeight);
+                        }
+                }
+                else if (IExplore) {
+                        return parseInt(document.body.clientHeight);
+                }
+        }
+	
+	function ReturnURL_old(){
+		if ( document.form1.aa[0].checked ) {
+			varTmpStr='/cgi-bin/vdsbackup/vdsbackup.cgi?action=backup&lang='+document.form1.lang[document.form1.lang.selectedIndex].value;
+		} else {
+			varTmpStr='/cgi-bin/vdsbackup/vdsbackup.cgi?action=chooseindex&lang='+document.form1.lang[document.form1.lang.selectedIndex].value;
+		}
+		return varTmpStr;
+	}
+	function ReturnURL(){
+                if ( document.form1.aa[0].checked ) {
+                        varTmpStr='/cgi-bin/vdsbackup/vdsbackup.cgi?action=backup&lang='+document.form1.lang.value;
+                } else {
+                        varTmpStr='/cgi-bin/vdsbackup/vdsbackup.cgi?action=chooseindex&lang='+document.form1.lang.value;
+                }
+                return varTmpStr;
+        }
+</script>
+</head>
+<body leftmargin=0 topmargin=0  marginwidth="0" marginheight="0" onLoad="document.form1.aa[0].click();">
+<FORM name="form1" method="post" target="_self" enctype="multipart/form-data" action="/cgi-bin/vdsbackup/upload.cgi?<<USERFILE>>">
+
+<CENTER>
+<table width=100% border=0 cellspacing=0 cellpadding=0 height="100%">
+<tr class="MainHeader">
+        <td nowrap width=55% height="50">&nbsp;&nbsp;&nbsp;&nbsp;<font face="Verdana" size="3" color="#FFFFFF"><b><<TITLE>></b></font></td>
+        <td>&nbsp;</td>
+        <td align="right"><img src="/vdsbackup/sphera_logo_small.gif" width="38" height="46">&nbsp;&nbsp;&nbsp;&nbsp</td>
+</tr><tr>
+        <td colspan=2 bgcolor="#CBD4F1" height="24">&nbsp;&nbsp;&nbsp;&nbsp;<a  class="tabFocus"><<l_default_select>>:</a></td>
+	<td bgcolor="#CBD4F1" align="right" valign="bottom"><a href="#" onclick="window.open('<<HELPURL>>','Help','width=500 height=500 scrollbars'); return false;"><img src="/vdsbackup/english/help.gif" border=0></a>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+</tr><tr>
+        <script>
+        var tmp=GetHeight()-50-24-40;
+        document.write("<td bgcolor=\"#FFFFFF\" align=center colspan=3 height=\"" + tmp + "\">");
+        </script>
+		<table border="0" cellspacing="1" cellpadding="4">
+		<tr>
+                        <td align="left"><B><a class="BrownFont"><input type="radio" name="aa" id="aa"><<l_default_backup>></td>
+                </tr>
+		<tr>
+			<td align="left"><B><a class="BrownFont"><input type="radio" name="aa" id="aa"><<l_default_restore>></td>
+		</tr>
+		<tr>
+                	 <td ><!----<B><a class="BrownFont">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<<l_default_language>>:&nbsp;&nbsp;
+                                <select size="1" name="lang" id="lang">
+                                	<<LANGUAGES>>
+				</select>------->
+                        </td>
+		</tr>
+		</table>
+
+	</td>
+</tr>
+	<tr><td colspan=3 bgcolor="#FFFFFF" height="40">	
+		<table width=100% border=0 cellspacing=0>
+		<tr>
+		        <td align="right" width="70%">&nbsp;</td>
+		        <td align="right" width="20%"><a href="#" onClick="top.location=self.ReturnURL(); return false;"><IMG SRC="/vdsbackup/english/next.gif" border=0></a></td>
+		        <td>&nbsp;</td>
+		</tr></table>
+	</td></tr>
+
+
+</tr></table>
+<input type="hidden" name="lang" value="<<LANG>>" >
+</FORM>
+</body>
+</html>

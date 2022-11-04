@@ -1,0 +1,464 @@
+AWSTATS DATA FILE 7.8 (build 20200416)
+# If you remove this file, all statistics for date 202201 will be lost/reset.
+# Last config file used to build this data file was /home/falconpr/tmp/awstats/ssl/awstats.falcon-pro.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2015                
+POS_TIME 2693                
+POS_VISITOR 9109                
+POS_DAY 12367               
+POS_DOMAIN 3329                
+POS_LOGIN 3647                
+POS_ROBOT 3802                
+POS_WORMS 4210                
+POS_EMAILSENDER 4341                
+POS_EMAILRECEIVER 4484                
+POS_SESSION 13001               
+POS_SIDER 13169               
+POS_FILETYPES 4619                
+POS_DOWNLOADS 4703                
+POS_OS 4751                
+POS_BROWSER 4992                
+POS_SCREENSIZE 5651                
+POS_UNKNOWNREFERER 5725                
+POS_UNKNOWNREFERERBROWSER 6238                
+POS_ORIGIN 6660                
+POS_SEREFERRALS 6794                
+POS_PAGEREFS 6979                
+POS_SEARCHWORDS 7127                
+POS_KEYWORDS 7279                
+POS_MISC 2357                
+POS_ERRORS 7338                
+POS_CLUSTER 3503                
+POS_SIDER_404 7434                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20220201000248 15 2374 10470706431487
+FirstTime 20220101015118
+LastTime 20220131205845
+LastUpdate 20220201050922 15 0 14 0 0
+TotalVisits 100                 
+TotalUnique 86                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 86                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+FlashSupport 0 0 0
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+PDFSupport 0 0 0
+DirectorSupport 0 0 0
+AddToFavourites 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+JavascriptDisabled 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 4 4 7915 34 38 3492
+1 34 34 27676 5 24 3256
+2 6 6 4884 3 10 814
+3 6 6 4884 5 14 1628
+4 2 2 6287 38 48 4306
+5 2 2 814 6 12 4884
+6 4 4 7915 37 47 5934
+7 2 2 1628 4 9 2442
+8 3 3 2442 2 5 1628
+9 1 1 814 4 12 3256
+10 0 0 0 4 9 3256
+11 4 4 3256 1 14 814
+12 5 5 4070 1 45 814
+13 8 8 5698 4 26 1628
+14 3 3 2442 3 8 1628
+15 3 3 2442 2 4 1628
+16 5 5 4070 10 21 2442
+17 1 1 814 7 16 4070
+18 5 5 4070 5 13 3256
+19 1 1 814 4 7 2442
+20 4 4 3256 7 14 4070
+21 4 4 3256 5 10 4070
+22 2 2 1628 5 13 4070
+23 2 2 1628 7 16 4070
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 9
+us 89 89 80950
+gr 8 8 6512
+cn 5 5 3256
+de 4 4 3256
+es 1 1 814
+jp 1 1 814
+ca 1 1 814
+ru 1 1 814
+sg 1 1 5473
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 7
+bingbot/ 61 48840 20220131181006 0
+bot[\s_+:,\.\;\/\\-] 8 6512 20220129072057 0
+AhrefsBot/ 6 4884 20220125044800 0
+no_user_agent 4 3256 20220119015216 0
+SurdotlyBot/ 3 2442 20220130213523 0
+(firefox/)([0-9]\.|[0-1][0]\.) 2 1628 20220130095159 0
+survey 2 1628 20220107220508 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 1
+html 111 102703 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 13
+androidfroyo 1 1
+linux 41 41
+android10 1 1
+macosx15 5 5
+win7 3 3
+unix 2 2
+win10 20 20
+androidnougat 8 8
+androidkitkat 1 1
+Unknown 22 22
+ios_iphone 3 3
+win8.1 3 3
+ios_ipad 1 1
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 30
+chrome42.0.2311.90 1 1
+chrome91.0.4472.114 4 4
+firefox90.0 1 1
+chrome60.0.3112.107 5 5
+firefox68.0 1 1
+chrome71.0.2852.24 1 1
+chrome87.0.4472.114 1 1
+msie11 1 1
+chrome88.0.4324.190 1 1
+chrome79.0.3599.25 1 1
+chrome84.0.4112.0 1 1
+safari13.4.1 1 1
+firefox75.0 1 1
+chrome76.0.1666.70 1 1
+chrome97.0.4692.91 2 2
+chrome81.0.4044.129 7 7
+chrome86.0.4216.0 1 1
+chrome84.0.4115.0 1 1
+chrome76.0.3809.89 1 1
+Unknown 21 21
+chrome83.0.4103.97 31 31
+chrome81.0.4044.138 1 1
+firefox84.0 5 5
+android 2 2
+safari 2 2
+safari12.2.0.0.1 1 1
+mozilla 1 1
+chrome74.0.3729.61 1 1
+chrome92.0.4515.107 1 1
+chrome66.0.3359.181 12 12
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 4
+NetSystemsResearch_studies_the_availability_of_various_services_across_the_internet._Our_website_is_netsystemsresearch.com 20220128215843
+Expanse_indexes_the_network_perimeters_of_our_customers._If_you_have_any_questions_or_concerns,_please_reach_out_to:_scaninfo@expanseinc.com 20220131131136
+Python/3.7_aiohttp/3.7.4.post0 20220123094956
+Mozilla/5.0_(compatible;_CensysInspect/1.1;__https://about.censys.io/) 20220106164845
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 3
+Expanse_indexes_the_network_perimeters_of_our_customers._If_you_have_any_questions_or_concerns,_please_reach_out_to:_scaninfo@expanseinc.com 20220131131136
+NetSystemsResearch_studies_the_availability_of_various_services_across_the_internet._Our_website_is_netsystemsresearch.com 20220128215843
+Python/3.7_aiohttp/3.7.4.post0 20220123094956
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 104 104
+From1 5 5
+From2 2 2
+From3 0 0
+From4 0 0
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+www_google_com_hk 1 1
+www_google_com 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+301 3 708
+404 328 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 56
+/username 1 www.google.com
+/ 2 -
+/scripts/app.js 1 -
+/wp1 2 www.google.com
+/cryp/Telerik.Web.UI.WebResource.axd 3 -
+/2021wp 2 www.google.com
+/BACKUP 3 www.google.com
+/backup 3 www.google.com
+/wordpress 3 www.google.com
+/2020 3 www.google.com
+/bkp2 3 www.google.com
+/demo 3 www.google.com
+/ups.php 1 -
+/bkp 3 www.google.com
+/dist/app.js 1 -
+/ads.txt 29 -
+/WORDPRESS 3 www.google.com
+/Backup 3 www.google.com
+/_app/.env 1 -
+/new 3 www.google.com
+/newsite 3 www.google.com
+/WP 3 www.google.com
+/DesktopModules/Admin/RadEditorProvider/DialogHandler.aspx 1 -
+/App_Master/m/Telerik.Web.UI.DialogHandler.aspx 1 -
+/~app/.env 1 -
+/WordPress 3 www.google.com
+/%20 1 www.google.com
+/app.js 1 -
+/Falcon-Pro 2 www.google.com
+/oldwebsite 2 www.google.com
+/src/app.js 1 -
+/old1 2 www.google.com
+/old-site 3 www.google.com
+/test 3 www.google.com
+/resources/js/app.js 1 -
+/2019 3 www.google.com
+/.git/config 2 -
+/old 3 www.google.com
+/robots.txt 174 -
+/cms 3 www.google.com
+/.env 12 -
+/up 1 www.google.com
+/assets/js/app.js 1 -
+/wp-content/plugins/vc-tabs/assets/backend/custom/admin-notice.js 1 -
+/home 3 www.google.com
+/dev 3 www.google.com
+/old2 1 www.google.com
+/Telerik.Web.UI.DialogHandler.axd 1 -
+/app/.env 1 -
+/core/misc/drupal.js 2 -
+/blog 3 www.google.com
+/Old 3 www.google.com
+/wp 3 www.google.com
+/blogs 3 www.google.com
+/misc/drupal.js 2 -
+/falcon-pro 2 www.google.com
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 86
+92.118.160.1 4 4 3256 20220128215843
+137.226.113.44 4 4 3256 20220126151057
+174.138.1.118 4 4 3256 20220125165927
+208.100.26.244 3 3 2442 20220121165523
+34.86.35.28 2 2 1628 20220125180842
+54.70.15.7 2 2 1628 20220102010250
+34.229.181.2 2 2 6287 20220112005730
+208.100.26.235 2 2 1628 20220131122425
+134.122.10.95 2 2 6287 20220117063943
+3.145.162.129 2 2 1628 20220114232655
+3.17.173.223 2 2 1628 20220118032833
+35.88.161.82 2 2 1628 20220102010538
+54.202.227.212 2 2 1628 20220102010238
+208.100.26.249 2 2 1628 20220124213042
+208.100.26.236 2 2 1628 20220110073447
+34.209.26.53 2 2 1628 20220102010605
+71.209.221.109 2 2 1628 20220127125841
+114.119.150.149 2 2 814 20220103034624
+34.222.110.161 1 1 814 20220127012639
+34.77.162.22 1 1 814 20220113121923
+54.244.148.224 1 1 814 20220101015254
+15.188.147.33 1 1 814 20220129170033
+34.212.102.238 1 1 814 20220105012545
+34.86.35.0 1 1 814 20220131131136
+138.128.118.130 1 1 814 20220119004809
+114.119.128.202 1 1 814 20220107060407
+34.215.11.103 1 1 814 20220107012945
+35.88.234.69 1 1 814 20220126010629
+82.223.13.85 1 1 814 20220129034902
+52.25.103.184 1 1 814 20220129012715
+35.87.135.108 1 1 814 20220126010628
+92.118.160.17 1 1 814 20220124141721
+54.149.2.172 1 1 814 20220112015244
+34.218.66.171 1 1 814 20220101015310
+208.100.26.243 1 1 814 20220106021858
+52.26.192.136 1 1 814 20220127012711
+3.66.164.38 1 1 0 20220105135502
+133.242.174.119 1 1 814 20220130115411
+34.201.103.197 1 1 814 20220106184840
+34.96.130.18 1 1 814 20220129064059
+54.212.130.107 1 1 814 20220125151017
+185.222.57.89 1 1 814 20220131205845
+167.248.133.60 1 1 814 20220106164845
+34.213.41.74 1 1 814 20220101015133
+34.77.162.30 1 1 814 20220114084311
+92.118.160.45 1 1 814 20220110135253
+35.166.154.74 1 1 814 20220106011416
+34.219.90.155 1 1 814 20220131011111
+34.77.162.26 1 1 814 20220129183158
+34.221.242.194 1 1 814 20220115013202
+35.85.218.199 1 1 814 20220101015118
+119.81.222.87 1 1 5473 20220113045356
+52.33.246.161 1 1 814 20220110031341
+35.85.54.219 1 1 814 20220125150959
+208.100.26.246 1 1 814 20220117052058
+52.32.235.122 1 1 814 20220111020232
+92.118.160.5 1 1 814 20220110032805
+192.99.18.122 1 1 814 20220120215742
+54.218.29.72 1 1 814 20220111014201
+54.218.118.210 1 1 814 20220105022230
+92.118.160.61 1 1 814 20220122191858
+34.216.203.22 1 1 814 20220129012419
+208.100.26.248 1 1 814 20220124082128
+34.217.136.134 1 1 814 20220129012346
+34.96.130.7 1 1 814 20220117164826
+120.26.125.140 1 1 814 20220123094956
+35.87.149.192 1 1 814 20220105022249
+52.59.212.44 1 1 814 20220108113240
+34.77.162.18 1 1 814 20220118072611
+208.100.26.237 1 1 814 20220111145508
+34.77.162.17 1 1 814 20220121221345
+69.197.185.43 1 1 814 20220107185235
+68.183.13.38 1 1 814 20220102133158
+54.202.140.175 1 1 814 20220131011349
+52.41.92.58 1 1 814 20220113014446
+34.216.4.182 1 1 814 20220128011357
+34.96.130.1 1 1 814 20220121222839
+52.13.47.235 1 1 814 20220114012022
+221.130.37.141 1 1 814 20220123113916
+34.221.188.118 1 1 814 20220105022314
+34.222.7.113 1 1 814 20220105015629
+35.88.65.189 1 1 814 20220130012156
+54.200.74.77 1 1 814 20220131011016
+54.70.47.238 1 1 814 20220130012103
+54.71.169.45 1 1 814 20220105022154
+34.96.130.9 1 1 814 20220104205733
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 29
+20220101 6 6 4070 6
+20220102 9 9 7326 5
+20220103 2 2 1628 2
+20220104 2 2 1628 2
+20220105 8 8 5698 8
+20220106 4 4 3256 4
+20220107 4 4 3256 4
+20220108 1 1 814 1
+20220110 5 5 4070 5
+20220111 3 3 2442 3
+20220112 5 5 8729 4
+20220113 3 3 7101 3
+20220114 4 4 3256 3
+20220115 1 1 814 1
+20220117 6 6 9543 5
+20220118 3 3 2442 2
+20220119 2 2 1628 2
+20220120 2 2 1628 2
+20220121 3 3 2442 3
+20220122 1 1 814 1
+20220123 2 2 1628 2
+20220124 5 5 4070 4
+20220125 5 5 4070 4
+20220126 3 3 2442 3
+20220127 4 4 3256 3
+20220128 2 2 1628 2
+20220129 7 7 5698 7
+20220130 3 3 2442 3
+20220131 6 6 4884 6
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 3
+0s-30s 98
+2mn-5mn 1
+5mn-15mn 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 2
+/ 108 86284 99 97
+/site/ 3 16419 1 3
+END_SIDER

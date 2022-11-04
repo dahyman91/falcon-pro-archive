@@ -1,0 +1,79 @@
+#!/bin/sh -f
+
+RC_DIR="/etc/rc.d/rc2.d/"
+LANG="C"
+LC_ALL="C"
+export LANG LC_ALL
+
+usage()
+{
+	echo "Usage $1 {start|stop}"
+	exit 1
+}
+
+filter_out()
+{
+	PID="$1"
+	shift
+	STRING="$* "
+
+	while [ -n "$PID" ] ;do
+		P=`echo $STRING | sed -n "s:^.*$PID \([0-9]*\) [^ ]* .*:\1:p"`
+		STRING=`echo $STRING | sed "s:$PID [0-9]* [^ ]* ::"`
+		PID="$P"
+	done;
+	while [ -n "$STRING" ] ;do
+		echo $STRING | awk '{ print $1 }'
+		STRING=`echo $STRING | sed -n 's:[0-9]* [0-9]* [^ ]*[ ]*::p'`
+	done;
+}
+
+print_processes()
+{
+	PARENT="$PPID"
+	MYUID=`id -u`
+	filter_out $PARENT `ps -lu $MYUID | grep -v 'httpd$' | awk '{ print $4 " " $5 " " $14 }' | grep -v "^[0-9]* $PARENT "` | while read LINE ;do
+		if ( kill -0 $LINE > /dev/null 2>&1 ) ;then
+			echo $LINE
+		fi
+	done
+}
+
+stopall()
+{
+	kill "-$1" `print_processes` > /dev/null 2>&1
+}
+
+if [ $# -ne 1 ] ;then
+	usage $0
+fi
+
+case $1 in
+start)
+	TEMPLATE='^S.*'
+	;;
+stop)
+	TEMPLATE='^K.*'
+	;;
+*)
+	usage $0
+	;;
+esac
+
+for FILE in `ls $RC_DIR | grep "$TEMPLATE" | grep -v 'httpd$'` ;do
+	setsid ${RC_DIR}${FILE} $1 < /dev/null > /dev/null 2>&1 
+done
+
+if [ "$1" = "stop" ] ;then
+	stopall "TERM"
+	COUNTER="0"
+	while [ $COUNTER -lt 5 ] ;do
+		COUNTER=`expr $COUNTER + 1`
+		NUMBER=`print_processes | wc -l`
+		if [ $NUMBER -lt 4 ]; then
+			exit 0;
+		fi
+	done
+	stopall "KILL"
+fi
+exit 0;

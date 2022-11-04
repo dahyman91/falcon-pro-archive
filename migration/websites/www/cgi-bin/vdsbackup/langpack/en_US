@@ -1,0 +1,128 @@
+language_file_title#English US
+document_meta_charset#ISO-8859-1
+l_not_aval#N/A
+l_no_file_open#Cannot open file 
+l_no_write_file#Cannot write to file
+l_no_lock#Cannot lock file
+l_no_dir#Cannot access directory
+l_no_file_find#Cannot find file
+l_session_exp#Your session has expired
+l_main_title#Site Backup And Restore
+l_pass_one#Password
+l_pass_two#Retype
+----------------vdsbackup.cgi----------------
+l_error_unlink#cannot unlink file
+l_error_unlock#cannot unlock locked file
+l_link_delete#delete
+l_wrong_pwd#Incorrect password for backup file 
+l_password_miss#Password field is empty
+l_password_retype#Password fields do not much
+l_no_index_dir#Cannot scan index directory
+l_no_index_files#No index files
+l_no_html_out#Cannot parse HTML template
+l_bad_cgi_param#Illegal CGI parameter
+l_select_files_restore#Select files to restore.
+l_zero_size_arhive#Zero size archive
+l_v_user#Virtual user
+l_all_files#All files
+l_email_files#Email files
+l_content_files#Content files
+l_directory#Directory
+l_zero_files_size#Zero size file. Check quota and permission for
+l_tar_stream_error#Cannot create backup stream
+l_no_action#Invalid CGI execution
+l_no_cgi_index#Select file to upload 
+l_wrong_backupfile#Wrong Backup filename
+l_while_using#Backup filename must be 
+l_no_file#Cannot find file/files
+l_error_retore#Restore process incomplete
+l_no_backup_type#Select backup type
+l_index_use#Index name already in use, Retry in 1 min
+------------------sysfunc.cgi-----------------
+l_no_freeze#Cannot freeze VDS
+l_no_stop_services#Cannot stop VDS services
+l_no_freeze_action#Freeze method is not supported
+l_error_file_restore#Restore incomplete for file
+l_no_file_restor#Restore failed for file
+l_restore_ok#Restore execution has completed successfully
+l_no_dir_vuser#Cannot access home directory for user
+l_er_back_type#Backup type is not supported
+l_no_uid#Cannot find UID for user
+l_no_dir_select#Select directory for backup 
+l_no_vusers#No Users
+l_error_title#Error
+l_error#Error occurred.
+l_back_to_start#Return to VDS-Backup
+l_illigal_value#Form field contains illegal value
+l_error_search#Search failed
+------------------subfunctions.cgi--------------
+l_name#Name
+l_dir#dir
+l_location#Location
+l_no_files#No Files
+l_list_view#List view
+l_directory_view#Directory view
+l_tree_view#Tree view
+------------------backup.templ.htm-------------
+l_dir_empty#Directory name cannot be empty
+l_select_vuser#Select Virtual User
+l_backup_data_type#Select data type
+l_backup_backup_title#Backup Title
+l_backup_all_files#All files
+l_backup_email_mailboxes_only#Email mailboxes only
+l_backup_content_files_only#Content files only
+l_backup_virtual_user#Virtual user (FTP + Email)
+l_backup_directory#Directory
+l_backup_select_data_range#Select data range
+l_backup_last_modified#File modified in the last
+l_backup_all#All
+l_backup_days_ago#Days ago
+l_backup_total_size#Total size of files to backup (Before compression)
+l_back_pwd#Protect backup with password
+l_must_pass#*
+-----------------backupwait.templ.htm-------------
+l_wait_backup_download#Backup Download
+l_wait_please_wait#Please wait while backup is in process...
+l_wait_frozen#Site will be frozen until backup will be completed<br> Browser window shall automatically close once <br> download process is completed, and account <br>will return to standard operation.
+l_wait_cancel#You may click the "Cancel" button on the download window to resume regular operation.
+-------------choosei.templ.htm--------------------
+l_backup_file#Backup File
+l_backup_type#Backup Type
+l_modify#Modified
+l_date_create#Date of creation
+l_size#Size
+l_no_comp#before compression
+l_delete_index#Are you sure you want to permanently delete the selected file? 
+l_delete_entry#Delete entry
+l_pwd_backup_name#Enter password for selected backup file 
+l_choose_select#Select a backup that you wish to restore from
+l_choose_backup_name#Backup Name
+--------------default.templ.htm------------------
+l_default_select#Select the operation you wish to perform
+l_default_backup#Backup files and directories
+l_default_restore#Restore files and directories
+l_default_language#Select default Language
+--------------error.templ.htm---------------------
+l_error_error#Error
+--------------report.templ.htm--------------------
+l_report_results#Results
+l_report_restore_results#Restore results
+--------------top.templ.htm-----------------------
+l_top_backup_name#Backup Name
+l_top_backup_type#Backup Type
+l_top_available_files#Available Files
+l_top_selected_files#Selected Files
+l_top_lefttop_list_view#List view
+l_top_lefttop_directory#Directory view
+l_top_lefttop_tree#Tree view
+l_top_righttop_list_view#List view
+l_top_righttop_directory#Directory view
+l_top_righttop_tree#Tree view
+l_top_leftbottom_select_all#Select All
+l_top_leftbottom_unselect_all#Clear All
+l_top_rightbottom_select_all#Select All
+l_top_rightbottom_unselect_all#Clear All
+-------------upload.templ.htm-----------------
+l_in_upload#Upload in progress, please wait...
+l_upload_choose#Select backup archive from your machine
+l_upload_filename#Upload the following file name

@@ -1,0 +1,118 @@
+document_meta_charset#ISO-8859-1
+l_all_files#Tutti i file
+l_not_aval#N/A
+l_back_pwd#Proteggi backup con password
+l_back_to_start#Torna a VDS-Backup
+l_backup_all#Tutti
+l_backup_all_files#Tutti i file
+l_backup_backup_title#Titolo backup
+l_backup_content_files_only#Solo file di contenuto
+l_backup_data_type#Seleziona tipo di dati
+l_backup_days_ago#giorni fa
+l_backup_directory#Directory
+l_backup_email_mailboxes_only#Solo casselle di posta e-mail
+l_backup_file#File di backup
+l_backup_last_modified#File modificato negli ultimi
+l_backup_select_data_range#Seleziona intervallo dati
+l_backup_total_size#Dimensione complessiva dei file per il backup (prim)
+l_backup_type#Tipo di backup
+l_backup_virtual_user#Utente virtuale (FTP + e-mail)
+l_bad_cgi_param#Parametro CGI non valido
+l_choose_backup_name#Nome backup
+l_choose_select#Selezionare un backup che si desidera ripristinare
+l_content_files#File di contenuto
+l_date_create#Data di creazione
+l_default_backup#Crea backup di file e directory
+l_default_language#Seleziona lingua predefinita
+l_default_restore#Ripristina file e directory
+l_default_select#Selezionare l'operazione che si desidera eseguire
+l_delete_entry#Elimina l'entrata
+l_delete_index#Eliminare l'elemento definitivamente?
+l_dir#dir
+l_dir_empty#È necessario specificare il nome della directory
+l_directory#Directory
+l_directory_view#Visualizzazione directory
+l_email_files#File e-mail
+l_er_back_type#Il tipo di backup non è supportato
+l_error#Si è verificato un errore.
+l_error_error#Errore
+l_error_exclude#Impossibile aprire l'elenco dei file esclusi
+l_error_file_restore#Ripristino incompleto del file
+l_error_retore#Processo di ripristino incompleto
+l_error_search#Ricerca fallita
+l_error_title#Errore
+l_error_unlink#impossibile scollegare il file
+l_error_unlock#impossibile sbloccare il file bloccato
+l_illigal_value#Il campo Modulo contiene valori non validi
+l_in_upload#Caricamento in corso. Attendere...
+l_index_use#Nome indice già in uso. Riprovare entro 1 minuto.
+l_link_delete#Elimina
+l_list_view#Visualizzazione elenco
+l_location#Posizione
+l_main_title#Backup sito e ripristino
+l_modify#Modificato
+l_must_pass#*
+l_name#Nome
+l_no_action#Esecuzione CGI non valida
+l_no_backup_type#Seleziona tipo di backup
+l_no_cgi_index#Seleziona file da caricare
+l_no_comp#prima della compressione
+l_no_dir#Impossibile accedere alla directory
+l_no_dir_select#Seleziona directory per il backup
+l_no_dir_vuser#Impossibile accedere alla home directory per l'uten
+l_no_file#Impossibile trovare file
+l_no_file_find#Impossibile trovare il file
+l_no_file_open#Impossibile aprire il file
+l_no_file_restor#Ripristino fallito del file
+l_no_files#Nessun file
+l_no_freeze#Impossibile bloccare VDS
+l_no_freeze_action#Il metodo di blocco non è supportato
+l_no_html_out#Impossibile analizzare il modello HTML
+l_no_index_dir#Impossibile esaminare la directory indice
+l_no_index_files#Nessun file indice
+l_no_lock#Impossibile bloccare il file
+l_no_stop_services#Impossibile interrompere servizi VDS
+l_no_uid#Impossibile trovare UID per l'utente
+l_no_vusers#Nessun utente
+l_no_write_file#Impossibile scrivere sul file
+l_pass_one#Password
+l_pass_two#Ridigita
+l_password_miss#Il campo Password è vuoto
+l_password_retype#I campi Password non corrispondono
+l_pwd_backup_name#Inserisci password per il file di backup selezionat
+l_report_restore_results#Ripristina risultati
+l_report_results#Risultati
+l_restore_ok#Esecuzione del ripristino completata
+l_select_files_restore#Selezionare i file da ripristinare.
+l_select_vuser#Seleziona utente virtuale
+l_session_exp#Sessione scaduta
+l_size#Dimensione
+l_tar_stream_error#Impossibile creare flusso di backup
+l_top_available_files#File disponibili
+l_top_backup_name#Nome backup
+l_top_backup_type#Tipo di backup
+l_top_leftbottom_select_all#Seleziona tutto
+l_top_leftbottom_unselect_all#Cancella tutto
+l_top_lefttop_directory#Visualizzazione directory
+l_top_lefttop_list_view#Visualizzazione elenco
+l_top_lefttop_tree#Visualizzazione ad albero
+l_top_rightbottom_select_all#Seleziona tutto
+l_top_rightbottom_unselect_all#Cancella tutto
+l_top_righttop_directory#Visualizzazione directory
+l_top_righttop_list_view#Visualizzazione elenco
+l_top_righttop_tree#Visualizzazione ad albero
+l_top_selected_files#File selezionati
+l_tree_view#Visualizzazione ad albero
+l_upload_choose#Selezionare archivio backup dal computer
+l_upload_filename#Caricare i seguenti nomi di file
+l_v_user#Utente virtuale
+l_wait_backup_download#Download backup
+l_wait_cancel#È possibile fare clic sul pulsante "Annulla" nel
+l_wait_frozen#Il sito verrà bloccato fino al termine del backup<b
+l_wait_please_wait#Backup in corso. Attendere...
+l_while_using#Il nome del file di backup deve essere
+l_wrong_backupfile#Nome del file di backup errato
+l_wrong_pwd#Password del file di backup errata
+l_zero_files_size#File di dimensione zero. Verificare limite e autori
+l_zero_size_arhive#Archivio di dimensione zero.
+language_file_title#Inglese (Stati Uniti)

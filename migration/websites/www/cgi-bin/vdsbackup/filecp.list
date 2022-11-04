@@ -1,0 +1,3 @@
+/etc/passwd#####/etc/.passwd
+/etc/shadow#####/etc/.shadow
+/usr/local/apache/.htpasswd#####/usr/local/apache/..htpasswd

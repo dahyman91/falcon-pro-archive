@@ -1,0 +1,118 @@
+document_meta_charset#ISO-8859-1
+l_all_files#Tous les fichiers
+l_not_aval#N/A
+l_back_pwd#Protéger la sauvegarde avec un mot de passe
+l_back_to_start#Retour à Sauvegarde VDS
+l_backup_all#Tous
+l_backup_all_files#Tous les fichiers
+l_backup_backup_title#Titre de sauvegarde
+l_backup_content_files_only#Fichiers de contenu uniquement
+l_backup_data_type#Sélectionner le type de données
+l_backup_days_ago#jours
+l_backup_directory#Répertoire
+l_backup_email_mailboxes_only#Boîtes de réception e-mail uniquement
+l_backup_file#Fichier de sauvegarde
+l_backup_last_modified#Fichier modifié il y a
+l_backup_select_data_range#Sélectionner la gamme de données
+l_backup_total_size#Taille totale des fichiers à sauvegarder (avant compression)
+l_backup_type#Type de sauvegarde
+l_backup_virtual_user#Utilisateur virtuel (FTP + e-mail)
+l_bad_cgi_param#Paramètre CGI illégal
+l_choose_backup_name#Nom de sauvegarde
+l_choose_select#Sélectionner une sauvegarde d'où vous souhaitez restaurer
+l_content_files#Fichiers de contenu
+l_date_create#Date de création
+l_default_backup#Sauvegarder les fichiers et les répertoires
+l_default_language#Sélectionner langue par défaut
+l_default_restore#Restaurer les fichiers et les répertoires
+l_default_select#Sélectionner l'opération à effectuer
+l_delete_entry#Supprimer l'entrée
+l_delete_index#Etes-vous sûr de vouloir effacer définitivement cet élément ?
+l_dir#rép.
+l_dir_empty#Le nom du répertoire ne peut pas être vide
+l_directory#Répertoire
+l_directory_view#Affichage de répertoire
+l_email_files#Envoyer fichiers e-mail
+l_er_back_type#Type de sauvegarde non pris en charge
+l_error#Une erreur s'est produite.
+l_error_error#Erreur
+l_error_exclude#Impossible d'ouvrir la liste Excluded file
+l_error_file_restore#Restauration incomplète pour le fichier
+l_error_retore#Processus de restauration incomplet
+l_error_search#Echec de la recherche
+l_error_title#Erreur
+l_error_unlink#impossible d'annuler le lien du fichier
+l_error_unlock#impossible de déverrouiller le fichier verrouillé
+l_illigal_value#Le champ de formulaire contient une valeur illégale
+l_in_upload#Chargement en cours, veuillez patienter...
+l_index_use#Nom d'index déjà utilisé, ré-essayez dans 1 min
+l_link_delete#Supprimer
+l_list_view#Affichage de liste
+l_location#Emplacement
+l_main_title#Sauvegarde et restauration de site
+l_modify#Modifié
+l_must_pass#*
+l_name#Nom
+l_no_action#Exécution CGI non-valide
+l_no_backup_type#Sélectionner type de sauvegarde
+l_no_cgi_index#Sélectionner fichier à charger
+l_no_comp#avant compression
+l_no_dir#Impossible d'accéder au répertoire
+l_no_dir_select#Sélectionner répertoire pour sauvegarde
+l_no_dir_vuser#Impossible d'accéder au répertoire d'accueil pour utilisateur
+l_no_file#Impossible de trouver le(s) fichier(s)
+l_no_file_find#Impossible de trouver le fichier
+l_no_file_open#Impossible d'ouvrir le fichier
+l_no_file_restor#Echec de restauration du fichier
+l_no_files#Pas de fichier
+l_no_freeze#Impossible de bloquer VDS
+l_no_freeze_action#Méthode de blocage non prise en charge
+l_no_html_out#Impossible d'effectuer le parsing du modèle HTML
+l_no_index_dir#Impossible d'analyser le répertoire d'index
+l_no_index_files#Pas de fichier d'index
+l_no_lock#Impossible de verrouiller le fichier
+l_no_stop_services#Impossible d'arrêter les services VDS
+l_no_uid#Impossible de trouver UID pour l'utilisateur
+l_no_vusers#Pas d'utilisateur
+l_no_write_file#Impossible d'écrire dans le fichier
+l_pass_one#Mot de passe
+l_pass_two#Taper à nouveau
+l_password_miss#Le champ de mot de passe est vide
+l_password_retype#Les champs de mots de passe ne correspondent pas
+l_pwd_backup_name#Entrer le mot de passe pour le fichier de sauvegarde sélection
+l_report_restore_results#Restaurer les résultats
+l_report_results#Résultats
+l_restore_ok#Restauration effectuée
+l_select_files_restore#Sélectionner les fichiers à restaurer
+l_select_vuser#Sélectionner l'Utilisateur virtuel
+l_session_exp#Votre session a expiré
+l_size#Taille
+l_tar_stream_error#Impossible de créer le flux de sauvegarde
+l_top_available_files#Fichiers disponibles
+l_top_backup_name#Nom de sauvegarde
+l_top_backup_type#Type de sauvegarde
+l_top_leftbottom_select_all#Sélectionner tout
+l_top_leftbottom_unselect_all#Effacer tout
+l_top_lefttop_directory#Affichage de répertoire
+l_top_lefttop_list_view#Affichage de liste
+l_top_lefttop_tree#Affichage d'arborescence
+l_top_rightbottom_select_all#Sélectionner tout
+l_top_rightbottom_unselect_all#Effacer tout
+l_top_righttop_directory#Affichage de répertoire
+l_top_righttop_list_view#Affichage de liste
+l_top_righttop_tree#Affichage d'arborescence
+l_top_selected_files#Fichiers sélectionnés
+l_tree_view#Affichage d'arborescence
+l_upload_choose#Sélectionner l'archive de sauvegarde de votre ordinateur
+l_upload_filename#Charger le nom de fichier suivant
+l_v_user#Utilisateur virtuel
+l_wait_backup_download#Chargement de sauvegarde
+l_wait_cancel#Vous pouvez cliquer sur le bouton "Annuler" dans la fenêtre
+l_wait_frozen#Le site sera bloqué jusqu'à la fin de la sauvegarde<br> La fen
+l_wait_please_wait#Veuillez patienter pendant la phase de sauvegarde...
+l_while_using#Le nom de fichier de sauvegarde doit être
+l_wrong_backupfile#Nom du fichier de sauvegarde erroné
+l_wrong_pwd#Mot de passe incorrect pour le fichier de sauvegarde
+l_zero_files_size#Fichier de taille zéro. Vérifier le quota et la permission pou
+l_zero_size_arhive#Archive de taille zéro
+language_file_title#Anglais US

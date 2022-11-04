@@ -1,0 +1,118 @@
+document_meta_charset#GB2312
+l_all_files#所有文件
+l_not_aval#N/A
+l_back_pwd#使用密码保护备份
+l_back_to_start#回到 VDS 备份程序
+l_backup_all#全部
+l_backup_all_files#所有文件
+l_backup_backup_title#备份标题
+l_backup_content_files_only#仅内容文件
+l_backup_data_type#选择数据类型
+l_backup_days_ago#天以前
+l_backup_directory#目录
+l_backup_email_mailboxes_only#仅电子邮件邮箱
+l_backup_file#备份文件
+l_backup_last_modified#文件修改于最近
+l_backup_select_data_range#选择数据范围
+l_backup_total_size#要备份的文件的总大小（压缩前）
+l_backup_type#备份类型
+l_backup_virtual_user#虚拟用户（FTP + 电子邮件）
+l_bad_cgi_param#CGI 参数非法
+l_choose_backup_name#备份名称
+l_choose_select#选择要从其进行还原的备份
+l_content_files#内容文件
+l_date_create#创建日期
+l_default_backup#备份文件和目录
+l_default_language#选择默认语言
+l_default_restore#还原文件和目录
+l_default_select#选择想要进行的操作
+l_delete_entry#删除条目
+l_delete_index#确定要永久删除该项目吗？
+l_dir#目录
+l_dir_empty#目录名不能为空
+l_directory#目录
+l_directory_view#目录视图
+l_email_files#电子邮件文件
+l_er_back_type#不支持备份类型
+l_error#出现错误。
+l_error_error#错误
+l_error_exclude#无法打开 Exclude（除外）文件列表
+l_error_file_restore#文件还原不完全
+l_error_retore#还原进程不完全
+l_error_search#搜索失败
+l_error_title#错误
+l_error_unlink#无法撤销文件链接
+l_error_unlock#无法解除文件锁定
+l_illigal_value#表单字段包含非法值
+l_in_upload#正在上载，请稍候...
+l_index_use#索引名称已在使用，请在 1 分钟后重试
+l_link_delete#删除
+l_list_view#列表视图
+l_location#地点
+l_main_title#站点备份和还原
+l_modify#修改时间
+l_must_pass#*
+l_name#名称
+l_no_action#CGI 执行无效
+l_no_backup_type#选择备份类型
+l_no_cgi_index#选择要上载的文件
+l_no_comp#压缩前
+l_no_dir#无法访问目录
+l_no_dir_select#选择备份目录
+l_no_dir_vuser#无法访问用户的主目录
+l_no_file#无法找到文件
+l_no_file_find#无法找到文件
+l_no_file_open#无法打开文件
+l_no_file_restor#文件还原失败
+l_no_files#无任何文件
+l_no_freeze#无法冻结 VDS
+l_no_freeze_action#不支持冻结方法
+l_no_html_out#无法分析 HTML 模板
+l_no_index_dir#无法扫描索引目录
+l_no_index_files#没有任何索引文件
+l_no_lock#无法锁定文件
+l_no_stop_services#无法停止 VDS 服务
+l_no_uid#无法找到用户的 UID
+l_no_vusers#无任何用户
+l_no_write_file#无法写入文件
+l_pass_one#密码
+l_pass_two#重新键入
+l_password_miss#密码字段是空的
+l_password_retype#密码字段不匹配
+l_pwd_backup_name#为所选定的备份文件输入密码
+l_report_restore_results#还原结果
+l_report_results#结果
+l_restore_ok#还原操作成功完成
+l_select_files_restore#选择要还原的文件。
+l_select_vuser#选择虚拟用户
+l_session_exp#您的会话已过期
+l_size#大小
+l_tar_stream_error#无法创建备份数据流
+l_top_available_files#可用文件
+l_top_backup_name#备份名称
+l_top_backup_type#备份类型
+l_top_leftbottom_select_all#全部选定
+l_top_leftbottom_unselect_all#全部清除
+l_top_lefttop_directory#目录视图
+l_top_lefttop_list_view#列表视图
+l_top_lefttop_tree#树状视图
+l_top_rightbottom_select_all#全部选定
+l_top_rightbottom_unselect_all#全部清除
+l_top_righttop_directory#目录视图
+l_top_righttop_list_view#列表视图
+l_top_righttop_tree#树状视图
+l_top_selected_files#选定的文件
+l_tree_view#树状视图
+l_upload_choose#从您的计算机选择备份存档
+l_upload_filename#上载下面的文件名
+l_v_user#虚拟用户
+l_wait_backup_download#备份下载
+l_wait_cancel#您可以单击下载窗口上的“取消”按钮来继续进行常规的操
+l_wait_frozen#站点将被冻结，一直到备份完成<br>一旦下载进程完成，<
+l_wait_please_wait#请稍候，正在进行备份...
+l_while_using#备份文件名必须为
+l_wrong_backupfile#备份文件名错误
+l_wrong_pwd#备份文件密码不正确
+l_zero_files_size#文件大小为零。 请检查配额和权限
+l_zero_size_arhive#存档大小为零
+language_file_title#美国英语

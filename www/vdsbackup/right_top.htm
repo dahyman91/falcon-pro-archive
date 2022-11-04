@@ -1,0 +1,28 @@
+<html>
+<head>
+<LINK REL="STYLESHEET" HREF="Sphera.css" TYPE="TEXT/CSS">
+<script>
+function Switch(Frame,URL){
+	Frame.location=URL;
+	return false;
+}
+</script>
+
+</head>
+<body leftmargin=0 topmargin=0 bgcolor="#F4E5B8">
+<CENTER>
+<form>
+<table width=100% border=0 cellspacing=0>
+<tr>
+	<td nowrap align=center valign="middle"><a class="BrownFont">List view:
+	<select name="View" id="View" size="1" onChange="Switch(parent.right,parent.right.document.RightForm.SwitchToView.value)">
+		<option value="1" SELECTED>&nbsp;&nbsp;Directory view&nbsp;&nbsp;</option>
+		<option value="2">&nbsp;&nbsp;Tree view&nbsp;&nbsp;</option>
+	</select></a>
+</tr></table>
+</form>
+
+</body>
+</html>
+
+

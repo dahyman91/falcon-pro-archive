@@ -1,0 +1,1242 @@
+AWSTATS DATA FILE 7.8 (build 20200416)
+# If you remove this file, all statistics for date 202205 will be lost/reset.
+# Last config file used to build this data file was /home/falconpr/tmp/awstats/ssl/awstats.falcon-pro.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2015                
+POS_TIME 2689                
+POS_VISITOR 27556               
+POS_DAY 31031               
+POS_DOMAIN 3322                
+POS_LOGIN 3637                
+POS_ROBOT 3792                
+POS_WORMS 4324                
+POS_EMAILSENDER 4455                
+POS_EMAILRECEIVER 4598                
+POS_SESSION 31685               
+POS_SIDER 31843               
+POS_FILETYPES 4733                
+POS_DOWNLOADS 4833                
+POS_OS 4881                
+POS_BROWSER 5186                
+POS_SCREENSIZE 6048                
+POS_UNKNOWNREFERER 6122                
+POS_UNKNOWNREFERERBROWSER 6912                
+POS_ORIGIN 7485                
+POS_SEREFERRALS 7619                
+POS_PAGEREFS 7804                
+POS_SEARCHWORDS 7952                
+POS_KEYWORDS 8104                
+POS_MISC 2353                
+POS_ERRORS 8163                
+POS_CLUSTER 3493                
+POS_SIDER_404 8250                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20220601011943 6 1003 9712353461280
+FirstTime 20220501024430
+LastTime 20220531111826
+LastUpdate 20220601061442 6 0 5 0 0
+TotalVisits 102                 
+TotalUnique 91                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 91                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+RealPlayerSupport 0 0 0
+DirectorSupport 0 0 0
+PDFSupport 0 0 0
+TotalMisc 0 0 0
+QuickTimeSupport 0 0 0
+JavascriptDisabled 0 0 0
+JavaEnabled 0 0 0
+AddToFavourites 0 0 0
+FlashSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 1 1 814 5 10 2442
+1 1 1 814 4 6 814
+2 35 35 27676 5 24 45102
+3 5 5 4070 5 8 814
+4 7 7 4070 14 17 4070
+5 6 6 4884 7 13 814
+6 2 2 1628 4 9 814
+7 2 2 1628 3 6 1628
+8 3 3 2442 4 12 1628
+9 1 1 814 8 16 2442
+10 5 5 4070 6 39 2442
+11 3 3 2442 5 28 2442
+12 4 4 3256 8 23 6797
+13 7 7 5698 11 17 1628
+14 4 4 3256 1 6 814
+15 1 1 814 4 8 814
+16 5 5 4070 1 5 0
+17 28 28 887779 735 784 3256
+18 2 2 1628 9 11 3256
+19 1 1 814 14 17 2442
+20 0 0 0 8 12 1628
+21 2 2 1628 7 12 2442
+22 1 1 814 9 18 7611
+23 5 5 4070 4 5 1628
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 8
+us 65 65 52096
+ca 27 27 21978
+in 27 27 886965
+de 4 4 3256
+gb 3 3 814
+ru 2 2 1628
+cn 2 2 1628
+it 1 1 814
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 10
+bingbot/ 32 22792 20220525104206 0
+YandexBot/ 9 58696 20220526023457 0
+AhrefsBot/ 7 5698 20220528022928 0
+Googlebot/ 3 2442 20220521123901 0
+SurdotlyBot/ 3 2442 20220528041754 0
+survey 2 1628 20220508100735 0
+no_user_agent 2 1628 20220527004257 0
+netEstate[\x20]NE[\x20]Crawler 1 814 20220504134956 0
+bot[\s_+:,\.\;\/\\-] 1 814 20220512052744 0
+(firefox/)([0-9]\.|[0-1][0]\.) 1 814 20220526083825 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 2
+html 130 89540 0 0
+swf 1 879639 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 18
+win8 1 1
+linux 31 31
+macosx15 9 9
+Unknown 51 51
+macosx10 1 1
+win10 14 14
+winlong 1 1
+macosx11 1 1
+ios_iphone 2 2
+android10 2 2
+win7 8 8
+androidlollipop 1 1
+win16 2 2
+linuxubuntu 1 1
+androidkitkat 1 1
+androidoreo 3 3
+win8.1 1 1
+macosx7 1 1
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 39
+safari15.3 2 2
+chrome62.0.3202.104 1 1
+chrome92.0.4515.159 1 1
+iphone 1 1
+android 1 1
+chrome83.0.4103.143 1 1
+chrome75.0.3770.101 1 1
+chrome58.0.3029.110 1 1
+safari 1 1
+chrome50.0.2653.0 1 1
+firefox63.0.3 1 1
+firefox84.0 4 4
+chrome14.0.835.186 1 1
+Unknown 28 28
+chrome99.0.4844.83 2 2
+chrome90.0.4430.85 1 1
+chrome89.0.4389.82 1 1
+chrome42.0.2311.90 1 1
+chrome84.0.4147.89 2 2
+chrome101.0.4950.0 1 1
+chrome91.0.4472.114 2 2
+msie11.0 2 2
+firefox88.0 1 1
+mozilla 24 24
+chrome102.0.5005.61 1 1
+firefox52.0 1 1
+chrome66.0.3359.181 10 10
+chrome76.0.3809.89 1 1
+chrome45.0.2454.85 1 1
+chrome74.0.3729.136 1 1
+chrome92.0.4515.107 1 1
+chrome74.0.3729.61 1 1
+chrome83.0.4103.97 26 26
+chrome100.0.4896.127 1 1
+chrome73.0.3683.86 1 1
+chrome88.0.4324.190 1 1
+firefox53.0 1 1
+chrome84.0.4147.105 1 1
+chrome92.0.4515.131 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 5
+Mozilla/5.0_(compatible;_CensysInspect/1.1;__https://about.censys.io/) 20220522080841
+Expanse,_a_Palo_Alto_Networks_company,_searches_across_the_global_IPv4_space_multiple_times_per_day_to_identify_customers&#39;_presences_on_the_Internet._If_you_would_like_to_be_excluded_from_our_scans,_please_send_IP_addresses/domains_to:_scaninfo@paloaltonetworks.com 20220531111826
+Mozilla/5.0_(compatible;_Nmap_Scripting_Engine;_https://nmap.org/book/nse.html) 20220515175006
+Expanse_indexes_customers\xe2\x80\x99_network_perimeters._If_you_have_any_questions_or_concerns,_please_reach_out_to:_scaninfo@expanseinc.com. 20220503233528
+Mozilla/5.0_AppleWebKit/537.36_Chrome/50.0.2653.0_Safari/537.36 20220515174605
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 3
+Expanse_indexes_customers\xe2\x80\x99_network_perimeters._If_you_have_any_questions_or_concerns,_please_reach_out_to:_scaninfo@expanseinc.com. 20220503233528
+AnyConnect_Darwin_i386_3.1.05160 20220515174655
+Expanse,_a_Palo_Alto_Networks_company,_searches_across_the_global_IPv4_space_multiple_times_per_day_to_identify_customers&#39;_presences_on_the_Internet._If_you_would_like_to_be_excluded_from_our_scans,_please_send_IP_addresses/domains_to:_scaninfo@paloaltonetworks.com 20220531111826
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 127 127
+From1 0 0
+From2 3 3
+From3 0 0
+From4 1 1
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+www_google_com 2 2
+www_google_com_hk 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 1
+404 1029 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 810
+/home.html 1 -
+/img/cake.icon.png 1 -
+/logo_t.gif 1 -
+/webadmin/index.jsp 1 -
+/.avs/credentials 1 -
+/adm/admloginuser.cfm 1 -
+/webline/html/forms/callback.jhtml 1 -
+/administrator/index.asp 1 -
+/system-administrators/ 1 -
+/adminpro/ 1 -
+/images/ctxHeader01.jpg 1 -
+/log.asp 1 -
+/admin2.php 1 -
+/admin/backup/ 1 -
+/boot.ini 1 -
+/admin2/index.jsp 1 -
+/admin/account.html 1 -
+/administrator/account.cfm 1 -
+/info.php 1 -
+/channel_detail.php 1 -
+/weblogs/ 1 -
+/wp-content/uploads/typehub/custom/bifuckgt/.sp3ctra_XO.php 1 www.google.com
+/webadmin/login.jsp 1 -
+/admins.asp 1 -
+/panel-administracion/login.php 1 -
+/images/isslogo.gif 1 -
+/administrator.php 1 -
+/admin/cp.aspx 1 -
+/msccallme/mscCallForm.jhtml 1 -
+/app/.env 2 -
+/memberadmin/ 1 -
+/ui/ 1 -
+/admin2/login.php 1 -
+/phpversion.php 1 -
+/admin/admin_login.aspx 1 -
+/tikiwiki/ 1 -
+/atom.aspx 1 -
+/tbook.csv 1 -
+/webline/html/multichatui/nowDefunctWindow.jhtml 1 -
+/imc/ 1 -
+/level/15/exec/- 1 -
+/spControl.php 1 -
+/.bzrignore 1 -
+/nfrkkzdb.php 1 www.google.com
+/admin/admin.aspx 1 -
+/frontend/x3/ 1 -
+/ 3 -
+/level/15 1 -
+/wp-admin/admin-ajax.php 18 www.google.com
+/beef/images/beef.gif 1 -
+/TopToolArea.html 1 -
+/admin/upload.php 1 -
+/bb-admin/login.html 1 -
+/mono/1.1/index.aspx 1 -
+/panel-administracion/admin.cfm 1 -
+/officescan/console/html/cgi/cgiChkMasterPwd.exe 1 -
+/modelsearch/index.jsp 1 -
+/admincp/login.asp 1 -
+/admin/admin-login.cfm 1 -
+/admincp/index.jsp 1 -
+/admin2/index.asp 1 -
+/Manage.tri 1 -
+/cal_search.php 1 -
+/adm.html 1 -
+/_administrator/ 1 -
+/admin_area/admin.asp 1 -
+/sitecore/login/admin/ 1 -
+/admin/admin.php 1 -
+/AdminLogin.aspx 1 -
+/adm/index.html 1 -
+/adm/index.asp 1 -
+/adm1n/ 1 -
+/moderator/login.jsp 1 -
+/test.htm 1 -
+/adminarea/ 1 -
+/admloginuser.cfm 1 -
+/wwwlog/ 1 -
+/vmware/ 1 -
+/forum/ 1 -
+/adm.cfm 1 -
+/upload/scp/ajax.php 1 -
+/piranha/secure/passwd.php3 1 -
+/admin/cp.php 1 -
+/bb-admin/index.html 1 -
+/admincontrol/login.html 1 -
+/bb-admin/ 1 -
+/adm/ 1 -
+/hop.php 1 -
+/atom.jsp 1 -
+/AdminLogin.php 1 -
+/adminarea/login.php 1 -
+/modelsearch/index.html 1 -
+/upload/data/settings.cdb 1 -
+/administrator.aspx 1 -
+/javascript/sorttable.js 1 -
+/vendor/.env 2 -
+/health/ 1 -
+/admincp/index.html 1 -
+/adminarea/index.php 1 -
+/login.php 1 -
+/cgi-mod/index.cgi 1 -
+/adm/admloginuser.aspx 1 -
+/wiki/ 1 -
+/wp-content/uploads/typehub/custom/kxdoqgwm/.sp3ctra_XO.php 1 www.google.com
+/administrator.asp 1 -
+/webadmin/admin.cfm 1 -
+/admins.jsp 1 -
+/instadmin/ 1 -
+/administrator/login.aspx 1 -
+/ddb.sql 1 -
+/bak/ 1 -
+/admin/admin_login.html 1 -
+/j2eeexamplesjsp/ 1 -
+/j2ee/examples/jsp/ 1 -
+/bb-admin/login.php 1 -
+/majordomo/mj_wwwusr 1 -
+/.env 8 -
+/administrator/account.html 1 -
+/webadmin/login.asp 1 -
+/cgi-bin/ffileman.cgi 1 -
+/AdminLogin.jsp 1 -
+/test.html 1 -
+/respaldo.sql 1 -
+/admin/admin_login.jsp 1 -
+/php_info.php 2 -
+/mono/ 1 -
+/admincontrol.jsp 1 -
+/admincp/login.aspx 1 -
+/administracao.cfm 1 -
+/panel-administracion/admin.aspx 1 -
+/logs.aspx 1 -
+/backup.sql.gz 1 -
+/example/ 1 -
+/b.sql 1 -
+/webline/html/admin/wcs/LoginPage.jhtml 1 -
+/cp.html 1 -
+/controlpanel.jsp 1 -
+/bb-admin/index.php 1 -
+/SIPsettingsLine1.html 1 -
+/ajaxfilemanager/ 1 -
+/administrators/ 1 -
+/blog/ 1 -
+/Portal0000.htm 1 -
+/panel-administracion/login.aspx 1 -
+/opt/.env 1 -
+/webadmin/index.asp 1 -
+/awstatstotals/index.php 1 -
+/metrics/ 1 -
+/wp-content/uploads/typehub/custom/azbxjorc/.sp3ctra_XO.php 1 www.google.com
+/admin.asp 1 -
+/modules/docmanager/doctypetemplates/myuploadedfile 1 -
+/swfupload/index.php 1 -
+/admin/account.jsp 1 -
+/egroupware/ 1 -
+/modelsearch/index.aspx 1 -
+/admin/cp.html 1 -
+/webadmin/index.aspx 1 -
+/wp-content/uploads/typehub/custom/mwmgubwb/.sp3ctra_XO.php 1 www.google.com
+/admin_area/index.php 1 -
+/login.html 1 -
+/wp-content/uploads/typehub/custom/norrbbbc/.sp3ctra_XO.php 1 www.google.com
+/pages/admin/admin-login.aspx 1 -
+/evox/about 1 -
+/adminarea/admin.jsp 1 -
+/ocsreports/ 1 -
+/admincontrol/login.asp 1 -
+/admin_login.asp 1 -
+/admin/adminLogin.asp 1 -
+/autoconfig/ 1 -
+/moderator/admin.php 1 -
+/admin/index.asp 1 -
+/eyeos/ 1 -
+/vbseo.php 1 -
+/ncsample/ 1 -
+/webadmin.cfm 1 -
+/database/.env 2 -
+/updown.php 1 -
+/en/welcomeRes.js 1 -
+/partymgr/ 1 -
+/admin/admin.html 1 -
+/tools_admin.php 1 -
+/dhost/ 1 -
+/panel-administracion/login.html 1 -
+/admincontrol.asp 1 -
+/svn/ 1 -
+/panel-administracion/index.html 1 -
+/logs.jsp 1 -
+/admincontrol/login.aspx 1 -
+/webadmin/login.aspx 1 -
+/admin/index.cfm 1 -
+/controlpanel.asp 1 -
+/confirminvite.php 1 -
+/cvs/ 1 -
+/wp-content/uploads/typehub/custom/ivxahdgh/.sp3ctra_XO.php 1 www.google.com
+/officescan/console/html/images/icon_refresh.gif 1 -
+/adm/index.php 1 -
+/admin_login.cfm 1 -
+/Base/example_1.php 1 -
+/admin_area/login.jsp 1 -
+/wp-content/uploads/typehub/custom/vihhboyi/.sp3ctra_XO.php 1 www.google.com
+/adm_auth.asp 1 -
+/admincp/login.php 1 -
+/j2eeexamples/ 1 -
+/login.aspx 1 -
+/test.php 2 -
+/sitecore/admin/ 1 -
+/admin_area/admin.cfm 1 -
+/adminarea/admin.asp 1 -
+/i18n/EN/css/foundstone.css 1 -
+/mtvcafcj.php 1 www.google.com
+/admin/adminLogin.aspx 1 -
+/gfx/form_top_left_corner.gif 1 -
+/usuarios.sql 1 -
+/user.html 1 -
+/admin/login.jsp 1 -
+/moderator/login.cfm 1 -
+/admin/admin-login.html 1 -
+/adminLogin.jsp 1 -
+/admin/home.aspx 1 -
+/moderator.aspx 1 -
+/wp-content/uploads/typehub/custom/dypwrxgh/.sp3ctra_XO.php 1 www.google.com
+/admin/admin.cfm 1 -
+/adminpanel.html 1 -
+/moderator/login.aspx 1 -
+/administr8.jsp 1 -
+/backup.zip 1 -
+/admin/CiscoAdmin.jhtml 1 -
+/atom/ 1 -
+/NETWARE.HTM 1 -
+/admin/controlpanel.cfm 1 -
+/admin/index.html 1 -
+/Administracion/ 1 -
+/login.stm 1 -
+/rcjakar/admin/login.php 1 -
+/modelsearch/admin.asp 1 -
+/siteadmin/login.php 1 -
+/admin/cp.asp 1 -
+/admin_login.html 1 -
+/moderator.jsp 1 -
+/admin/admin-login.jsp 1 -
+/affiliate.php 1 -
+/admin/account.aspx 1 -
+/aphpkb/ 1 -
+/robots.txt 137 -
+/panel-administracion/admin.asp 1 -
+/moderator/login.html 1 -
+/NessusClient.swf 1 -
+/modelsearch/index.cfm 1 -
+/bb-admin/admin.aspx 1 -
+/admin/home.php 1 -
+/infophp.php 2 -
+/linusadmin-phpinfo.php 1 -
+/admin/admin.asp 1 -
+/adm.asp 1 -
+/webadmin.jsp 1 -
+/test.txt 1 -
+/wp-content/uploads/typehub/custom/pjiycmmu/.sp3ctra_XO.php 1 www.google.com
+/modelsearch/login.asp 1 -
+/globalSIPsettings.html 1 -
+/_Admin/ 1 -
+/trace/ 1 -
+/wwwlogs/ 1 -
+/nmaplowercheck1652658411 1 -
+/admincontrol/login.php 1 -
+/administracion.asp 1 -
+/database.sql 1 -
+/dotDefender/ 1 -
+/controlpanel.cfm 1 -
+/admin/adminLogin.html 1 -
+/administrator.html 1 -
+/vhosts/ehcp/ 3 -
+/admincp/login.jsp 1 -
+/Uploadify/ 1 -
+/debug.cgi 1 -
+/rss/ 1 -
+/admin/home.html 1 -
+/administracion.aspx 1 -
+/bb-admin/login.cfm 1 -
+/admincp/index.asp 1 -
+/adminpanel.aspx 1 -
+/administratorlogin.jsp 1 -
+/upload_multiple_js.php 1 -
+/log/ 1 -
+/memberadmin.jsp 1 -
+/adm/admloginuser.asp 1 -
+/bb-admin/admin.asp 1 -
+/user.php 1 -
+/admincontrol.cfm 1 -
+/admin2/login.aspx 1 -
+/webadmin/admin.php 1 -
+/account.html 1 -
+/admin2.asp 1 -
+/browserId/wizard.jhtml 1 -
+/sourcebans/ 1 -
+/sdk/../../../../../../../etc/vmware/hostd/vmInventory.xml 2 -
+/back/ 1 -
+/cgi-mod/view_help.cgi 1 -
+/.hgignore 1 -
+/admins.php 1 -
+/bb-admin/index.cfm 1 -
+/gjrnnqqd.php 1 www.google.com
+/account.asp 1 -
+/wiki/rankings.php 1 -
+/weblog/ 1 -
+/admin/account.php 1 -
+/mail/ 1 -
+/adminpanel.php 1 -
+/old_phpinfo.php 1 -
+/ads.txt 29 -
+/webline/html/agent/AgentFrame.jhtml 1 -
+/crossdomain.xml 2 -
+/callme/callForm.jhtml 1 -
+/intruvert/jsp/module/Login.jsp 1 -
+/wp-content/uploads/typehub/custom/wqganvmn/.sp3ctra_XO.php 1 www.google.com
+/administracion.jsp 1 -
+/adm_auth.php 1 -
+/modelsearch/login.php 1 -
+/login.asp 1 -
+/js/vendors.php 1 -
+/webadmin/admin.html 1 -
+/kusabax/manage_page.php 1 -
+/admin_area/admin.aspx 1 -
+/admin/controlpanel.jsp 1 -
+/picts/BC_bwlogorev.gif 1 -
+/logs/ 1 -
+/images/hdr_icon_homeG.gif 1 -
+/system/admin/ 1 -
+/adminarea/admin.html 1 -
+/admin/adminLogin.cfm 1 -
+/gfx/logout_24.png 1 -
+/admloginuser.jsp 1 -
+/axis2-admin/ 1 -
+/amember/ 1 -
+/administrator.jsp 1 -
+/j2ee/examples/servlets/ 1 -
+/administrator/login.asp 1 -
+/bdb.sql 1 -
+/engine/api/api.class.php 1 -
+/shared/help.php 1 -
+/admin/index.php 1 -
+/administracion-sistema/ 1 -
+/admin_area/ 1 -
+/adminarea/admin.cfm 1 -
+/admin_login.php 1 -
+/admin/download/backup.sql 1 -
+/admins/ 1 -
+/test/logon.html 1 -
+/adminpanel.jsp 1 -
+/moderator/login.asp 1 -
+/modelsearch/admin.php 1 -
+/Base/upload.php 1 -
+/auditevents/ 1 -
+/admin-login.jsp 1 -
+/panel-administracion/admin.html 1 -
+/account.aspx 1 -
+/nagios3/ 1 -
+/dbbackup.txt 1 -
+/admincp/index.aspx 1 -
+/panel-administracion/login.cfm 1 -
+/mappings/ 1 -
+/adminLogin.html 1 -
+/admin/admin-login.aspx 1 -
+/phpinfos.php 1 -
+/wp-content/uploads/typehub/custom/ztxqulkg/.sp3ctra_XO.php 1 www.google.com
+/admin/index.aspx 1 -
+/switchSystem.html 1 -
+/admin.php 1 -
+/adminarea/admin.aspx 1 -
+/administer/ 1 -
+/admin_login.aspx 1 -
+/ReqWebHelp/advanced/workingSet.jsp 1 -
+/admin.aspx 1 -
+/administratorlogin.cfm 1 -
+/YUI-upload/html 1 -
+/adm_auth.aspx 1 -
+/Adm/ 1 -
+/main_configure.cgi 1 -
+/administr8.php 1 -
+/logs.asp 1 -
+/admin_area/admin.html 1 -
+/loggers/ 1 -
+/log.htm 1 -
+/admloginuser.asp 1 -
+/admin/admin_login.cfm 1 -
+/atom.xml 1 -
+/adminLogin.php 1 -
+/cacti/ 1 -
+/admin/account.asp 1 -
+/adm/index.cfm 1 -
+/seti.php 1 -
+/admin_area/index.jsp 1 -
+/admin_area/login.php 1 -
+/jsft_resource.jsf 1 -
+/db.sql 1 -
+/wp-includes/css/wp-config.php 1 anonymousfox.co
+/admin2/index.cfm 1 -
+/siteadmin/index.php 1 -
+/CSCOSSLC/config-auth 1 -
+/beef/ 1 -
+/bb-admin/admin.jsp 1 -
+/administr8.aspx 1 -
+/admin/home.jsp 1 -
+/admin.html 1 -
+/adminLogin.aspx 1 -
+/laravel/.env 2 -
+/ESAdmin/ 1 -
+/ehcp/ 3 -
+/admin2.jsp 1 -
+/administrator/index.html 1 -
+/core/misc/drupal.js 2 -
+/time.php 1 -
+/pages/admin/admin-login.php 1 -
+/plog-admin/ 1 -
+/test.class 1 -
+/public/.env 2 -
+/admin/admin-login.asp 1 -
+/home.jsp 1 -
+/admin_area/index.aspx 1 -
+/user.cfm 1 -
+/admin_phpinfo.php 1 -
+/myshop_start.php 1 -
+/administrator/account.aspx 1 -
+/admin.cfm 1 -
+/modelsearch/login.jsp 1 -
+/administratorlogin.asp 1 -
+/tools_admin.cgi 1 -
+/bb-admin/login.jsp 1 -
+/modelsearch/admin.html 1 -
+/administrator/account.jsp 1 -
+/logs.htm 1 -
+/old.sql 1 -
+/common/appServer/jvmReport.jsf 2 -
+/atom.php 1 -
+/account.jsp 1 -
+/administratorlogin.aspx 1 -
+/webline/html/forms/callbackICM.jhtml 1 -
+/administrator/account.asp 1 -
+/cgi-bin/mj_wwwusr 1 -
+/admins.cfm 1 -
+/user.asp 1 -
+/calendar/cal_search.php 1 -
+/cgi-bin/vcs 1 -
+/moderator.php 1 -
+/modelsearch/login.html 1 -
+/modelsearch/admin.jsp 1 -
+/cgi-bin/ck/mimencode 1 -
+/bb-admin/index.jsp 1 -
+/level/15/exec/-/configure/http 1 -
+/system_administration/ 1 -
+/login/ 1 -
+/data.sql 1 -
+/adminarea/index.asp 1 -
+/admin-login.cfm 1 -
+/cp.php 1 -
+/cp.jsp 1 -
+/adm/admloginuser.php 1 -
+/login_img.jpg 1 -
+/admins.aspx 1 -
+/adminarea/login.html 1 -
+/a_viewusers.php 1 -
+/backup.sql.bz2 1 -
+/reg_1.htm 1 -
+/home.aspx 1 -
+/configprops/ 1 -
+/images/Safeword_Token.jpg 1 -
+/admin_area/index.html 1 -
+/administrator/login.jsp 1 -
+/webadmin/index.html 1 -
+/webadmin/ 1 -
+/Administrator/ 1 -
+/admin_area/admin.jsp 1 -
+/admin2/index.aspx 1 -
+/admincp/index.cfm 1 -
+/adminarea/login.cfm 1 -
+/fpsample/ 1 -
+/admin-login.asp 1 -
+/Citrix/PNAgent/config.xml 1 -
+/moderator/admin.asp 1 -
+/citrix/AccessPlatform/auth/clientscripts/ 1 -
+/siteadmin/login.jsp 1 -
+/_4dm1n/ 1 -
+/dsc/ 1 -
+/backup/ 1 -
+/pages/admin/admin-login.jsp 1 -
+/webadmin/login.html 1 -
+/admin/controlpanel.html 1 -
+/system-administration/ 1 -
+/adminarea/login.aspx 1 -
+/wp-plain.php 5 www.google.com
+/adm.php 1 -
+/archiva/index.action 1 -
+/Citrix//AccessPlatform/auth/clientscripts/cookies.js 1 -
+/LightNEasy.php 1 -
+/memberadmin.asp 1 -
+/bb-admin/index.asp 1 -
+/S7Web.css 1 -
+/arcsight/images/logo-login-arcsight.gif 1 -
+/adminarea/index.aspx 1 -
+/rss.aspx 1 -
+/admin_area/index.cfm 1 -
+/cal/cal_cat.php 1 -
+/maintenance/ 1 -
+/webadmin/index.php 1 -
+/tools/filemanager/skins/mobile/admin1.template.php 1 -
+/_sys/ 1 -
+/admloginuser.php 1 -
+/AdminLogin.cfm 1 -
+/modelsearch/login.aspx 1 -
+/nuked-clan/index.php 1 -
+/panel-administracion/ 1 -
+/xfqehodm.php 1 www.google.com
+/administrator/index.aspx 1 -
+/cal_cat.php 1 -
+/siteadmin/index.jsp 1 -
+/_admins/ 1 -
+/administrator/login.html 1 -
+/jolokia/ 1 -
+/_administrador/ 1 -
+/log.aspx 1 -
+/adminarea/index.cfm 1 -
+/moderator.html 1 -
+/administracao.jsp 1 -
+/system-admins/ 1 -
+/moderator.asp 1 -
+/modelsearch/admin.aspx 1 -
+/admincp/ 1 -
+/wp-content/uploads/typehub/custom/bwerbetj/.sp3ctra_XO.php 1 www.google.com
+/_adm1n/ 1 -
+/bb-admin/login.asp 1 -
+/memberadmin.cfm 1 -
+/panel-administracion/index.cfm 1 -
+/examples/ 1 -
+/bsc_lan.php 1 -
+/appServer/jvmReport.jsf 1 -
+/Admin/ 1 -
+/adminLogin/ 1 -
+/Citrix/AccessPlatform/auth/clientscripts/login.js 1 -
+/mymarket/shopping/index.php 1 -
+/webadmin/login.php 1 -
+/logger/monitor.ftl 1 -
+/rss.xml 1 -
+/log.jsp 1 -
+/_administradores/ 1 -
+/login.jsp 2 -
+/adminarea/index.html 1 -
+/debug.seam 1 -
+/webedition/ 1 -
+/theme/images/en/login1.gif 1 -
+/CSS/Miniweb.css 1 -
+/rss.jsp 1 -
+/administr8/ 1 -
+/admin/admin-login.php 1 -
+/phpinfo.php 1 -
+/pages/admin/admin-login.cfm 1 -
+/bb-admin/admin.cfm 1 -
+/logs.php 1 -
+/awstatstotals/awstatstotals.php 1 -
+/forums/ 1 -
+/admin/controlpanel.asp 1 -
+/adminarea/login.asp 1 -
+/controlpanel.aspx 1 -
+/webadmin.asp 1 -
+/samples/ 1 -
+/moderator/admin.cfm 1 -
+/mail_log_files/ 1 -
+/admin108/ 1 -
+/admin/adminLogin.jsp 1 -
+/awstats/awstatstotals.php 1 -
+/wp-content/uploads/typehub/custom/pgkwudab/.sp3ctra_XO.php 1 www.google.com
+/administracion.cfm 1 -
+/bb-admin/login.aspx 1 -
+/moderator/admin.aspx 1 -
+/nsw/admin/login.php 1 -
+/admincontrol.aspx 1 -
+/adm_auth.cfm 1 -
+/admin/login.asp 1 -
+/admin2/login.cfm 1 -
+/hpwebjetadmin/ 1 -
+/AdminLogin.asp 1 -
+/cache/backup/ 1 -
+/sdk 1 -
+/moderator/admin.html 1 -
+/tiny_mce/plugins/filemanager/ 1 -
+/gfx/new_logo.gif 1 -
+/bb-admin/index.aspx 1 -
+/admin_area/login.asp 1 -
+/administrator/login.cfm 1 -
+/admin/account.cfm 1 -
+/admin/login.cfm 1 -
+/admin/cp.jsp 1 -
+/admin/controlpanel.aspx 1 -
+/adr.htm 1 -
+/administrator/login.php 1 -
+/admin/admin.jsp 1 -
+/admin/ 1 -
+/admin/index.jsp 1 -
+/plus/lurking.php 1 -
+/.gitignore 1 -
+/admin_login.jsp 1 -
+/siteadmin/login.cfm 1 -
+/administrator/account.php 1 -
+/admincontrol/login.cfm 1 -
+/moderator/ 1 -
+/adminarea/login.jsp 1 -
+/user.jsp 1 -
+/admin-login.aspx 1 -
+/admin2/index.php 1 -
+/exec/show/log/CR 1 -
+/administracion.php 1 -
+/login.htm 1 -
+/adm_auth.jsp 1 -
+/admin_cp.asp 1 -
+/images/btn_help_nml.gif 1 -
+/webadmin.html 1 -
+/admin/login.html 1 -
+/admin-login.php 1 -
+/moderator/login.php 1 -
+/heapdump/ 1 -
+/pages/admin/admin-login.html 1 -
+/liquibase/ 1 -
+/Examples/ 1 -
+/moderator.cfm 1 -
+/siteadmin/login.aspx 1 -
+/imcws/ 1 -
+/webadmin/admin.aspx 1 -
+/webedition/we/include/we_modules/ 1 -
+/private/sdc.tgz 1 -
+/panel-administracion/index.aspx 1 -
+/joomla/administrator 1 -
+/pages/admin/admin-login.asp 1 -
+/adminLogin.cfm 1 -
+/backups/ 1 -
+/admin_area/login.aspx 1 -
+/cgi-bin/masterCGI 1 -
+/admin/controlpanel.php 1 -
+/_administrators/ 1 -
+/login.cfm 1 -
+/home.asp 1 -
+/images/rails.png 1 -
+/img/cake.icon.gif 1 -
+/siteadmin/login.html 1 -
+/mysql.sql 1 -
+/administracao.php 1 -
+/admin2/login.jsp 1 -
+/backup 1 -
+/admin/cp.cfm 1 -
+/ui/vManage.do 1 -
+/zp-core/ 1 -
+/admin2.aspx 1 -
+/admin/admin_login.php 1 -
+/administr8.cfm 1 -
+/log.php 1 -
+/webline/html/agent/default/badlogin.jhtml 1 -
+/wordpress/ 1 -
+/modelsearch/admin.cfm 1 -
+/repos/ 1 -
+/AccessPlatform/auth/clientscripts/ 1 -
+/cgi-mod/smtp_test.cgi 1 -
+/adminLogin.asp 1 -
+/alutzqno.php 1 www.google.com
+/user.aspx 1 -
+/admin_area/admin.php 1 -
+/wp-login.php 1 -
+/nagios3/cgi-bin/statuswml.cgi 1 -
+/administr8.asp 1 -
+/webadmin/index.cfm 1 -
+/adm/admloginuser.jsp 1 -
+/uploadtester.asp 1 -
+/system-admin/ 1 -
+/rss.php 1 -
+/siteadmin/index.asp 1 -
+/panel-administracion/login.jsp 1 -
+/browserId/wizardForm.jhtml 1 -
+/adm/barra/assetmanager/assetmanager.php 1 -
+/env/ 1 -
+/Manager/ 1 -
+/syssite/ 1 -
+/line_login.htm 1 -
+/bb-admin/admin.php 1 -
+/administrator/index.cfm 1 -
+/wp-content/uploads/typehub/custom/oiabtbwm/.sp3ctra_XO.php 1 www.google.com
+/admin_area/login.html 1 -
+/panel-administracion/login.asp 1 -
+/administrator/index.php 1 -
+/cgi-bin/awstats.pl 1 -
+/arcsight/ 1 -
+/webadmin/admin.asp 1 -
+/modelsearch/login.cfm 1 -
+/admin2/login.asp 1 -
+/account.cfm 1 -
+/.git/config 5 -
+/websvn/ 1 -
+/webadmin/login.cfm 1 -
+/modelsearch/index.asp 1 -
+/administracao.aspx 1 -
+/admincp/login.cfm 1 -
+/adminpanel.cfm 1 -
+/admin/admin/ 1 -
+/mediawiki/ 1 -
+/vpn/images/AccessGateway.ico 1 -
+/clientaccesspolicy.xml 2 -
+/scales_static_resource.jsf 1 -
+/administracao.asp 1 -
+/vmware/imx/vmware_boxes-16x16.png 1 -
+/test.asp 1 -
+//system.html 1 -
+/console/login/loginForm.jsp 1 -
+/fm.php 1 -
+/users.sql 1 -
+/admin.jsp 1 -
+/administratorlogin/ 1 -
+/setup.cgi 1 -
+/admin/admin_login.asp 1 -
+/Lotus_Domino_Admin/ 1 -
+/adm.jsp 1 -
+/misc/drupal.js 2 -
+/citrix/ 1 -
+/index.action 1 -
+/Citrix/ 1 -
+/admincontrol/login.jsp 1 -
+/panel-administracion/admin.jsp 1 -
+/systemadmin/ 1 -
+/sample/ 1 -
+/panel-administracion/index.php 1 -
+/siteadmin/login.asp 1 -
+/cp.asp 1 -
+/OvCgi/Toolbar.exe 1 -
+/../../../../../../../../../../etc/passwd 1 -
+/moderator/admin.jsp 1 -
+/adm.aspx 1 -
+/db/.env 2 -
+/administrator.cfm 1 -
+/admin-login.html 1 -
+/admin/login.php 1 -
+/smf/ 1 -
+/controlpanel.php 1 -
+/admin_area/login.cfm 1 -
+/cmsample/ 1 -
+/1.sql 1 -
+/wp-content/uploads/typehub/custom/tlavcoqi/.sp3ctra_XO.php 1 www.google.com
+/core/.env 2 -
+/_administracion/ 1 -
+/admin/login.aspx 1 -
+/admin/home.asp 1 -
+/flyway/ 1 -
+/admincontrol.php 1 -
+/wp-content/ 1 -
+/wp-content/uploads/typehub/custom/dbgdnxtj/.sp3ctra_XO.php 1 www.google.com
+/fshow.php 1 -
+/webadmin.php 1 -
+/reqdetails.php 1 -
+/bb-admin/admin.html 1 -
+/ui/imx/vmwarePaperBagLogo-16x16.png 1 -
+/adminarea/admin.php 1 -
+/cp.cfm 1 -
+/admin/adminLogin.php 1 -
+/repo/ 1 -
+/_admin/ 1 -
+/admin1.php 1 -
+/modelsearch/index.php 1 -
+/deploymentmanager/ 1 -
+/pec_admin/ 1 -
+/cirronetlogo.gif 1 -
+/etc/passwd 1 -
+/phpbb/ 1 -
+/sw/auth/login.aspx 1 -
+/restoreinfo.cgi 1 -
+/adm/index.aspx 1 -
+/test/ 1 -
+/dump.sql 1 -
+/wp-content/uploads/typehub/custom/fxlollwc/.sp3ctra_XO.php 1 www.google.com
+/backup.sql 1 -
+/webadmin/admin.jsp 1 -
+/officescan/console/html/ClientInstall/officescannt.htm 1 -
+/arcsight/images/navbar-icon-logout-on.gif 1 -
+/iissamples/ 1 -
+/administrator/index.jsp 1 -
+/admin_area/index.asp 1 -
+/setup/password_required.html 1 -
+/i.php 1 -
+/admin/home.cfm 1 -
+/adm/index.jsp 1 -
+/panel-administracion/admin.php 1 -
+/calendar/cal_cat.php 1 -
+/admincontrol.html 1 -
+/siteadmin/index.aspx 1 -
+/admloginuser.aspx 1 -
+/awstats/index.php 1 -
+/wp-content/uploads/typehub/custom/llngbzsy/.sp3ctra_XO.php 1 www.google.com
+/4dm1n/ 1 -
+/sitemap.xml 1 -
+/Citrix/MetaFrame/auth/login.aspx 1 -
+/memberadmin.aspx 1 -
+/adminpanel.asp 1 -
+/cp.aspx 1 -
+/panel-administracion/index.asp 1 -
+/adminarea/index.jsp 1 -
+/administratorlogin.php 1 -
+/wiki/Main_Page 1 -
+/memberadmin.php 1 -
+/css/cake.generic.css 1 -
+/client/VMware-viclient.exe 1 -
+/controlpanel.html 1 -
+/panel-administracion/index.jsp 1 -
+/webadmin.aspx 1 -
+/account.php 1 -
+/siteadmin/index.cfm 1 -
+/awstatstotals.php 1 -
+/actuator/ 1 -
+/administrator/ 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 91
+45.131.195.37 27 27 886965 20220515175006
+208.100.26.249 5 5 4070 20220525164127
+137.226.113.44 4 4 3256 20220525152523
+51.158.67.115 2 2 0 20220519044533
+205.210.31.19 2 2 1628 20220524130413
+198.235.24.5 2 2 1628 20220511062033
+13.59.63.250 2 2 1628 20220503145043
+208.100.26.246 2 2 1628 20220506134133
+208.100.26.247 2 2 1628 20220530073448
+198.199.122.157 2 2 1628 20220511211423
+198.235.24.138 1 1 814 20220530233216
+138.128.118.130 1 1 814 20220520083310
+54.184.216.117 1 1 814 20220510022418
+205.210.31.28 1 1 814 20220511133539
+18.236.136.181 1 1 814 20220507024742
+52.12.82.239 1 1 814 20220501024430
+52.26.143.130 1 1 814 20220517021601
+54.202.27.76 1 1 814 20220508032852
+35.163.161.181 1 1 814 20220510022345
+198.235.24.157 1 1 814 20220503233528
+198.235.24.35 1 1 814 20220514051629
+162.142.125.220 1 1 814 20220522080841
+34.210.67.247 1 1 814 20220521022312
+34.140.51.63 1 1 814 20220511221641
+18.237.40.107 1 1 814 20220508032823
+54.219.127.195 1 1 814 20220514100423
+205.210.31.152 1 1 814 20220511053322
+198.235.24.21 1 1 814 20220527131042
+54.244.16.198 1 1 814 20220521022325
+34.212.161.28 1 1 814 20220507024551
+54.188.181.84 1 1 814 20220517021910
+52.27.50.38 1 1 814 20220507024718
+198.235.24.16 1 1 814 20220506231300
+198.235.24.129 1 1 814 20220520050616
+198.235.24.151 1 1 814 20220507033224
+198.235.24.150 1 1 814 20220506132754
+52.12.109.109 1 1 814 20220523025052
+208.100.26.243 1 1 814 20220519121150
+35.89.91.172 1 1 814 20220504022827
+35.167.151.127 1 1 814 20220520020918
+205.210.31.32 1 1 814 20220503233552
+54.201.69.222 1 1 814 20220505022218
+52.34.16.120 1 1 814 20220520021249
+54.203.21.130 1 1 814 20220502023035
+20.242.19.96 1 1 814 20220510110950
+18.170.113.116 1 1 0 20220513023901
+34.212.103.127 1 1 814 20220520021250
+54.214.83.199 1 1 814 20220531025235
+52.35.139.16 1 1 814 20220502023337
+198.235.24.13 1 1 814 20220502133940
+167.248.133.63 1 1 814 20220503080920
+35.87.216.41 1 1 814 20220523125254
+192.99.18.122 1 1 814 20220523160035
+205.210.31.20 1 1 814 20220531111826
+54.214.230.24 1 1 814 20220519171013
+164.132.172.225 1 1 814 20220508052731
+198.235.24.15 1 1 814 20220515164229
+163.172.183.118 1 1 814 20220519045356
+54.202.213.233 1 1 814 20220528023043
+34.222.139.188 1 1 814 20220505022149
+35.87.1.81 1 1 814 20220517021835
+59.111.224.71 1 1 814 20220521164700
+198.235.24.24 1 1 814 20220517064733
+205.210.31.14 1 1 814 20220516054316
+139.177.180.177 1 1 814 20220514073819
+168.195.1.122 1 1 814 20220506231125
+144.91.106.14 1 1 814 20220502015954
+34.222.17.28 1 1 814 20220519022707
+54.185.102.103 1 1 814 20220502023017
+34.220.145.92 1 1 814 20220531025257
+59.111.224.73 1 1 814 20220531022521
+35.89.207.94 1 1 814 20220531023609
+198.235.24.148 1 1 814 20220523035319
+35.89.77.100 1 1 814 20220515025030
+162.142.125.212 1 1 814 20220507130609
+205.210.31.149 1 1 814 20220529045810
+54.201.200.123 1 1 814 20220528023112
+198.235.24.136 1 1 814 20220514104143
+208.100.26.233 1 1 814 20220509191302
+46.161.11.144 1 1 814 20220516045922
+34.220.14.157 1 1 814 20220504022758
+54.214.92.174 1 1 814 20220515025022
+34.215.144.113 1 1 814 20220517021713
+205.210.31.147 1 1 814 20220512180202
+142.54.177.164 1 1 814 20220524035135
+54.213.182.219 1 1 814 20220519022231
+45.33.81.69 1 1 814 20220530140939
+18.236.234.203 1 1 814 20220520021403
+85.195.138.159 1 1 814 20220527054211
+205.210.31.6 1 1 814 20220508143542
+205.210.31.24 1 1 814 20220512165948
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20220501 2 2 1628 2
+20220502 5 5 4070 5
+20220503 6 6 4884 5
+20220504 3 3 2442 3
+20220505 3 3 2442 3
+20220506 4 4 3256 4
+20220507 5 5 4070 5
+20220508 4 4 3256 4
+20220509 1 1 814 1
+20220510 4 4 3256 4
+20220511 9 9 7326 8
+20220512 2 2 1628 2
+20220513 1 1 0 1
+20220514 4 4 3256 4
+20220515 30 30 889407 4
+20220516 3 3 2442 3
+20220517 5 5 4070 5
+20220518 1 1 814 1
+20220519 7 7 4070 6
+20220520 6 6 4884 6
+20220521 3 3 2442 3
+20220522 1 1 814 1
+20220523 5 5 4070 5
+20220524 2 2 1628 2
+20220525 2 2 1628 2
+20220527 2 2 1628 2
+20220528 2 2 1628 2
+20220529 1 1 814 1
+20220530 3 3 2442 3
+20220531 5 5 4070 5
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 2
+0s-30s 101
+2mn-5mn 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 4
+/ 128 89540 102 102
+/manager/ 1 0 0 0
+/intro.swf 1 879639 0 0
+/webmail/ 1 0 0 0
+END_SIDER

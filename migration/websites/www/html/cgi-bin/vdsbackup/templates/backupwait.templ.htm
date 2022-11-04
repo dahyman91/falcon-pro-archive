@@ -1,0 +1,133 @@
+<html>
+<head>
+<META HTTP-EQUIV="Expires" CONTENT="Mon, 06 Jan 1990 00:00:01 GMT">
+<META HTTP-EQUIV="Pragma" CONTENT="No-cache">
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=<<document_meta_charset>>">
+<LINK REL="STYLESHEET" HREF="/vdsbackup/Sphera.css" TYPE="TEXT/CSS">
+<base target="_self">
+<script>
+function GetHeight(){
+                NetScape = (navigator.appName == "Netscape")
+                IExplore = (navigator.appName == "Microsoft Internet Explorer")
+                BrowserVer = parseInt(navigator.appVersion);
+                if (NetScape) {
+                        if (BrowserVer<5){
+                                return parseInt(self.innerHeight);
+                        }
+                        else{
+                                return parseInt(self.innerHeight);
+                        }
+                }
+                else if (IExplore) {
+                        return parseInt(document.body.clientHeight);
+                }
+        }
+</script>
+</head>
+<body leftmargin=0 topmargin=0 marginwidth="0" marginheight="0" onLoad="Assign();">
+<FORM  method="post" target="_self" name="form1">
+<input type=hidden name=type value=none>
+<input type=hidden name=filterdate>
+<input type=hidden name=dirname value="<<dirname>>">
+<input type=hidden name=vusers value="<<VIRTUAL>>">
+<input type=hidden name=title value="<<title>>">
+<CENTER>
+<script>
+function Assign() {
+	if ("<<all>>" == "checked") { document.form1.type.value="all"; };
+	if ("<<email>>" == "checked") { document.form1.type.value="email"; };
+	if ("<<content>>" == "checked") { document.form1.type.value="content"; };
+	if ("<<virtual>>" == "checked") { document.form1.type.value="virtual"; };
+	if ("<<directory>>" == "checked") { document.form1.type.value="directory"; };
+	if ("<<All>>" == "selected") { document.form1.filterdate.value="All"; };
+	if ("<<1>>" == "selected") { document.form1.filterdate.value="1"; };
+	if ("<<2>>" == "selected") { document.form1.filterdate.value="2"; };
+	if ("<<7>>" == "selected") { document.form1.filterdate.value="7"; };
+	if ("<<14>>" == "selected") { document.form1.filterdate.value="14"; };
+	if ("<<21>>" == "selected") { document.form1.filterdate.value="21"; };
+	if ("<<28>>" == "selected") { document.form1.filterdate.value="28"; };
+	if ("<<31>>" == "selected") { document.form1.filterdate.value="31"; };
+	WriteHiddenFrame();
+	document.form1.submit();	
+}
+</script>
+<table width=100% border=0 cellspacing=0 cellpadding=0 height="100%">
+<tr class="MainHeader">
+        <td nowrap width=55% height="50">&nbsp;&nbsp;&nbsp;&nbsp;<font face="Verdana" size="3" color="#FFFFFF"><b><<TITLE>></b></font></td>
+        <td>&nbsp;</td>
+        <td align="right"><img src="/vdsbackup/sphera_logo_small.gif" width="38" height="46">&nbsp;&nbsp;&nbsp;&nbsp</td>
+</tr><tr>
+        <td colspan=2 bgcolor="#CBD4F1" height="24">&nbsp;&nbsp;&nbsp;&nbsp;<a  class="tabFocus" style="text-align: left;"><<l_wait_backup_download>></a></td>
+	<td bgcolor="#CBD4F1" align="right" valign="bottom">
+<p align="right"><a href="#"  onclick="window.open('<<HELPURL>>','Help','scrollbars=yes,location=no,menubar=no,status=no,titlebar=no,resizable,height=550px width=750px,left=1,top=1, copyhistory=yes');"><img border="0" src="/vdsbackup/english/help.gif" width="68" height="16"></a>
+</td>
+</tr>
+<tr>
+	<script>
+        var tmp=GetHeight()-50-24-40;
+	if (tmp<0) {tmp=0};
+        document.write("<td align=center width=100% colspan=3 valign=center height=\"" + tmp + "\">");
+        </script>
+		<table border=1 cellspacing=0 cellpadding=20><tr><td>
+		<font face="Verdana" size="3"><b><<l_wait_please_wait>></b></font><BR><BR>
+		<font face="Verdana" size="2"><<l_wait_frozen>></font>
+		</td></tr></table><BR><BR><BR><BR><BR>
+		<font face="Verdana" size="1"><<l_wait_cancel>></font>
+&nbsp;</td></tr>
+
+<tr><td colspan=3 bgcolor="#FFFFFF" height="40">	
+		<table width=100% border=0 cellspacing=0>
+		<tr>
+		        <td align="right" width="70%"><!img src="/vdsbackup/english/back.gif" border=0>&nbsp;</td>
+		        <td align="right" width="20%"><a href="/cgi-bin/vdsbackup/vdsbackup.cgi?lang=<<LANG>>" target="_top"><!img SRC="/vdsbackup/english/OK.gif" border=0></a></td>
+		        <td>&nbsp;</td>
+		</tr></table>
+</td></tr>
+</table>
+<input type="hidden" name="action" value="makebackup">
+<input type="hidden" name="lang" value="<<LANG>>">
+<input type="hidden" name="password" value="<<PASSWORD>>">
+</FORM>
+<SCRIPT>
+//------------------------------------- Fill in the relevant info here ----------------------------
+var TEST_URL="<<VDS_IP>>/vdsbackup/lock.gif";     // The image URL to check
+var REDIRECT_URL="<<REDIRECT_IP>>";
+var TimeOut=120;                                                                                                // Seconds for timeout
+var CheckEvery=100;                                                                                               // Seconds between each status checking
+//-------------------------------------------------------------------------------------------------
+NetScape = (navigator.appName == "Netscape");
+IExplore = (navigator.appName == "Microsoft Internet Explorer");
+BrowserVer = parseInt(navigator.appVersion);
+var tid;
+var tad;
+var xad = 0;
+var blured = 0;
+var chk_interval=100;
+var xxx=Math.floor(Math.random()*1000000);
+var yyy=Math.floor(Math.random()*1000000);
+function ResetImage(){
+        clearInterval(parent.main.tad);
+}
+
+
+
+function checkB(){
+                		if (xad != 1 ){
+                			document.TEST.src=TEST_URL + "?" + xxx + "=" + yyy;
+				}
+}
+function ClearA(){
+                                if ( document.TEST.src == (TEST_URL + "?" + xxx + "=" + yyy) ){
+                                        xad = 1 ;
+                                        self.close();
+                                }
+}
+function WriteHiddenFrame(){
+        var a="None";
+        tid = setInterval('checkB()',chk_interval*CheckEvery);
+}
+
+</script>
+<p><img border="0" src="xxx.gif" onLoad='ClearA();' name="TEST" width="1" height="1" name="TEST" ></p>
+</body>
+</html>

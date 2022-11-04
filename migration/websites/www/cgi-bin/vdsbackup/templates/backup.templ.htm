@@ -1,0 +1,290 @@
+<html>
+<head>
+<META HTTP-EQUIV="Expires" CONTENT="Mon, 06 Jan 1990 00:00:01 GMT">
+<META HTTP-EQUIV="Pragma" CONTENT="No-cache">
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=<<document_meta_charset>>">
+<LINK REL="STYLESHEET" HREF="/vdsbackup/Sphera.css" TYPE="TEXT/CSS">
+<base target="_self">
+<script>
+function GetHeight(){
+                NetScape = (navigator.appName == "Netscape")
+                IExplore = (navigator.appName == "Microsoft Internet Explorer")
+                BrowserVer = parseInt(navigator.appVersion);
+                if (NetScape) {
+                        if (BrowserVer<5){
+                                return parseInt(self.innerHeight);
+                        }
+                        else{
+                                return parseInt(self.innerHeight);
+                        }
+                }
+                else if (IExplore) {
+                        return parseInt(document.body.clientHeight);
+                }
+        }
+function CheckValues(){
+	if (document.form1.pass1.value){
+		if (document.form1.pass1.value != document.form1.pass2.value ){
+
+			alert("<<l_password_retype>>");
+			document.form1.pass1.focus();
+		}
+		else{
+			if (( document.form1.type[4].checked == true ) && (! document.form1.dirname.value)){
+				alert("<<l_dir_empty>>");
+				document.form1.dirname.focus();
+			}
+			else {
+				if (( document.form1.type[3].checked == true ) && (! document.form1.vusers.options[document.form1.vusers.options.selectedIndex].value)){
+					alert("<<l_select_vuser>>")
+				}
+				else{
+					document.form1.submit();
+			}	}	
+		}
+	}
+	else{
+        	document.form1.pass1.focus();
+		alert("<<l_password_miss>>");
+	}
+}
+function CheckValues2(){
+                        if (( document.form1.type[4].checked == true ) && (! document.form1.dirname.value)){
+                                alert("<<l_dir_empty>>");
+                                document.form1.dirname.focus();
+                        }
+                        else {
+                                if (( document.form1.type[3].checked == true ) && (! document.form1.vusers.options[document.form1.vusers.options.selectedIndex].value )){
+                                        alert("<<l_select_vuser>>")
+                                }
+                                else{
+					document.form1.recalculate.value="true";
+					document.form1.submit();
+                        }       }
+}
+
+</script>
+
+
+<title><<TITLE>></title>
+</head>
+<body leftmargin=0 topmargin=0 marginwidth="0" marginheight="0">
+<FORM  method="post" name="form1" target="_self">
+  <table border="0" width="100%" height="100%"  cellspacing="0" cellpadding="0">
+    <tr>
+      <td width="100%" height="70">
+      <!--------------header------------->
+  <table border="0" width="100%" height="46" cellspacing="0" cellpadding="0">
+    <tr class="MainHeader">      
+    <td height="46" width="10">
+        <p align="left">
+     &nbsp;
+     </td>
+    <td height="46" >
+			<a  class="tabFocus" style="text-align: left;"><font face="Verdana" size="3" color="#FFFFFF"><b><<TITLE>></b></font></a>
+     </td>
+      <td width="39" height="46" align="right">
+        <p align="right"><img border="0" src="/vdsbackup/sphera_logo_small.gif" width="38" height="46"></td>
+      <td width="11" height="46">
+      &nbsp;
+      </td>
+    </tr>
+  </table>
+   <table border="0" width="100%" height="24" cellspacing="0" cellpadding="0" bgcolor="#CBD4F1">
+    <tr>      
+    <td height="24" width="10">
+        <p align="left">
+     &nbsp;
+     </td>
+    <td height="24">
+        <a  class="tabFocus" style="text-align: left;"><<l_backup_data_type>>:</a>
+     </td>
+    <td height="24" width="68" align="right">
+        <p align="right"><a href="#"  onclick="window.open('<<HELPURL>>','Help','scrollbars=yes,location=no,menubar=no,status=no,titlebar=no,resizable,height=550px width=750px,left=1,top=1, copyhistory=yes');"><img border="0" src="/vdsbackup/english/help.gif" width="68" height="16"></a>
+     </td>
+    <td height="24" width="15">
+        &nbsp;
+     </td>
+    </tr>
+  </table>
+<!--------------end header------------->
+</td>
+</tr>
+<tr>
+<td width="100%" height="100">
+<!--------------start of main ---------->
+<table border="0" width="100%" height="50" cellspacing="0" cellpadding="0">
+     <tr>
+        <td height="24" width="10">&nbsp;</td>
+        <td colspan=2 height="24">&nbsp;</td>
+	  </tr>
+		<tr>
+           <td height="35" width="10"><B></b>&nbsp;</td>
+           <td colspan=2 height="35"><B><a class="BrownFont"><<l_backup_backup_title>>: <input type="text" value="<<title>>" name="title">
+            </a></b></td>
+       </tr>
+		<tr>
+			<td height="35" width="10" valign="middle"><B></b>&nbsp;</td>
+			<td colspan=2 height="35" valign="middle"><B><a class="BrownFont"><input type="radio" <<all>> value="all" name="type"> <<l_backup_all_files>></a></b></td>
+		</tr>
+		<tr>
+          <td height="35" width="10"><B></b>&nbsp;</td>
+          <td colspan=2 height="35"><B><a class="BrownFont"><input type="radio" <<email>> value="email" name="type"> <<l_backup_email_mailboxes_only>></a></b></td>
+       </tr>
+		<tr>
+          <td height="35" width="10"><B></b>&nbsp;</td>
+          <td colspan=2 height="35"><B><a class="BrownFont"><input type="radio" <<content>> value="content" name="type"> <<l_backup_content_files_only>></a></b></td>
+      </tr>
+		<tr>
+          <td height="35" width="10">&nbsp;
+	       </td>
+          <td colspan=2 height="35"><B><a class="BrownFont"><<VRADIO>>input type="radio" <<virtual>> value="virtual" name="type"> <<l_backup_virtual_user>>: 
+				&nbsp;&nbsp;&nbsp; <<VIRTUAL>>
+            </a></b>
+	       </td>
+      </tr>
+		<tr>
+          <td height="35" width="10"><B></b>
+            &nbsp;
+			</td>
+          <td colspan=2 height="35"><B><a class="BrownFont"><input type="radio" <<directory>> value="directory" name="type"> <<l_backup_directory>>:&nbsp;&nbsp;&nbsp;
+            <input type="text" name="dirname" value="<<dirname>>" size="20">
+            </a></b>
+			</td>
+       </tr>
+		<tr>
+        		<td bgcolor="#CBD4F1" height="24" width="10">&nbsp;&nbsp;</td>
+        		<td bgcolor="#CBD4F1" height="24" colspan="2"><a  class="tabFocus" style="text-align: left;"><<l_backup_select_data_range>>:</a></td>
+		</tr> 
+		<tr>
+           <td height="10" width="10"><B></b>
+            &nbsp;
+           </td>
+           <td height="10">
+           &nbsp;
+           </td>
+       </tr>
+     	<tr>
+                        <td height="34" width="10">
+
+                        &nbsp;
+
+                        </td>
+                        <td height="34" colspan="2"><b>
+                       	<a class="BrownFont"><<l_backup_last_modified>>:</a>
+                                <select size="1" name="filterdate">
+                                <option <<All>> value="All" >&nbsp;&nbsp;<<l_backup_all>>&nbsp;&nbsp;</option>
+                                <option <<1>> value="1" >&nbsp;&nbsp;1&nbsp;&nbsp;</option>
+                                <option <<2>> value="2" >&nbsp;&nbsp;2&nbsp;&nbsp;</option>
+                                <option <<7>> value="7" >&nbsp;&nbsp;7&nbsp;&nbsp;</option>
+                                <option <<14>> value="14" >&nbsp;&nbsp;14&nbsp;&nbsp;</option>
+                                <option <<21>> value="21" >&nbsp;&nbsp;21&nbsp;&nbsp;</option>
+                                <option <<28>> value="28" >&nbsp;&nbsp;28&nbsp;&nbsp;</option>
+                                <option <<31>> value="31" >&nbsp;&nbsp;31&nbsp;&nbsp;</option>
+                                </select><a class="BrownFont"> <<l_backup_days_ago>> </a></b> 
+			</td>
+     	</tr>
+		 <tr valign=top>
+                                <td height="34" width="10">
+
+                        	&nbsp;
+
+                        		</td>
+				<td nowrap height="70" valign="bottom" colspan="2" >
+                                        <table border=1 cellspacing=0 cellpadding=10><tr><td>
+                                                                        <B><a class="BrownFont"> <<l_backup_total_size>>:</a>&nbsp;
+                                    <font size=3><<TOTALSIZE>></font></b>
+                                                        </td>
+                        <td width="31">
+                                    <A href="#" onClick='CheckValues2();return false;' ><B><font size=3><IMG  src="/vdsbackup/english/recalculate.gif"  align=top border=0>
+</font></b></a>
+                                                        </td>
+                                                </tr>
+                                        </table>
+              </td>
+                </tr>
+		<tr>
+                        <td height="35" width="10">
+                        &nbsp;
+                        </td>
+                        <td height="35">
+                        &nbsp;
+                        </td>
+      </tr>
+		<tr>
+        		<td bgcolor="#CBD4F1" height="24" width="10">&nbsp;&nbsp;&nbsp;</td>
+        		<td bgcolor="#CBD4F1" height="24" colspan="2"><a  class="tabFocus" style="text-align: left;"><<l_back_pwd>>:</a></td>
+		</tr>
+		<tr>
+             <td height="10" width="10">
+              &nbsp;
+              </td>
+             <td height="10" >
+              &nbsp;
+              </td>
+        </tr>
+     <tr>
+             <td height="27" width="10"><B>
+              <p align="right"><a class="BrownFont">&nbsp;
+                          </a></b>
+              </td>
+             <td height="27" align="left">
+              <p align="left"><B>
+              <a class="BrownFont"><font color="ff0000"><<l_must_pass>></font><<l_pass_one>>:&nbsp;<input type="password" name="pass1" value="<<pass1>>" size="20"></a></b>
+              </td>
+     </tr>
+     <tr>
+             <td height="27" width="10">
+              &nbsp;
+              </td>
+             <td height="27"  align="left">
+		<p align="left"><B>
+              <a class="BrownFont">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="ff0000"><<l_must_pass>></font><<l_pass_two>>:&nbsp;<input type="password" name="pass2" value="<<pass2>>" size="20"></a></b>
+              </td>
+     </tr>
+</table>      
+<!--------------end of main ---------->
+</td>
+</tr>
+    <tr>
+      <td width="100%" >
+      <!--------------start of footer ---------->
+      		<table border=0 cellspacing=0 cellpadding=1 width="100%" >
+      			<tr>
+		        <td align="right" colspan="4">&nbsp; </td>
+				</tr>
+                <tr>
+		        <td width="20">
+                        &nbsp;
+                        </td>
+			<td align="left" >
+                  <p align="left" >
+			<!a href="/cgi-bin/vdsbackup/vdsbackup.cgi?lang=<<LANG>>" target="_top">
+			<!img src="/vdsbackup/english/back.gif" border=0>
+			<a href="javascript:self.close();">	
+			<img src="/vdsbackup/english/Cancle.gif" border=0>
+		</a>
+		</p>
+                </td>
+		        <td width="100" align="right">
+                <p align="right">
+		        <A href="#" onClick='CheckValues();return false;' ><IMG SRC="/vdsbackup/english/startbackup.gif" border=0></A>
+                </p>
+		        </td>
+		        <td width="20">
+		        &nbsp;
+		        </td>
+                </tr>
+      		</table>
+      
+      <!--------------start of footer ---------->
+ 		</td>
+    </tr>
+
+  </table>
+<input type="hidden" name="recalculate" value="">
+<input type="hidden" name="action" value="makebackup">
+<input type="hidden" name="backupwait" value="true">
+<input type="hidden" name="lang" value="<<LANG>>">
+</FORM>
+</body>

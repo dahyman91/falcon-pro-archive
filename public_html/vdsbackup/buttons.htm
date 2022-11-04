@@ -1,0 +1,42 @@
+<html>
+<head>
+<META HTTP-EQUIV="Expires" CONTENT="Mon, 06 Jan 1990 00:00:01 GMT">
+<META HTTP-EQUIV="Pragma" CONTENT="No-cache">
+</head>
+<body leftmargin=0 topmargin=0>
+<CENTER>
+<BR><BR><BR><BR><BR><BR><BR><BR>
+<SCRIPT language="JavaScript">
+function chkbox2list( pFrm ){
+	pFrm.resultstr.value =  "";
+	len =pFrm.elements.length;
+	for( i = 0; i < len; i++){
+		el = pFrm.elements[ i ];
+		( el.name && el.value && ( el.name.substr( 0,3)  == 'chk') && el.checked )  ? ( pFrm.resultstr.value +=  el.value +'\;') :  0;
+	}
+	if ( pFrm.resultstr.value != "" ){
+		pFrm.resultstr.value = pFrm.resultstr.value.substr( 0, pFrm.resultstr.value.length -1);
+		//alert( 'resultstr = ' + pFrm.resultstr.value );
+		return true;
+	}else{
+		alert('Nothing selected.');
+		return false;
+	}
+}
+</SCRIPT>
+<FORM>
+<a href="#" onClick="if(chkbox2list(parent.left.document.LeftForm)) {
+		parent.left.DoSubmit();
+	};
+	return false;"><img src="/vdsbackup/english/move_to_right.gif" border=0"></a>
+<BR><BR>
+<a href="#" onClick="if(chkbox2list(parent.right.document.RightForm)) {
+		parent.right.DoSubmit();
+		}; return false;"><img src="/vdsbackup/english/move_to_left.gif" border=0"></a>
+</FORM>
+</CENTER>
+
+</body>
+</html>
+
+

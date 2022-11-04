@@ -1,0 +1,1009 @@
+AWSTATS DATA FILE 7.7 (build 20180105)
+# If you remove this file, all statistics for date 202010 will be lost/reset.
+# Last config file used to build this data file was /home/falconpr/tmp/awstats/awstats.falcon-pro.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2011                
+POS_TIME 2689                
+POS_VISITOR 26161               
+POS_DAY 33762               
+POS_DOMAIN 3423                
+POS_LOGIN 3981                
+POS_ROBOT 4136                
+POS_WORMS 5251                
+POS_EMAILSENDER 5382                
+POS_EMAILRECEIVER 5525                
+POS_SESSION 34483               
+POS_SIDER 34654               
+POS_FILETYPES 5660                
+POS_DOWNLOADS 5744                
+POS_OS 5792                
+POS_BROWSER 6079                
+POS_SCREENSIZE 7586                
+POS_UNKNOWNREFERER 7660                
+POS_UNKNOWNREFERERBROWSER 8308                
+POS_ORIGIN 8753                
+POS_SEREFERRALS 8891                
+POS_PAGEREFS 9071                
+POS_SEARCHWORDS 9308                
+POS_KEYWORDS 9474                
+POS_MISC 2353                
+POS_ERRORS 9547                
+POS_CLUSTER 3837                
+POS_SIDER_404 9645                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20201101015955 31 4669 13511078523970
+FirstTime 20201001025924
+LastTime 20201031202941
+LastUpdate 20201101051152 31 0 30 0 0
+TotalVisits 246                 
+TotalUnique 201                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 201                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+WindowsMediaPlayerSupport 0 0 0
+JavascriptDisabled 0 0 0
+JavaEnabled 0 0 0
+QuickTimeSupport 0 0 0
+PDFSupport 0 0 0
+RealPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+FlashSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 4 4 3256 37 56 113243
+1 11 11 8954 30 37 49584
+2 48 48 39072 44 67 111086
+3 6 6 4884 20 30 52002
+4 12 12 9768 30 44 983643
+5 17 17 12220 29 56 15466
+6 11 11 8954 48 59 76253
+7 8 8 6512 35 40 8528
+8 11 11 8954 52 70 202880
+9 8 8 6512 61 73 84982
+10 11 11 8954 71 88 33121
+11 5 5 4070 51 80 114627
+12 9 9 7326 52 92 58696
+13 18 18 14652 27 54 97530
+14 14 14 11396 89 105 102699
+15 8 8 11171 61 73 29051
+16 8 8 6512 160 175 15751
+17 11 11 8954 65 71 15325
+18 11 11 8954 41 58 62055
+19 8 8 6512 42 58 56072
+20 13 13 16594 64 85 43456
+21 9 9 11985 61 81 24808
+22 15 15 16869 51 72 7326
+23 9 9 7326 33 50 78716
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 29
+us 191 191 170000
+ru 22 22 17094
+id 7 7 5698
+gb 7 7 10357
+ca 7 7 5698
+hk 6 6 4884
+vn 5 5 4070
+cn 4 4 3256
+br 4 4 3256
+de 4 4 3256
+nl 3 3 2442
+it 3 3 2442
+il 2 2 1628
+pk 2 2 1628
+in 2 2 1628
+sc 2 2 1628
+bd 2 2 1628
+th 1 1 814
+ie 1 1 814
+fi 1 1 814
+cl 1 1 814
+ar 1 1 814
+pl 1 1 814
+cz 1 1 814
+se 1 1 814
+gt 1 1 814
+ua 1 1 814
+tr 1 1 814
+mu 1 1 814
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 26
+bot[\s_+:,\.\;\/\\-] 115 680916 20201031130200 0
+Sogou[\x20]web[\x20]spider/ 70 56980 20201031214339 0
+AhrefsBot/ 66 53322 20201031092806 0
+Googlebot/ 29 27961 20201030195017 0
+360Spider 28 22792 20201031093342 0
+Apache\-HttpClient/ 27 16280 20201031144617 0
+YandexBot/ 25 917644 20201031153159 0
+MJ12bot/ 20 100465 20201031214504 0
+crawl 19 252481 20201025085118 0
+SemrushBot/ 13 148436 20201029052950 0
+bingbot/ 12 13460 20201031144906 0
+Baiduspider/ 10 0 20201030104802 0
+no_user_agent 8 5698 20201031025206 0
+SeznamBot/ 7 55440 20201027094603 0
+DotBot/ 4 40194 20201022230936 0
+oBot/ 4 3256 20201020022618 0
+Mojolicious 3 8454 20201020205004 0
+Applebot/ 3 20911 20201030155338 0
+Mail\.RU_Bot/ 3 2442 20201012165743 0
+(firefox/)([0-9]\.|[0-1][0]\.) 2 1628 20201023210331 0
+spider 2 814 20201019193647 0
+MegaIndex\.ru/ 1 814 20201031065637 0
+SurdotlyBot/ 1 814 20201024014358 0
+Yahoo![\x20]Slurp 1 814 20201016232414 0
+ELinks/ 1 814 20201017110002 0
+CCBot/ 1 814 20201017161254 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 1
+html 285 250361 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 18
+win10 152 152
+macosx10 5 5
+win8 1 1
+linuxandroid 4 4
+winlong 2 2
+winxp 5 5
+macosx 5 5
+linux 27 27
+winvista 1 1
+ios_iphone 3 3
+macosx5 4 4
+win8.1 1 1
+macosx8 1 1
+win7 18 18
+macosx12 4 4
+winnt 1 1
+macosx9 2 2
+Unknown 49 49
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 71
+chrome58.0.3029.110 4 4
+edge14 1 1
+chrome77.0.3865.73 1 1
+chrome83.0.4103.97 2 2
+chrome56.0.3075.83 1 1
+chrome35.0.1916.47 2 2
+firefox72.0 2 2
+chrome80.0.3987.132 1 1
+chrome60.0.3100.0 1 1
+chrome76.0.3809.132 10 10
+chrome45.0.2454.93 1 1
+firefox62.0 8 8
+chrome26.0.1410.65 1 1
+chrome72.0.3626.121 3 3
+chrome85.0.4183.102 6 6
+chrome45.0.2454.94 1 1
+chrome81.0.4044.129 8 8
+netscape 1 1
+msie8.0 2 2
+chrome79.0.3945.88 1 1
+chrome80.0.3987.122 1 1
+chrome67.0.3396.87 1 1
+chrome40.0.2214.93 1 1
+firefox58.0 4 4
+chrome5.0.354.0 1 1
+chrome41.0.2226.0 1 1
+chrome73.0.3683.90 2 2
+opera53.0.2907.106 1 1
+safari5.0.4 4 4
+mozilla 21 21
+netscape5.0 1 1
+chrome85.0.4183.121 5 5
+Unknown 32 32
+chrome86.0.4240.111 1 1
+chrome5.0.375.99 2 2
+chrome75.0.3770.142 1 1
+chrome71.0.3578.98 1 1
+chrome47.0.2526.106 2 2
+firefox57.0 1 1
+firefox59.0 1 1
+chrome78.0.3904.108 14 14
+edge16 3 3
+firefox36.0 1 1
+chrome39.0.2171.95 2 2
+chrome79.0 3 3
+firefox79.0 1 1
+chrome34.0.1847.131 2 2
+firefox68.0 1 1
+safari5.0.2 1 1
+safari11.0 2 2
+chrome73.0.3683.86 1 1
+chrome79.0.3945.79 20 20
+opera53.0.2907.68 1 1
+opera12.00 1 1
+chrome65.0.3325.181 7 7
+chrome37.0.2049.0 1 1
+chrome22.0.1207.1 1 1
+chrome36.0.1985.143 2 2
+chrome50.0.2661.102 1 1
+chrome84.0.4147.105 2 2
+chrome34.0.1847.116 1 1
+chrome80.0.3987.149 9 9
+chrome84.0.4147.89 1 1
+chrome74.0.3729.169 17 17
+chrome34.0.1847.137 1 1
+safari10.0 1 1
+opera54.0.2952.54 2 2
+chrome66.0.3359.181 34 34
+edge12 2 2
+firefox50.0 7 7
+firefox28.0 2 2
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 13
+python-requests/2.22.0 20201026160311
+python-requests/2.24.0 20201030041704
+python-requests/2.21.0 20201009034744
+The_Knowledge_AI 20201026091749
+python-requests/2.23.0 20201029003225
+Mozilla/5.0_(compatible;_Dataprovider.com) 20201022185645
+Go-http-client/1.1 20201025021708
+Dispatch/0.14.0-SNAPSHOT 20201029192415
+Mozilla/5.0_(compatible;_evc-batch/2.0) 20201021054437
+RestSharp/105.2.3.0 20201030120724
+Python/3.8_aiohttp/3.6.2 20201017220057
+Magic_Browser 20201011025015
+Mozilla/5.0_(compatible;_NetcraftSurveyAgent/1.0;__info@netcraft.com) 20201031174353
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 10
+python-requests/2.22.0 20201026160311
+python-requests/2.24.0 20201030041704
+Python/3.8_aiohttp/3.6.2 20201017220057
+RestSharp/105.2.3.0 20201030120724
+Magic_Browser 20201011025015
+python-requests/2.23.0 20201029003225
+The_Knowledge_AI 20201026091749
+python-requests/2.21.0 20201009034744
+Dispatch/0.14.0-SNAPSHOT 20201029192415
+Go-http-client/1.1 20201025021708
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 240 240
+From1 3 3
+From2 21 21
+From3 4 4
+From4 17 17
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+google_com 19 19
+www_google_com 2 2
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 2
+http://www.ohbabyultrasound.com 3 3
+http://www.coralbruce.top/view/13386722/profile/ 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 1
+semalt.com 19
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 1
+semalt.com 19
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+206 7 3256
+404 1162 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 376
+/configuration.php_old 2 -
+/wp2/wp-includes/wlwmanifest.xml 8 -
+/.well-known/autoconfig/mail/config-v1.1.xml 28 -
+/edit.php 1 http://falcon-pro.com/edit.php
+/plugins/system/debug/debug.xml 1 -
+/wp-adm.php 1 http://falcon-pro.com/wp-adm.php
+/wp-action.php 1 http://falcon-pro.com/wp-action.php
+/support/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/beta/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/backup/ 2 -
+/main/ 3 -
+/wang/login.php 2 -
+/news/wp-includes/wlwmanifest.xml 8 -
+/configuration.bak 2 -
+/public/.env 3 -
+/store/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/configuration.php_new 2 -
+/wp-content/plugins/wp-file-manager/css/fm_script.css 1 -
+/vendor/phpunit/phpunit/LICENSE 1 -
+/newsite/wp-includes/wlwmanifest.xml 1 -
+/payment/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/core/laravel/vendor/phpunit/Util/PHP/eval-stdin.php 1 -
+/install/ 2 -
+/2020/ 1 -
+/wordpress/wp-content/plugins/dzs-videogallery/class_parts/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/2018/ 2 -
+/wp1/ 2 -
+/theme1.php 1 http://falcon-pro.com/theme1.php
+/press/ 1 -
+/wp-config.bak 2 -
+/blogs/ 2 -
+/admin/.env 3 -
+/phpinfo.php 1 http://falcon-pro.com/phpinfo.php
+/forum1.php 1 http://falcon-pro.com/forum1.php
+/opensupports/api/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/payment/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/test/wp-includes/wlwmanifest.xml 8 -
+/page.php 1 http://falcon-pro.com/page.php
+/OLD/wp-admin/ 3 http://falcon-pro.com/
+/index.php 10 -
+/administrator/language/en-GB/install.xml 1 -
+/dev/laravel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/tmp/ 1 -
+/2020/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/store/laravel/vendor/phpunit/Util/PHP/eval-stdin.php 1 -
+/pos/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/old-site/ 1 -
+/configuration.php-bak 2 -
+/2019/wp-includes/wlwmanifest.xml 8 -
+/tickets/api/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/demo/laravel/vendor/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/robots.php 1 http://falcon-pro.com/robots.php
+/admin/login/login.php 1 -
+/portal/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/cron.php 1 http://falcon-pro.com/cron.php
+/test/laravel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/testing/laravel/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/shop/.env 3 -
+/sitemap_index.xml 2 -
+/wp-config.php_new 2 -
+/test/laravel/vendor/phpunit/Util/PHP/eval-stdin.php 1 -
+/ticket/laravel/vendor/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/wp-conf.php 1 http://falcon-pro.com/wp-conf.php
+/wp-admin/admin-ajax.php 5 -
+/wp-content/plugins/google-mp3-audio-player/direct_download.php 2 -
+/app/etc/local.xml 2 -
+/store/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/admin.php 1 http://falcon-pro.com/admin.php
+/blog/.env 3 -
+/core/laravel/vendor/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/dev/laravel/vendor/phpunit/Util/PHP/eval-stdin.php 1 -
+/wp-content/plugins/mm-plugin/inc/vendors/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/beta/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/backup/vendor/phpunit/Util/PHP/eval-stdin.php 1 -
+/wp_old/ 1 -
+/oldwp/ 1 -
+/test.php 1 http://falcon-pro.com/test.php
+/demo/wp-includes/wlwmanifest.xml 1 -
+/panel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/wordpress/wp-admin/ 4 http://falcon-pro.com/
+/oldsite/wp-includes/wlwmanifest.xml 1 -
+/wordpress/ 11 -
+/wp-content/plugins/wptf-image-gallery/lib-mbox/ajax_load.php 2 -
+/wp/ 11 -
+/1/wp-includes/wlwmanifest.xml 2 -
+/dev/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/sites/all/libraries/mailchimp/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/server/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/dedea/login.php 2 -
+/blog/wp-includes/wlwmanifest.xml 11 -
+/server.php 1 http://falcon-pro.com/server.php
+/wp/wp-admin/ 2 http://falcon-pro.com/
+/old/wp-content/plugins/cloudflare/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/back/ 1 -
+/configuration.php_Old 2 -
+/beta/ 1 -
+/2020/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/wp-content/plugins/dzs-videogallery/class_parts/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/dede123/login.php 2 -
+/images/editor/separator.gif 1 -
+/core/laravel/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/admin/includes/general.js 1 -
+/bd.php 1 http://falcon-pro.com/bd.php
+/.env 21 -
+/demo/ 2 -
+/web/wp-includes/wlwmanifest.xml 12 -
+/wp-content/plugins/simple-image-manipulator/controller/download.php 2 -
+/old/wp-admin/ 3 http://falcon-pro.com/
+/apple-touch-icon.png 4 -
+/v2/wp-includes/wlwmanifest.xml 1 -
+/info.php 1 http://falcon-pro.com/info.php
+/wp/test/ 2 -
+/administrator/index.php 2 -
+/wp-config.php_bak 2 -
+/shop/wp-includes/wlwmanifest.xml 8 -
+/wp-admine.php 1 http://falcon-pro.com/wp-admine.php
+/api/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/wp-content/plugins/wp-file-manager/lib/php/connector.minimal.php 9 www.google.com
+/client/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/wp-content/plugins/super-interactive-maps/js/docs.js 1 -
+/mantis/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/server/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/configuration.php.old 2 -
+/main/wp-includes/wlwmanifest.xml 1 -
+/admin/view/javascript/common.js 1 -
+/backup/wp-login.php 1 -
+/system/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/configuration.php.new 2 -
+/v1/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/user/register/ 1 -
+/sites/.env 3 -
+/ftp.php 1 http://falcon-pro.com/ftp.php
+/2019/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/wp2/ 2 -
+/test/wp-content/plugins/cloudflare/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/administrator/help/en-GB/toc.json 1 -
+/wp-includes/js/jquery/jquery.js 1 -
+/admin/ 4 -
+/wp-content/plugins/superlogoshowcase-wp/js/docs.js 1 -
+/2018/wp-includes/wlwmanifest.xml 9 -
+/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/config.php 1 http://falcon-pro.com/config.php
+/system.php 1 http://falcon-pro.com/system.php
+/ads.txt 35 -
+/wp-config.php-bak 2 -
+/wp-config.php.old 2 -
+/css/album.css 3 -
+/support/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/wos.php 1 http://falcon-pro.com/wos.php
+/e/admin/index.php 3 -
+/blog/wp-content/plugins/dzs-videogallery/class_parts/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/web/ 1 -
+/lib/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/blog/ 11 -
+/site/wp-includes/wlwmanifest.xml 9 -
+/cms/wp-includes/wlwmanifest.xml 7 -
+/www/wp-includes/wlwmanifest.xml 1 -
+/meta.php 1 http://falcon-pro.com/meta.php
+/bugtracker/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/old/ 3 -
+/sito/wp-includes/wlwmanifest.xml 6 -
+/www/ 2 -
+/theme.php 1 http://falcon-pro.com/theme.php
+/error.php 1 http://falcon-pro.com/error.php
+/admin/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/core/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+//wp-content/plugins/wp-file-manager/js/top.js 2 -
+/api/.env 3 -
+/old/wp-content/plugins/dzs-videogallery/class_parts/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/wp-content/plugins/jekyll-exporter/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/humans.txt 1 -
+/my/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/forum.php 1 http://falcon-pro.com/forum.php
+/dev/laravel/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/vendor/phpunit/phpunit/phpunit.xml 1 -
+/wp-includes/wlwmanifest.xml 14 -
+/ab0ut.php 1 http://falcon-pro.com/ab0ut.php
+/phpunit/Util/PHP/eval-stdin.php 1 -
+/adminer-4.0.0.php 1 -
+/news/ 1 -
+/2019/ 1 -
+//wp-login.php 3 -
+/home/ 3 -
+/wp1/wp-includes/wlwmanifest.xml 7 -
+/system/.env 3 -
+/app/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/misc/ajax.js 1 -
+/wp-info.php 1 http://falcon-pro.com/wp-info.php
+/wp3/ 1 -
+/core/laravel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/2019/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/vendor/.env 3 -
+/bak/ 1 -
+/wp-login.php 32 -
+/test/vendor/phpunit/Util/PHP/eval-stdin.php 1 -
+/wp-anyconf.php 1 http://falcon-pro.com/wp-anyconf.php
+/admin/login.php 2 -
+/wp-json 1 -
+/oldsite/ 1 -
+/media/wp-includes/wlwmanifest.xml 7 -
+/bk/ 1 -
+/administrator/ 1 -
+/wp-admin/ 5 http://falcon-pro.com/
+/dede/login.php 3 -
+/pos/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/configuration.php.bak 2 -
+/test/laravel/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/website/ 2 -
+/lib/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/wp-blog-mail.php 1 http://falcon-pro.com/wp-blog-mail.php
+/2017/ 1 -
+/0.php 1 http://falcon-pro.com/0.php
+/api/vendor/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/wp-on.php 1 http://falcon-pro.com/wp-on.php
+/atom.xml 2 -
+/test/wp-content/plugins/dzs-videogallery/class_parts/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/xxxss 3 -
+/ticket/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/panel/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/wp-config.php.new 2 -
+//vendor/phpunit/phpunit/phpunit.xsd 2 -
+/chen/login.php 2 -
+/old/wp-content/plugins/mm-plugin/inc/vendors/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/new-site/ 1 -
+/vendor/phpunit/Util/PHP/eval-stdin.php 1 -
+/lib/phpunit/Util/PHP/eval-stdin.php 1 -
+/wp/wp-content/plugins/cloudflare/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/wp-config.php 2 -
+/vendor/composer/installed.json 6 -
+/lib/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/reports/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/ticket/api/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/test/wp-content/plugins/mm-plugin/inc/vendors/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/log.php 1 http://falcon-pro.com/log.php
+/test/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/old/wp-includes/wlwmanifest.xml 1 -
+/v2/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/Old/ 1 -
+/caiyuan/login.php 1 -
+/crm/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/wp-blog.php 1 http://falcon-pro.com/wp-blog.php
+/testing/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/v1/wp-includes/wlwmanifest.xml 1 -
+/////nette.micro 7 -
+/blog/wp-login.php 1 -
+/dev/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/wp-content/plugins/superstorefinder-wp/js/docs.js 1 -
+/test/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/wp/wp-content/plugins/mm-plugin/inc/vendors/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/portal/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/images.php 1 http://falcon-pro.com/images.php
+/ticket/laravel/vendor/phpunit/Util/PHP/eval-stdin.php 1 -
+/test/ 2 -
+/dev/laravel/vendor/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/2018/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/wp/wp-content/plugins/dzs-videogallery/class_parts/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/wp/wp-login.php 2 -
+/vendor/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/app/laravel/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/reports/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/testing/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/xmlrpz.php 1 http://falcon-pro.com/xmlrpz.php
+/app/laravel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/div/ 1 -
+/sitemaps.xml 2 -
+/client/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/robots.txt 311 -
+/apple-touch-icon-precomposed.png 4 -
+/ticket/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/wp-content/plugins/ioptimization/IOptimize.php 1 www.google.com
+/old_wp/ 1 -
+/testing/laravel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/demo/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/wp-mains.php 1 http://falcon-pro.com/wp-mains.php
+/configuration.php_bak 2 -
+/website/wp-includes/wlwmanifest.xml 11 -
+/api/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/2018/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/mantis/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/mantisbt/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/store/wp-includes/wlwmanifest.xml 1 -
+/api/vendor/phpunit/Util/PHP/eval-stdin.php 1 -
+/backup/wp-admin/ 2 http://falcon-pro.com/
+/dev/ 1 -
+/core/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/backup/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/bugtracker/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/wordpress/wp-content/plugins/cloudflare/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/support/api/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/blog/robots.txt 7 -
+/sitemap.xml 4 -
+/public/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/wp-content/plugins/recent-backups/download-file.php 2 -
+/v1/ 3 -
+/router.php 2 -
+/crm/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/store/laravel/vendor/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/base.php 1 http://falcon-pro.com/base.php
+/v2/ 3 -
+/site/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/staging/wp-includes/wlwmanifest.xml 1 -
+/wordpress/wp-content/plugins/mm-plugin/inc/vendors/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/wp-config.php_old 2 -
+/admin/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/wp-upload.php 1 http://falcon-pro.com/wp-upload.php
+/new/wp-includes/wlwmanifest.xml 1 -
+/wp-content/plugins/wp-file-manager/readme.txt 1 -
+/cms/ 3 -
+/blog/wp-content/plugins/cloudflare/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/js/common.js 3 http://www.falcon-pro.com/js/common.js
+/wsi.php 1 http://falcon-pro.com/wsi.php
+/wso.php 1 http://falcon-pro.com/wso.php
+/test/vendor/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/about.php 1 http://falcon-pro.com/about.php
+/en/wp-includes/wlwmanifest.xml 1 -
+/v1/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/houtai/login.php 2 -
+/data/admin/allowurl.txt 7 -
+/demo/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/store/laravel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/wp/wp-includes/wlwmanifest.xml 9 -
+/xmlrpc.php 21 -
+/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/en/ 2 -
+/blog/wp-content/plugins/mm-plugin/inc/vendors/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/site/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/testing/laravel/vendor/phpunit/Util/PHP/eval-stdin.php 1 -
+/app/laravel/vendor/phpunit/Util/PHP/eval-stdin.php 1 -
+/wp-config.php.bak 2 -
+/temp/ 2 -
+/3.php 1 http://falcon-pro.com/3.php
+/testing/vendor/phpunit/Util/PHP/eval-stdin.php 1 -
+/new/ 4 -
+/js/header-rollup-554.js 1 -
+/license.php 1 http://falcon-pro.com/license.php
+/wwos.php 1 http://falcon-pro.com/wwos.php
+/backup/wp-includes/wlwmanifest.xml 1 -
+/test/.env 3 -
+/mantisbt/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/wp-links.php 1 http://falcon-pro.com/wp-links.php
+/wp-404.php 1 http://falcon-pro.com/wp-404.php
+/wp-content/themes/mTheme-Unus/css/css.php 2 -
+/laravel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/header.php 1 http://falcon-pro.com/header.php
+/laravel/.env 3 -
+/guanli/login.php 2 -
+/WP/ 1 -
+/soporte/api/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/testing/vendor/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/403.php 1 http://falcon-pro.com/403.php
+/old-wp/ 1 -
+/app/laravel/vendor/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/app/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/wp-config.php_Old 2 -
+/sitemap.xml.gz 2 -
+/backup/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/404.php 1 http://falcon-pro.com/404.php
+/public/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/demo/laravel/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/test/laravel/vendor/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/portal/ 1 -
+/my/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/jian/login.php 2 -
+/backup/vendor/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/testing/laravel/vendor/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/demo/laravel/vendor/phpunit/Util/PHP/eval-stdin.php 1 -
+/index2.php 1 http://falcon-pro.com/index2.php
+/123.php 1 http://falcon-pro.com/123.php
+/v2/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/wordpress/wp-includes/wlwmanifest.xml 10 -
+/demo/laravel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/store/laravel/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/site/doug.html 7 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 201
+66.246.224.12 20 20 16280 20201031060740
+64.71.131.244 13 13 10582 20201021054437
+52.142.160.113 6 6 4884 20201009011624
+198.245.50.13 6 6 4884 20201018061612
+103.62.48.237 4 4 3256 20201021012550
+107.175.156.144 3 3 2442 20201030103327
+151.138.13.148 3 3 2442 20201029025011
+3.137.211.106 3 3 2442 20201022231252
+34.123.189.223 3 3 7101 20201030154238
+3.236.21.180 3 3 2442 20201020172041
+54.39.243.184 3 3 2442 20201022184418
+156.146.56.117 3 3 2442 20201024103706
+94.242.62.37 3 3 2442 20201003132852
+156.146.56.115 3 3 2442 20201019141801
+13.77.200.247 3 3 2442 20201029194652
+185.200.117.171 2 2 1628 20201026025736
+132.232.81.163 2 2 1628 20201013105546
+71.229.154.254 2 2 1628 20201011025015
+34.222.187.250 2 2 1628 20201012142606
+2.57.122.183 2 2 1628 20201010135744
+199.244.88.132 2 2 1628 20201028050056
+99.144.137.221 2 2 824 20201012051802
+91.210.47.85 2 2 1628 20201016202518
+51.195.201.76 2 2 6287 20201021215128
+65.52.32.40 2 2 1628 20201031051444
+186.238.31.10 1 1 814 20201002154600
+193.239.147.186 1 1 814 20201018160121
+13.56.168.173 1 1 814 20201021180626
+198.46.222.68 1 1 814 20201027201259
+91.76.245.91 1 1 814 20201029203130
+45.55.58.76 1 1 814 20201001084620
+34.213.174.188 1 1 814 20201018013328
+61.90.77.192 1 1 814 20201020044635
+18.237.221.144 1 1 814 20201013023256
+54.185.254.183 1 1 814 20201003021759
+34.214.100.128 1 1 814 20201003023616
+218.76.14.145 1 1 814 20201013235653
+107.174.5.180 1 1 814 20201012194805
+54.191.28.193 1 1 814 20201006023114
+18.233.45.13 1 1 814 20201010165848
+40.74.122.22 1 1 814 20201019011647
+110.138.150.53 1 1 814 20201002193641
+35.188.41.139 1 1 814 20201012142554
+178.214.245.131 1 1 814 20201026135626
+14.178.49.135 1 1 814 20201011190612
+113.184.190.110 1 1 814 20201013074615
+103.237.36.252 1 1 814 20201011054846
+78.185.131.250 1 1 814 20201008102247
+206.189.91.215 1 1 814 20201022220546
+34.217.178.195 1 1 814 20201028022440
+167.71.182.120 1 1 814 20201002055647
+114.79.7.89 1 1 814 20201005080614
+54.237.112.55 1 1 814 20201015151548
+129.146.133.174 1 1 814 20201031005732
+54.200.37.146 1 1 814 20201011023150
+46.138.245.21 1 1 814 20201023235902
+172.82.150.41 1 1 814 20201007143850
+66.205.30.83 1 1 814 20201028054124
+165.231.54.131 1 1 814 20201031202941
+213.217.0.184 1 1 814 20201005145342
+161.35.124.51 1 1 814 20201017104004
+3.250.117.175 1 1 814 20201001173447
+108.171.210.130 1 1 814 20201012063013
+107.175.71.114 1 1 814 20201015111609
+139.195.69.162 1 1 814 20201004032344
+185.195.24.62 1 1 0 20201022051512
+165.227.185.109 1 1 814 20201008121803
+54.149.132.138 1 1 814 20201002022024
+165.227.215.206 1 1 814 20201030212446
+89.46.104.185 1 1 814 20201011063320
+54.170.83.134 1 1 814 20201014122117
+117.102.4.219 1 1 814 20201009221047
+144.76.25.174 1 1 814 20201029172838
+89.187.168.140 1 1 814 20201014213425
+52.38.86.3 1 1 814 20201004025226
+171.13.14.75 1 1 814 20201002042338
+123.24.170.232 1 1 814 20201007131305
+34.243.57.245 1 1 814 20201025185337
+129.205.124.119 1 1 814 20201018233748
+149.100.190.56 1 1 814 20201029192415
+79.111.214.250 1 1 814 20201021230304
+103.60.175.78 1 1 814 20201010044350
+103.30.145.5 1 1 814 20201021053955
+52.12.37.222 1 1 814 20201029023636
+35.160.237.94 1 1 814 20201023023048
+52.142.59.88 1 1 814 20201009062724
+212.102.33.250 1 1 814 20201014222931
+34.212.217.16 1 1 814 20201021022204
+34.222.159.3 1 1 814 20201022021313
+159.203.111.120 1 1 814 20201016072433
+210.2.144.109 1 1 814 20201005141134
+173.255.246.21 1 1 814 20201002043704
+54.201.178.173 1 1 814 20201001025924
+51.104.33.200 1 1 814 20201029225010
+35.239.180.174 1 1 814 20201026160311
+54.201.33.76 1 1 814 20201019020920
+175.44.42.218 1 1 814 20201013135315
+34.213.163.106 1 1 814 20201027024149
+168.80.100.119 1 1 814 20201031071617
+40.112.249.15 1 1 814 20201002121524
+177.157.241.212 1 1 814 20201007172258
+46.138.244.221 1 1 814 20201022121512
+23.245.224.210 1 1 814 20201029003225
+54.219.101.198 1 1 814 20201006224409
+192.71.103.173 1 1 814 20201005164747
+94.158.36.183 1 1 814 20201009045444
+154.16.214.174 1 1 814 20201019083732
+18.237.134.230 1 1 814 20201025024248
+20.191.103.49 1 1 814 20201017022627
+104.198.65.61 1 1 814 20201005131424
+45.114.70.25 1 1 814 20201010221813
+125.160.114.227 1 1 814 20201009050224
+44.242.138.239 1 1 814 20201012202323
+18.237.201.137 1 1 814 20201017022521
+45.90.196.70 1 1 814 20201010160518
+14.191.55.9 1 1 814 20201011202814
+45.55.242.204 1 1 814 20201024225027
+54.186.2.132 1 1 814 20201007024734
+220.181.51.110 1 1 814 20201008134827
+46.101.80.192 1 1 814 20201019215559
+193.34.167.246 1 1 814 20201011055953
+64.62.252.162 1 1 814 20201026091749
+176.9.47.122 1 1 814 20201009013003
+198.98.60.123 1 1 814 20201003180511
+34.222.174.58 1 1 814 20201012184430
+95.104.171.10 1 1 814 20201010103452
+54.202.9.85 1 1 814 20201020021343
+3.238.124.5 1 1 814 20201023083424
+77.94.221.49 1 1 814 20201012130040
+54.203.14.85 1 1 814 20201003021846
+34.216.234.156 1 1 814 20201015021659
+209.107.210.55 1 1 814 20201020165732
+139.99.134.195 2 2 6287 20201009225719
+5.188.62.140 1 1 814 20201022045246
+34.220.50.7 1 1 814 20201010022100
+198.23.242.153 1 1 814 20201029132338
+52.188.1.49 2 2 1628 20201008091211
+188.166.229.132 1 1 814 20201030120724
+34.220.32.200 1 1 814 20201025021708
+138.118.28.60 1 1 814 20201005112245
+134.209.197.98 1 1 814 20201007082945
+52.177.121.220 2 2 1628 20201019182152
+181.214.107.40 1 1 814 20201008204758
+206.41.184.238 1 1 814 20201012174252
+27.3.224.184 1 1 814 20201012084243
+51.15.174.150 1 1 814 20201003082639
+109.234.37.227 1 1 814 20201031024433
+137.116.58.129 1 1 814 20201027155713
+54.74.178.233 1 1 814 20201018162149
+178.141.240.51 1 1 814 20201030114433
+52.12.178.74 1 1 814 20201025021608
+68.183.96.92 1 1 814 20201017220057
+168.151.140.227 1 1 814 20201003211858
+51.77.246.206 1 1 814 20201022185645
+167.71.184.226 1 1 814 20201011210603
+144.168.162.250 2 2 1628 20201025121821
+142.93.71.71 1 1 814 20201016083943
+139.255.91.122 1 1 814 20201018004708
+190.104.112.53 1 1 814 20201012084242
+52.33.19.203 1 1 814 20201009034744
+3.238.119.123 1 1 814 20201023143155
+54.186.55.229 1 1 814 20201005023523
+216.180.106.47 1 1 814 20201030102002
+34.218.245.251 1 1 814 20201014021102
+34.213.153.204 1 1 814 20201016023510
+59.93.20.33 1 1 814 20201007064158
+113.10.156.158 1 1 814 20201009224838
+52.39.180.62 1 1 814 20201024021645
+18.133.255.206 2 2 7640 20201020205006
+181.10.145.106 1 1 814 20201002095329
+52.235.42.212 2 2 1628 20201011202239
+34.216.204.56 1 1 814 20201031024757
+66.160.140.184 1 1 814 20201025010301
+34.216.162.154 1 1 814 20201026021458
+108.171.216.162 1 1 814 20201016073507
+46.4.21.234 2 2 1628 20201014130548
+3.238.88.213 2 2 1628 20201006021112
+34.244.227.33 1 1 814 20201014013938
+180.248.23.184 1 1 814 20201004200903
+52.12.213.232 1 1 814 20201025125543
+54.202.109.160 1 1 814 20201009021348
+54.187.93.125 1 1 814 20201018024030
+34.219.155.5 1 1 814 20201030022030
+34.70.239.123 1 1 814 20201003151934
+64.62.252.163 1 1 814 20201014210435
+54.202.219.56 1 1 814 20201012023931
+172.241.82.46 1 1 814 20201009183810
+185.156.73.64 1 1 814 20201007112141
+150.107.200.18 1 1 814 20201027073609
+138.68.232.237 2 2 1628 20201023020658
+185.191.204.2 1 1 814 20201015154058
+64.246.161.30 1 1 814 20201010222243
+104.131.116.25 1 1 814 20201031174353
+189.112.49.55 1 1 814 20201015073144
+35.226.19.225 1 1 814 20201019145819
+44.226.204.238 1 1 814 20201012125522
+52.249.182.44 1 1 814 20201030041704
+91.144.130.24 2 2 1628 20201030133102
+54.189.210.73 1 1 814 20201008024639
+31.13.115.116 1 1 814 20201027063918
+80.86.22.169 1 1 814 20201011185410
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20201001 5 5 4070 5
+20201002 8 8 6512 8
+20201003 11 11 8954 9
+20201004 4 4 3256 4
+20201005 9 9 7326 9
+20201006 6 6 4884 5
+20201007 13 13 10582 11
+20201008 10 10 8140 9
+20201009 14 14 16055 12
+20201010 10 10 8140 9
+20201011 12 12 9768 11
+20201012 16 16 12220 14
+20201013 7 7 5698 6
+20201014 10 10 8140 10
+20201015 6 6 4884 6
+20201016 8 8 6512 7
+20201017 8 8 6512 6
+20201018 11 11 8954 9
+20201019 10 10 8140 8
+20201020 13 13 16594 8
+20201021 10 10 12799 9
+20201022 13 13 9768 9
+20201023 7 7 5698 6
+20201024 6 6 4884 4
+20201025 10 10 8140 9
+20201026 7 7 5698 7
+20201027 5 5 4070 5
+20201028 4 4 3256 4
+20201029 11 11 8954 9
+20201030 12 12 14427 10
+20201031 9 9 7326 8
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 3
+15mn-30mn 2
+0s-30s 243
+5mn-15mn 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 5
+/ 278 225478 243 241
+/site/ 3 16419 1 3
+/site/opener.html 2 824 1 1
+/site/biographies/ 1 2471 0 1
+/site/biographies/henri.html 1 5169 1 0
+END_SIDER

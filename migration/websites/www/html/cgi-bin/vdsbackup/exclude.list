@@ -1,0 +1,13 @@
+/etc/.vds_property#####exclude
+/etc/ld.so.cache#####exclude
+/etc/passwd#####exclude
+/etc/shadow#####exclude
+/usr/local/apache/.htpasswd#####exclude
+/var/lib/mysql/mysql.sock#####exclude
+/var/lock/subsys/httpd#####exclude
+/var/log/httpd/fpcgisock#####exclude
+/var/run/httpd.pid#####exclude
+/var/run/mysqld/mysqld.pid#####exclude
+/usr/local/pgsql/data/postmaster.pid#####exclude
+/var/tmp/.s.PGSQL.5432#####exclude
+/var/tmp/.s.PGSQL.5432.lock#####exclude

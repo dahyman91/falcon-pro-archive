@@ -1,0 +1,95 @@
+<html>
+<head>
+<META HTTP-EQUIV="Expires" CONTENT="Mon, 06 Jan 1990 00:00:01 GMT">
+<META HTTP-EQUIV="Pragma" CONTENT="No-cache">
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=<<document_meta_charset>>">
+<base target="restore">
+<STYLE type="text/css">
+	DIV { font-family : verdana; font-size: 10px;}
+</STYLE>
+<SCRIPT>
+function DoSubmit(){
+        var frm=document.forms[0];
+        frm.submit();
+        var x=1;
+        var name='chk'+x;
+        while( frm[name]!=null ) {
+                frm[name].checked=false;
+                name='chk'+x;
+                x=x+1;
+        }
+
+}
+function SelectAll(Param) {
+        var frm=document.forms[0];
+        var x=1;
+        var name='chk'+x;
+        while( frm[name]!=null ) {
+                frm[name].checked=Param;
+                name='chk'+x;
+                x=x+1;
+        }
+}
+	function GetHeight(){
+                NetScape = (navigator.appName == "Netscape")
+                IExplore = (navigator.appName == "Microsoft Internet Explorer")
+                BrowserVer = parseInt(navigator.appVersion);
+                if (NetScape) {
+                        if (BrowserVer<5){
+                                return parseInt(self.innerHeight);
+                        }
+                        else{
+                                return parseInt(self.innerHeight);
+                        }
+                }
+                else if (IExplore) {
+                        return parseInt(document.body.clientHeight);
+                }
+        }
+</SCRIPT>
+</head>
+<body topmargin="0" leftmargin="0"  bgcolor="#F4E5B8" marginwidth="0" marginheight="0">
+<FORM name="LeftForm" onsubmit="javascript: return chkbox2list(this);" method="post" target="right" >
+<table border="0" width="100%" heeght="100%" cellspacing="0" cellpadding="0">
+<tr>
+		<script>
+		var tmp=GetHeight();
+		if (tmp<0) {tmp=0};
+		document.write("<td width=\"100%\" bgcolor=\"#FFFFFF\" valign=top height=\"" + tmp + "\">");
+		NetScape = (navigator.appName == "Netscape")
+                IExplore = (navigator.appName == "Microsoft Internet Explorer")
+                BrowserVer = parseInt(navigator.appVersion);
+                if (NetScape) {
+                        if (BrowserVer<5){
+                       		document.writeln("<table border=\"0\" width=\"100%\" cellspacing=0 cellpadding=0>"); 
+                        }
+                        else{
+                       		document.writeln("<table border=\"0\" width=\"100%\" cellspacing=0 cellpadding=0>"); 
+                        }
+                }       
+                else if (IExplore) {
+                       	document.writeln("<table border=\"1\" width=\"100%\" cellspacing=0 cellpadding=0 bordercolor=\"#F4E5B8\">"); 
+                }
+		</script>
+			<tr>
+				<td width="100%" colspan=4 bgcolor="#F4E5B8"><font face="Arial" size="2"><b>&nbsp;&nbsp;<<LOCATION>></b></font></td>
+			</tr>
+			<<PARENT>>
+			<<DIRS>>    
+			<<FILES>>
+	  	</table>
+	</td>
+</tr>
+</table>
+<<VIEW>>
+		<input type="hidden" value="<<DIR>>" name="dir">
+                <input type="hidden" value="" name="resultstr">
+                <input type="hidden" value="addindex" name="action">
+                <input type="hidden" value="<<INDEXFILE>>" name="indexname">
+                <input type="hidden" value="<<USERFILE>>" name="userfile">
+		<input type="hidden" value="<<SHOWVIEW>>" name="view">
+		<input type="hidden" value="<<LANG>>" name="lang">
+</FORM>
+</body>
+
+</html>

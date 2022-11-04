@@ -1,0 +1,88 @@
+<html>
+<head>
+<META HTTP-EQUIV="Expires" CONTENT="Mon, 06 Jan 1990 00:00:01 GMT">
+<META HTTP-EQUIV="Pragma" CONTENT="No-cache">
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=<<document_meta_charset>>">
+<LINK REL="STYLESHEET" HREF="/vdsbackup/Sphera.css" TYPE="TEXT/CSS">
+<base target="_self">
+<script>
+function GetHeight(){
+                NetScape = (navigator.appName == "Netscape")
+                IExplore = (navigator.appName == "Microsoft Internet Explorer")
+                BrowserVer = parseInt(navigator.appVersion);
+                if (NetScape) {
+                        if (BrowserVer<5){
+                                return parseInt(self.innerHeight);
+                        }
+                        else{
+                                return parseInt(self.innerHeight);
+                        }
+                }
+                else if (IExplore) {
+                        return parseInt(document.body.clientHeight);
+                }
+        }
+var in_progress=0;
+function Do_Finish(){
+        if (in_progress != 1){
+		document.form1.submit();
+		in_progress=1;
+	}
+        else{
+                alert("<<l_in_upload>>")
+        }
+}
+
+</script>
+</head>
+<body leftmargin=0 topmargin=0 marginwidth="0" marginheight="0">
+<FORM name="form1" method="post" target="_self" enctype="multipart/form-data" action="/cgi-bin/vdsbackup/upload.cgi?<<USERFILE>>-----<<LANG>>">
+
+<CENTER>
+<table width=100% border=0 cellspacing=0 height="100%">
+<tr class="MainHeader">
+        <td nowrap width=55% height="50">&nbsp;&nbsp;&nbsp;&nbsp;<font face="Verdana" size="3" color="#FFFFFF"><b><<TITLE>></b></font></td>
+        <td>&nbsp;</td>
+        <td align="right"><img src="/vdsbackup/sphera_logo_small.gif" width="38" height="46">&nbsp;&nbsp;&nbsp;&nbsp</td>
+</tr><tr>
+        <td colspan=3 bgcolor="#CBD4F1" height="20">&nbsp;&nbsp;&nbsp;&nbsp;<a  class="tabFocus" style="text-align: left;"><<l_upload_choose>></a></td>
+</tr><tr>
+	<script>
+        var tmp=GetHeight()-10-10-50-20-40;
+	if (tmp<0) {tmp=0};
+        document.write("<td align=center width=100% colspan=3 valign=center height=\"" + tmp + "\">");
+        </script>
+		<table border="0" width="98%" cellspacing="1" cellpadding="4">
+		<tr>
+			<td align="center">
+				<table border=1 cellspacing=0 cellpadding=20><tr><td>
+				<font face="Verdana" size="2"><<l_upload_filename>>:<BR><BR>
+				<i><<BACKUPFILE>>.tgz</i></td></tr></table><BR><BR>
+				<B><a class="BrownFont"><input type="file" name="filename"></a></b>
+			</td>
+		</tr>
+		<tr><td height="100%" bgcolor="#FFFFFF" colspan=5>&nbsp;</td></tr>
+		</table>
+
+	</td>
+</tr>
+	<tr><td colspan=3 bgcolor="#FFFFFF" height="40">	
+		<table width=100% border=0 cellspacing=0>
+		<tr>
+		        <td align="right" width="70%"><a href="/cgi-bin/vdsbackup/vdsbackup.cgi?action=showframeindex&indexname=<<BACKUPFILE>>&userfile=<<USERFILE>>&lang=<<LANG>>" target="_top"><img src="/vdsbackup/english/back.gif" border=0></td>
+
+		        <td align="right" width="20%">
+			<A href="#" onClick='Do_Finish();return false;' ><IMG SRC="/vdsbackup/english/restore.gif" border=0></A>
+		        <td>&nbsp;</td>
+		</tr></table>
+	</td></tr>
+
+
+</tr></table>
+<!input type="hidden" name="action" value="showframeindex">
+		<!input type="hidden" value="<<DIR>>" name="dir">
+                <!input type="hidden" value="<<INDEXFILE>>" name="indexname">
+</FORM>
+
+</body>
+</html>

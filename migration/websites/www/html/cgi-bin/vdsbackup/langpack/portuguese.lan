@@ -1,0 +1,118 @@
+document_meta_charset#ISO-8859-1
+l_all_files#Todos os ficheiros
+l_not_aval#N/A
+l_back_pwd#Proteger cópia de segurança com palavra-passe
+l_back_to_start#Voltar a VDS-Cópias de segurança
+l_backup_all#Todos
+l_backup_all_files#Todos os ficheiros
+l_backup_backup_title#Efectuar cópias de segurança do título
+l_backup_content_files_only#Apenas ficheiros de conteúdo
+l_backup_data_type#Seleccionar tipo de dados
+l_backup_days_ago#dias atrás
+l_backup_directory#Directório
+l_backup_email_mailboxes_only#Apenas caixas de correio electrónico
+l_backup_file#Ficheiro de cópia de segurança
+l_backup_last_modified#Ficheiro modificado na última
+l_backup_select_data_range#Seleccionar intervalo de datas
+l_backup_total_size#Tamanho total de ficheiros para efectuar cópias de
+l_backup_type#Tipo de cópia de segurança
+l_backup_virtual_user#Utilizador virtual (FTP + Correio electrónico)
+l_bad_cgi_param#Parâmetro CGI ilegal
+l_choose_backup_name#Efectuar cópias de segurança do nome
+l_choose_select#Seleccionar uma cópia de segurança a partir da qual
+l_content_files#Ficheiros de conteúdo
+l_date_create#Data de criação
+l_default_backup#Efectuar cópias de segurança de ficheiros e de dire
+l_default_language#Seleccionar Idioma predefinido
+l_default_restore#Restaurar ficheiros e directórios
+l_default_select#Seleccionar a operação que pretende efectuar
+l_delete_entry#Eliminar entrada
+l_delete_index#Tem a certeza de que pretende eliminar permanentemente este item ?
+l_dir#dir
+l_dir_empty#O nome do directório não pode estar em branco
+l_directory#Directório
+l_directory_view#Vista do directório
+l_email_files#Ficheiros de correio electrónico
+l_er_back_type#O tipo de cópia de segurança não é suportado
+l_error#Ocorreu um erro.
+l_error_error#Erro
+l_error_exclude#Não é possível abrir a lista de ficheiros excluídos
+l_error_file_restore#Restauro do ficheiro incompleto
+l_error_retore#Processo de restauro incompleto
+l_error_search#Falha na pesquisa
+l_error_title#Erro
+l_error_unlink#não é possível anular a ligação do ficheiro
+l_error_unlock#não é possível desbloquear o ficheiro bloqueado
+l_illigal_value#O campo do formulário contém um valor inválido
+l_in_upload#Uploap em curso. Por favor, aguarde...
+l_index_use#O nome do índice já se encontra em utilização, Tent
+l_link_delete#Eliminar
+l_list_view#Vista da lista
+l_location#Local
+l_main_title#Cópias de segurança e restauro do site
+l_modify#Modificado
+l_must_pass#*
+l_name#Nome
+l_no_action#Execução CGI inválida
+l_no_backup_type#Seleccionar tipo de cópia de segurança
+l_no_cgi_index#Seleccionar ficheiro para efectuar upload
+l_no_comp#antes da compressão
+l_no_dir#Não é possível aceder ao directório
+l_no_dir_select#Seleccionar directório para efectuar cópia de segur
+l_no_dir_vuser#Não é possível aceder ao directório inicial para o
+l_no_file#Não é possível localizar o ficheiro/os ficheiros
+l_no_file_find#Não é possível localizar o ficheiro
+l_no_file_open#Não é possível abrir o ficheiro
+l_no_file_restor#Falha no restauro do ficheiro
+l_no_files#Não existem ficheiros
+l_no_freeze#Não é possível congelar VDS
+l_no_freeze_action#O método de congelamento não é suportado
+l_no_html_out#Não é possível analisar o modelo HTML
+l_no_index_dir#Não é possível analisar o directório de índice
+l_no_index_files#Não existem ficheiros de índice
+l_no_lock#Não é possível bloquear o ficheiro
+l_no_stop_services#Não é possível interromper os serviços VDS
+l_no_uid#Não é possível localizar a ID de utilizador para o
+l_no_vusers#Não existem utilizadores
+l_no_write_file#Não é possível escrever no ficheiro
+l_pass_one#Palavra-passe
+l_pass_two#Escrever novamente
+l_password_miss#O campo Palavra-passe está em branco
+l_password_retype#Os campos Palavra-passe não correspondem
+l_pwd_backup_name#Introduza a palavra-passe para o ficheiro de cópia
+l_report_restore_results#Restaurar resultados
+l_report_results#Resultados
+l_restore_ok#A execução do restauro foi concluída com êxito
+l_select_files_restore#Seleccionar ficheiros para restaurar.
+l_select_vuser#Seleccionar Utilizador virtual
+l_session_exp#A sua sessão expirou
+l_size#Tamanho
+l_tar_stream_error#Não é possível criar sequência de cópia de seguranç
+l_top_available_files#Ficheiros disponíveis
+l_top_backup_name#Efectuar cópias de segurança do nome
+l_top_backup_type#Tipo de cópia de segurança
+l_top_leftbottom_select_all#Seleccionar todos
+l_top_leftbottom_unselect_all#Limpar todos
+l_top_lefttop_directory#Vista do directório
+l_top_lefttop_list_view#Vista da lista
+l_top_lefttop_tree#Vista da árvore
+l_top_rightbottom_select_all#Seleccionar todos
+l_top_rightbottom_unselect_all#Limpar todos
+l_top_righttop_directory#Vista do directório
+l_top_righttop_list_view#Vista da lista
+l_top_righttop_tree#Vista da árvore
+l_top_selected_files#Ficheiros seleccionados
+l_tree_view#Vista da árvore
+l_upload_choose#Seleccionar arquivo de cópias de segurança a partir
+l_upload_filename#Transferir o seguinte nome de ficheiro
+l_v_user#Utilizador virtual
+l_wait_backup_download#Efectuar cópias de segurança do download
+l_wait_cancel#É possível clicar no botão "Cancelar" na janela de
+l_wait_frozen#O site será congelado até a realização de cópias de
+l_wait_please_wait#Aguarde alguns momentos enquanto o processo de cópi
+l_while_using#O nome do ficheiro de cópia de segurança tem de ser
+l_wrong_backupfile#Nome do ficheiro de cópia de segurança incorrecto
+l_wrong_pwd#Palavra-passe incorrecta para o ficheiro de cópia d
+l_zero_files_size#Ficheiro de tamanho zero. Verificar quota e permiss
+l_zero_size_arhive#Arquivo de tamanho zero
+language_file_title#English US

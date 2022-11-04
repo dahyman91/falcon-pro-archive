@@ -1,0 +1,543 @@
+<style type="text/css">     
+<!--
+A:link  {
+	text-decoration : underline;
+}
+	
+A:visited  {
+	text-decoration : underline;
+}
+	
+A:active  {
+	text-decoration : underline;
+}
+	
+A:hover  {
+	color : red;
+}
+/*
+BODY {
+	background: #FFFFFF;
+	scrollbar-3d-light-color:#999999;
+	scrollbar-arrow-color: #000066;
+	scrollbar-base-color:#C0C0C0;
+	scrollbar-dark-shadow-color:#333333;
+	scrollbar-face-color:#D2D2D2;
+	scrollbar-highlight-color:#E0E0E0;
+	scrollbar-shadow-color:#C0C0C0;
+
+}
+*/
+INPUT{
+	color:#000044;
+	/*background:#FFFFFF;*/
+}
+
+TR.MainHeader{
+	background : #424B85;
+}
+
+TR.tabA{
+	text-decoration : none;
+	background : #9AA7DF;
+	text-align : center;
+}
+TR.tabFocusA{
+	text-decoration : none;
+	background : #CBD4F1;
+	text-align : center;
+}
+TD.Header1{
+	text-decoration : none;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color: #5269AD;
+	font-size : 14px;
+	font-weight : bold;
+}
+TD.label1{
+	text-decoration : none;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	background-color: #FFFFFF;
+	color: #424984;
+	font-size : 11px;
+	font-weight : bold;
+}
+TD.label2{
+	text-decoration : none;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color: #424984;
+	background-color: #FFFFFF;
+	font-size : 11px;
+}
+TD.labeldisabled{
+	text-decoration : none;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	background-color: #FFFFFF;
+	color: gray;
+	font-size : 11px;
+	font-weight : normal;
+}
+A.BlueHeaders{
+	text-decoration : none;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color: #424B85;
+	font-size : 11px;
+	font-weight : bold;	
+}
+A.BlueContent{
+	text-decoration : none;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color: #424B85;
+	font-size : 11px;
+	font-weight : none;	
+}
+
+A.BrownFont{
+	text-decoration : none;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color: #827452;
+	font-size : 13px;
+	font-weight : none;	
+}
+
+A.tab{
+	text-decoration : none;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 11px;
+	text-align : center;
+	color : #5261A5;
+	font-weight : bold;
+}
+A:visited.tab{
+	text-decoration : none;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 11px;
+	text-align : center;
+	color : #5261A5;
+	font-weight : bold;
+}
+A:hover.tab{
+	text-decoration : none;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 11px;
+	text-align : center;
+	color : #000000;
+	font-weight : bold;
+}
+A.tabFocus{
+	text-decoration : none;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 11px;
+	text-align : center;
+	color : #293039;
+	font-weight : bold;
+}
+
+A.tab2{
+	text-decoration : none;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 11px;
+	/*text-align : center;*/
+	color : #0329FE;
+	font-weight : bold;
+}
+
+
+INPUT.aaa{
+	font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color:#000080;
+	font-size:11px;
+	z-index:21;
+}
+A.aaa{
+	font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color:#000080;
+	font-size:11px;
+	z-index:21;
+}
+TD.bbb{
+	z-index:6;
+	layer-background-color:#FFFFFF;
+	visibility:visibale;
+}
+DIV.divv{
+	position:absolute; 
+	left:300; 
+	top:77;
+	visibility:hidden;
+	layer-background-color:#FFFFFF;
+	z-index:6;
+}
+.License{
+	background : #EEEEEE;
+	color:#000033;
+	text-decoration : none;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size:12px;
+    font-weight : none;
+}
+A.BlackLink{
+	text-decoration : none;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 11px;
+	color : #000033;
+	font-weight : bold;
+}
+A:visited.BlackLink{
+	text-decoration : none;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 11px;
+	color : #000033;
+	font-weight : bold;
+}
+A:hover.BlackLink{
+	text-decoration : none;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 11px;
+	color : #660000;
+	font-weight : bold;
+}
+A.BlackLinkA{
+	text-decoration : none;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 11px;
+	color : #000033;
+	font-weight : none;
+}
+A:visited.BlackLinkA{
+	text-decoration : none;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 11px;
+	color : #000033;
+	font-weight : none;
+}
+A:hover.BlackLinkA{
+	text-decoration : none;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 11px;
+	color : #660000;
+	font-weight : none;
+}
+
+A.BlueTextA{
+	text-decoration : none;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 11px;
+	text-align : center;
+	color : #5261A5;
+	font-weight : bold;
+}
+
+A.smallBlueTextA{
+	text-decoration : none;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 9px;
+	text-align : center;
+	color : #5261A5;
+	font-weight : bold;
+}
+
+A.BlueLinkA{
+	text-decoration : underline;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 11px;
+	text-align : center;
+	color : #5261A5;
+	font-weight : bold;
+}
+A:visited.BlueLinkA{
+	text-decoration : underline;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 11px;
+	text-align : center;
+	color : #5261A5;
+	font-weight : bold;
+}
+A:hover.BlueLinkA{
+	text-decoration : underline;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 11px;
+	text-align : center;
+	color : #000000;
+	font-weight : bold;
+}
+
+A.BlueLinkB{
+	text-decoration : underline;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 11px;
+	color : #5261A5;
+	font-weight : bold;
+}
+A:visited.BlueLinkB{
+	text-decoration : underline;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 11px;
+	color : #5261A5;
+	font-weight : bold;
+}
+A:hover.BlueLinkB{
+	text-decoration : underline;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 11px;
+	color : #000000;
+	font-weight : bold;
+}
+
+#BasicDiv{
+	position:absolute;
+	left:140;
+	top:70;
+	width:100%;
+	visibility:hidden;
+	z-Index:0;
+}
+#WizardDiv{
+	 visibility:hidden;
+	 position:absolute;
+	 left:170;
+	 top:80;
+	 layer-background-color:#FFFFFF;
+	 z-index:1;
+}
+#NavBar{
+	visibility:visibale;
+	position:absolute;
+	width:136;
+	height:100%;
+	left:0;
+	top:65;
+	z-index:-1;
+	background-color:#88A1DB;
+	layer-background-color:#88A1DB;
+}
+TR.plugin_installed_info{
+    background-color: #ffffff;
+
+}
+
+A.LogOut{
+	text-decoration : underline;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 11px;
+	color : #FFFFFF;
+	font-weight : bold;
+}
+A:visited.LogOut{
+	text-decoration : underline;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 11px;
+	color : #FFFFFF;
+	font-weight : bold;
+}
+A:hover.LogOut{
+	text-decoration : underline;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 11px;
+	color : #C0C0C0;
+	font-weight : bold;
+}
+A.BlackText{
+	text-decoration : none;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 15px;
+	color : #000000;
+	font-weight : bold;
+}
+A.BaseText{
+	text-decoration : none;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 15px;
+	color : #011445;
+	font-weight : none;
+}
+A.WhiteText{
+	text-decoration : none;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 15px;
+	color : #FFFFFF;
+	font-weight : bold;
+}
+A.BaseText2{
+	text-decoration : none;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 21px;
+	color : #000080;
+	font-weight : bold;
+}
+A.BaseText3{
+	text-decoration : none;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 11px;
+	color : #800000;
+	font-weight : none;
+}
+A.BaseText4{
+	text-decoration : none;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 11px;
+	color : #414B83;
+	font-weight : none;
+}
+A.BaseText5{
+	text-decoration : none;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 11px;
+	color : #4E64A2;
+	font-weight : bold;
+}
+
+A.errormes{
+	text-decoration : none;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 15px;
+	color : #0000cc;
+	font-weight : bold;
+}
+A.moreinfo{
+	text-decoration : none;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 15px;
+	color : #011754;
+	font-weight : none;
+}
+#clienterror{
+	position:absolute;
+	left:10;
+	top:45;
+}
+#clientcancel{
+	position:absolute;
+	left:190;
+	top:130;
+	visibility:hidden;
+}
+#clientok{
+	position:absolute;
+	left:160;
+	top:130;
+}
+#clientok1{
+	position:absolute;
+	left:120;
+	top:130;
+	visibility:hidden;
+}
+#clientok2{
+	position:absolute;
+	left:120;
+	top:130;
+	visibility:hidden;
+}
+#clientok3{
+	position:absolute;
+	left:120;
+	top:130;
+	visibility:hidden;
+}
+div.pleasewaitson{
+	position:absolute;
+	left:210;
+	top:77;
+	layer-background-color:#FFFFFF;
+	z-index:12;
+}
+
+TD.HeaderInfoTD{
+	text-decoration : none;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color: #424B85;
+	font-size : 11px;
+	font-weight : bold;
+	background-color:#CBD4F1;
+}
+TD.ContentInfoTD{
+	text-decoration : none;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color: #424B85;
+	font-size : 11px;
+	font-weight : none;
+	/*background-color:#CBD4F1;*/
+}
+TABLE.InnerPluginsContent{
+	background:#FFFFFF;
+}
+TABLE.InnerPluginsContent_Border{
+	background:#CBD4F1;
+}
+TR.ErrorTitleLine{
+	text-decoration : none;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color: #424B85;
+	font-size : 11px;
+	font-weight : none;
+	background-color:#424B85;
+}
+TD.ErrorInsidePanelBorder{
+	background-color:#88A1DB;
+}
+TR.ErrorInsidePanel{
+	/*background-color:#cc6600;*/
+	background-color:#CBD4F1;
+}
+TR.ErrorInsidePanelContent{
+	text-decoration : none;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 15px;
+	color : #0000cc;
+	font-weight : bold;
+	background-color:#EBECFB;
+}
+TABLE.ButtonBorder{
+	background-color:#88A1DB;
+}
+TABLE.ButtonContent{
+	background-color:#E8ECFB;
+}
+A.ButtonLink{
+	text-decoration : none;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 11px;
+	color : #4E64A2;
+	font-weight : bold;
+}
+A:visited.ButtonLink{
+	text-decoration : none;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 11px;
+	color : #4E64A2;
+	font-weight : bold;
+}
+A:hover.ButtonLink{
+	text-decoration : none;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 11px;
+	color : #660000;
+	font-weight : bold;
+}
+A.BlueLinkC{
+	text-decoration : none;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 11px;
+	text-align : center;
+	color : #0033ff;
+	font-weight : bold;
+}
+A:visited.BlueLinkC{
+	text-decoration : none;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 11px;
+	text-align : center;
+	color : #0033ff;
+	font-weight : bold;
+}
+A:hover.BlueLinkC{
+	text-decoration : none;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 11px;
+	text-align : center;
+	color : #99ccff;
+	font-weight : bold;
+}
+-->	  
+</style>

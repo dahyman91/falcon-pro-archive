@@ -1,0 +1,1023 @@
+AWSTATS DATA FILE 7.7 (build 20180105)
+# If you remove this file, all statistics for date 202103 will be lost/reset.
+# Last config file used to build this data file was /home/falconpr/tmp/awstats/awstats.falcon-pro.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2011                
+POS_TIME 2689                
+POS_VISITOR 22588               
+POS_DAY 30334               
+POS_DOMAIN 3423                
+POS_LOGIN 3919                
+POS_ROBOT 4074                
+POS_WORMS 5276                
+POS_EMAILSENDER 5407                
+POS_EMAILRECEIVER 5550                
+POS_SESSION 31064               
+POS_SIDER 31232               
+POS_FILETYPES 5685                
+POS_DOWNLOADS 5803                
+POS_OS 5851                
+POS_BROWSER 6108                
+POS_SCREENSIZE 7719                
+POS_UNKNOWNREFERER 7793                
+POS_UNKNOWNREFERERBROWSER 8972                
+POS_ORIGIN 9912                
+POS_SEREFERRALS 10050               
+POS_PAGEREFS 10228               
+POS_SEARCHWORDS 10534               
+POS_KEYWORDS 10702               
+POS_MISC 2353                
+POS_ERRORS 10777               
+POS_CLUSTER 3775                
+POS_SIDER_404 10875               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20210401000829 28 4456 10169816212255
+FirstTime 20210301005859
+LastTime 20210331174509
+LastUpdate 20210401061615 28 0 27 0 0
+TotalVisits 245                 
+TotalUnique 206                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 206                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+RealPlayerSupport 0 0 0
+JavascriptDisabled 0 0 0
+DirectorSupport 0 0 0
+JavaEnabled 0 0 0
+AddToFavourites 0 0 0
+FlashSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+PDFSupport 0 0 0
+QuickTimeSupport 0 0 0
+TotalMisc 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 8 8 6512 33 44 22792
+1 33 33 26862 40 52 23606
+2 32 32 26048 21 63 9768
+3 9 9 7326 29 45 13024
+4 6 6 4884 27 42 16139
+5 5 5 8813 30 43 11382
+6 5 5 4070 31 46 68426
+7 5 5 4070 32 71 16668
+8 18 18 14652 49 64 15751
+9 15 15 30406 42 48 11396
+10 14 14 9768 71 78 13309
+11 11 11 50800 18 27 49986
+12 13 13 10582 15 25 21205
+13 6 6 4884 36 56 53565
+14 14 14 10392 186 337 7326
+15 11 11 888167 36 45 12495
+16 18 18 19007 42 54 10970
+17 11 11 8954 57 73 60853
+18 9 9 7326 31 42 35563
+19 8 8 5708 54 73 69096
+20 16 17 142633 38 50 20350
+21 12 12 9768 57 70 60659
+22 5 5 46730 26 33 105103
+23 4 4 50271 30 36 62869
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 23
+us 191 192 1173727
+cn 18 18 15276
+de 12 12 61914
+in 11 11 55155
+ru 9 9 49948
+fr 8 8 6512
+gb 7 7 5698
+zz 5 5 4070
+ca 5 5 4070
+it 4 4 3256
+pt 3 3 2442
+br 3 3 2442
+gr 2 2 1628
+ua 1 1 5169
+at 1 1 814
+ro 1 1 814
+sa 1 1 814
+iq 1 1 814
+za 1 1 814
+sc 1 1 814
+se 1 1 814
+ir 1 1 814
+lt 1 1 814
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 29
+Sogou[\x20]web[\x20]spider/ 125 101750 20210331214256 0
+bot[\s_+:,\.\;\/\\-] 69 151360 20210331173742 0
+AhrefsBot/ 63 50880 20210331144616 0
+360Spider 36 29304 20210330172522 0
+Googlebot/ 24 11396 20210331192206 0
+MJ12bot/ 20 95708 20210331004936 0
+YandexBot/ 18 18605 20210328075224 0
+crawl 14 201008 20210329220946 0
+bingbot/ 13 14408 20210328213412 0
+SeznamBot/ 8 11966 20210330152858 0
+spider 5 4070 20210311092359 0
+SemrushBot/ 4 8387 20210328211132 0
+oBot/ 4 3256 20210326175244 0
+SurdotlyBot/ 3 2442 20210328201324 0
+baidu 2 1628 20210301190444 0
+Mail\.RU_Bot/ 2 1628 20210330060439 0
+Applebot/ 2 6371 20210326073353 0
+linkdexbot/ 2 20097 20210304182459 0
+link 2 1628 20210329063507 0
+java 1 814 20210328221705 0
+Baiduspider/ 1 814 20210325081539 0
+KomodiaBot/ 1 814 20210303121321 0
+(firefox/)([0-9]\.|[0-1][0]\.) 1 0 20210321074212 0
+BLEXBot/ 1 814 20210318022547 0
+YisouSpider 1 814 20210301075516 0
+no_user_agent 1 814 20210306122058 0
+MegaIndex\.ru/ 1 814 20210325212008 0
+Yahoo![\x20]Slurp 1 814 20210310014408 0
+Googlebot\-Image/ 1 46641 20210315133558 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 3
+html 287 388013 0 0
+swf 1 879639 0 0
+jpg 1 130981 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 15
+macosx9 8 8
+winxp 4 4
+win8.1 4 4
+macosx10 4 4
+winlong 3 3
+linuxandroid 4 4
+macosx8 1 1
+macosx12 6 6
+linux 51 51
+macosx 11 11
+ios_iphone 4 4
+macosx5 1 1
+win7 10 10
+Unknown 55 55
+win10 123 122
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 77
+firefox81.0 4 4
+safari5.0.4 1 1
+chrome45.0.2454.94 1 1
+chrome87.0.4280.67 1 1
+chrome36.0.1944.0 1 1
+firefox15.0.1 1 1
+firefox82.0 4 4
+msie10.0 1 1
+chrome81.0.4044.92 1 1
+chrome86.0.4240.198 1 1
+chrome83.0.4103.34 1 1
+chrome36.0.1985.125 5 5
+chrome40.0.2214.93 1 1
+chrome73.0.3683.86 1 1
+chrome83.0.4103.14 1 1
+firefox66.0 1 1
+chrome80.0.3987.116 1 1
+chrome87.0.4280.88 1 1
+opera74.0.3911.160 2 2
+android 1 1
+chrome85.0.4183.121 4 4
+chrome71.0.3578.98 1 1
+chrome63.0.3239.132 2 2
+msie9.0 2 2
+firefox72.0 4 4
+firefox35.0 1 1
+chrome88.0.4324.150 1 1
+chrome67.0.3396.87 1 1
+firefox68.0 1 1
+chrome19.0.1042.0 1 1
+msie8.0 1 1
+chrome84.0.4147.105 1 1
+chrome34.0.1847.137 1 1
+chrome83.0.4098.0 1 1
+chrome66.0.3359.181 31 31
+chrome83.0.4086.0 1 1
+edge17 1 1
+opera62.0.3331.99 3 3
+Unknown 49 49
+mozilla 11 11
+safari 2 2
+firefox57.0 1 1
+chrome58.0.3029.110 4 4
+chrome83.0.4087.0 1 1
+chrome26.0.1410.65 1 1
+safari10.0 3 3
+chrome74.0.3729.131 1 1
+chrome83.0.4103.97 20 20
+chrome83.0.4103.106 2 2
+firefox59.0 2 2
+chrome86.0.4240.111 1 1
+chrome89.0.4389.90 6 5
+chrome35.0.1916.47 2 2
+firefox40.0 1 1
+msie7.0 1 1
+chrome68.0.3440.106 2 2
+chrome88.0.4240.193 3 3
+msie6.0 2 2
+chrome78.0.3904.108 27 27
+firefox18.0 1 1
+chrome75.0.3770.142 1 1
+chrome74.0.3729.169 4 4
+chrome75.0.3770.100 3 3
+firefox56.0 1 1
+chrome80.0.3987.122 1 1
+chrome81.0.4044.129 7 7
+chrome41.0.2228.0 4 4
+opera69.0.3686.7 1 1
+chrome85.0.4183.102 6 6
+chrome79.0.3945.79 12 12
+opera8.50 2 2
+chrome60.0.3112.107 1 1
+chrome86.0.4240.75 6 6
+firefox45.0 1 1
+chrome73.0.3683.90 1 1
+firefox62.0 5 5
+safari14.0.3 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 15
+Expanse,_a_Palo_Alto_Networks_company,_searches_across_the_global_IPv4_space_multiple_times_per_day_to_identify_customers&#39;_presences_on_the_Internet._If_you_would_like_to_be_excluded_from_our_scans,_please_send_IP_addresses/domains_to:_scaninfo@paloaltonetworks.com 20210331052519
+python-requests/2.25.1 20210329213904
+Magic_Browser 20210306184021
+The_Knowledge_AI 20210323082646
+Mozilla/5.0_(compatible;_ips-agent) 20210308151759
+python-requests/2.24.0 20210326102109
+Mozilla/5.0_(compatible;_Dataprovider.com) 20210328200730
+Re-re_Studio_(_http://vip0.ru/) 20210330052859
+Expanse_indexes_the_network_perimeters_of_our_customers._If_you_have_any_questions_or_concerns,_please_reach_out_to:_scaninfo@expanseinc.com 20210326200407
+NetSystemsResearch_studies_the_availability_of_various_services_across_the_internet._Our_website_is_netsystemsresearch.com 20210319195320
+IDBTE4M_CODE87 20210313221931
+Mozilla/5.0_(compatible;_NetcraftSurveyAgent/1.0;__info@netcraft.com) 20210331023555
+GRequests/0.10 20210331003953
+Mozilla/5.0_Firefox/35.0 20210322211851
+Go-http-client/1.1 20210326020505
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 11
+The_Knowledge_AI 20210323082646
+Magic_Browser 20210306184021
+python-requests/2.25.1 20210329213904
+Expanse,_a_Palo_Alto_Networks_company,_searches_across_the_global_IPv4_space_multiple_times_per_day_to_identify_customers&#39;_presences_on_the_Internet._If_you_would_like_to_be_excluded_from_our_scans,_please_send_IP_addresses/domains_to:_scaninfo@paloaltonetworks.com 20210331052519
+python-requests/2.24.0 20210326102109
+IDBTE4M_CODE87 20210313221931
+Re-re_Studio_(_http://vip0.ru/) 20210330052859
+Go-http-client/1.1 20210326020505
+NetSystemsResearch_studies_the_availability_of_various_services_across_the_internet._Our_website_is_netsystemsresearch.com 20210319195320
+Expanse_indexes_the_network_perimeters_of_our_customers._If_you_have_any_questions_or_concerns,_please_reach_out_to:_scaninfo@expanseinc.com 20210326200407
+GRequests/0.10 20210331003953
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 257 257
+From1 1 1
+From2 6 6
+From3 13 13
+From4 11 12
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+www_google_com 5 5
+google_com 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 6
+http://www.ohbabyultrasound.com 4 4
+http://kino-rf.ru 3 3
+http://zvideos.ru 2 2
+http://prorab-sar.ru 2 2
+http://nilso.ispac.org 1 1
+http://pnjcd.eets.net 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 1
+1477472031902 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 1
+1477472031902 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+404 1046 0
+206 5 3256
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 372
+/lib/phpunit/phpunit/src/Util/PHP/eval-stdin.php 3 -
+/base/login/login.php 1 -
+/e/master/login.aspx 1 -
+/fckeditor.js 1 -
+/wp-content 1 -
+/news/wp-includes/wlwmanifest.xml 11 -
+/Fckeditor/editor/ 1 http://www.baidu.com/
+/bencandy.php 1 -
+/app/images/login/logo.png 1 -
+/customdir/images/english_logo.jpg 1 -
+/eams/static/scripts/grade/course/input.js 1 -
+/img/pic/login/top-left.jpg 1 -
+/admin/template/article_more/config.htm 1 -
+/old/wp-admin/ 2 http://falcon-pro.com/
+/.git/config 1 -
+/FCK/fckeditor.js 1 -
+/admin/fckeditor/editor/ 1 http://www.baidu.com/
+/__media__/js/netsoltrademark.php 3 -
+/ycportal/js/wbTextBox/showimg.jsp 1 -
+/bbs/archive/archive.css 1 -
+/admin/editor/ 1 -
+/jcms/index_jcms.jsp 1 -
+/issmall/ 1 -
+/wp-admin/upgrade.php 1 -
+/Images/login/mainlogo.gif 1 -
+/bbs/forum.php 1 -
+/docs/ 1 -
+/admin/login.aspx 1 -
+/Ntalker/lawfirm.aspx 1 -
+/admin/admin_login.php 1 -
+/coremail/common/help/images/helplogo_zh.gif 1 -
+/stylesheet.css 1 -
+/clientscript/vbulletin_ajax_htmlloader.js 1 -
+/dialog/dialog.js 1 -
+/web2/login_template/1.files/Logo1.jpg 1 -
+/data/admin/allowurl.txt 2 -
+/was/main.html 1 -
+/upload/resume/ 1 -
+/blog/.env 3 -
+/wp-content/db-cache.php 1 -
+/bbs/admin/login.php 1 -
+/admin 1 -
+/wp-content/plugins/cloudflare/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/Admin/Common/HelpLinks.xml 1 -
+/bbs/rss.aspx 1 -
+/API/DW/Dwplugin/SystemLabel/SiteConfig.htm 1 -
+/wordpress/wp-admin/ 3 http://falcon-pro.com/
+/gank.php.PhP 1 http://simplesite.com
+/cgi/index.cgi 1 -
+/ckeditor/ckeditor.js 1 -
+/include/dialog/config.php 1 -
+/Help 1 -
+/common/help/images/helplogo_zh.gif 1 -
+/doku.php 1 -
+/blog/wp-login.php 10 -
+/bbs/uc_server/control/admin/db.php 1 -
+/archive/archive.css 1 -
+/checkout 1 -
+/wp-content/plugins/dzs-videogallery/class_parts/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/datacenter/downloadApp/showDownload.do 1 -
+/phpmyadmin/docs.css 1 -
+/apps/admin/_static/image/login_box_bg.png 1 -
+/images/2_11.gif 1 -
+/template/home.htm 1 -
+/wp-includes/css/css.php 5 -
+/wp-includes/fonts/css.php 5 -
+/nobody/mobile.htm 1 -
+/back/scripts/jspxcms_choose.js 1 -
+/bbs/tools/rss.aspx 1 -
+/smart-php/.env 1 -
+/console/js/CTRSRequestParam.js 1 -
+/resume/ 1 -
+/ckfinder/ckfinder.html 1 -
+/plugin.php 1 -
+/common/help/images/helplogo.gif 1 -
+/Scripts/jquery/maticsoft.jquery.min.js 1 -
+/wp-content/plugins/apikey/apikey.php 1 -
+/administrator/manifests/files/joomla.xml 1 -
+/plus/rssmap.html 1 -
+/API/DW/Dwplugin/TemplateManage/login_site.htm 1 -
+/plug/publish 1 -
+/images/login_Name.jpg 1 -
+/logo/logo_jw.png 1 -
+/API/DW/Dwplugin/TemplateManage/manage_site.htm 1 -
+/api/.env 3 -
+/helpnew/faq/faq_simple_zh_CN.jsp 1 -
+/whir_system/login.aspx 1 -
+/extern.php 1 -
+/ymail/images/index_r1_c4.jpg 1 -
+/images/login/eyoumail.gif 1 -
+/tpl/login/user/images/login_bg_1.jpg 1 -
+/template/1/bluewise/_files/jspxcms.css 1 -
+/media/com_hikashop/js/hikashop.js 1 -
+/images/hwem.css 1 -
+/admin/js/IdSUtil.js 1 -
+/member/space/company/info.txt 1 -
+/_ignition/execute-solution 1 -
+/vendor/phpunit/Util/PHP/eval-stdin.php 4 -
+/app/login.jsp 1 -
+/images/logo_88x31.gif 1 -
+/imagesschool/style1/flash2.jpg 1 -
+/bbs/clientscript/vbulletin_ajax_htmlloader.js 1 -
+/lib/phpunit/Util/PHP/eval-stdin.php 2 -
+/admin/SouthidcEditor/ewebeditor.asp 1 -
+/RPC2 2 -
+/admin/ 2 -
+/skin/frontend/default/modern/css/styles.css 1 -
+/apple-touch-icon.png 4 -
+/feed.asp 1 -
+/readme.html 1 -
+/Wq_StranJF.js 1 -
+/pub/skins/pmwiki/pmwiki.css 1 -
+/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/advfile/ad12.js 1 -
+/Include/EcsServerApi.js 1 -
+/phpunit/Util/PHP/eval-stdin.php 2 -
+/phpunit/phpunit/Util/PHP/eval-stdin.php 2 -
+/Search.html 1 -
+/lib/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/default/css/em_css.css 1 -
+/vendor/phpunit/phpunit/LICENSE 2 -
+/includes/general.js 1 -
+/plus/heightsearch.php 1 -
+/fckeditor/editor/ 1 http://www.baidu.com/
+/2020/wp-includes/wlwmanifest.xml 1 -
+/help/ch_gb/images/help-title.gif 1 -
+/wp-content/plugins/jekyll-exporter/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/forums/list.page 1 -
+/backup/wp-admin/ 1 http://falcon-pro.com/
+/lang/en.js 1 -
+/public/.env 3 -
+/Public/Admin/Images/login_main_bg.jpg 1 -
+/ads.txt 33 -
+/plugins/filemanager/filemanager/js 1 -
+/images/default/post_bt.gif 1 -
+/admin/SouthidcEditor/ButtonImage/standard/componentmenu.gif 1 -
+/app/images/login/toplogo.gif 1 -
+/include/dedeajax2.js 1 -
+/website/wp-includes/wlwmanifest.xml 11 -
+/admin/editor/editor/ 1 http://www.baidu.com/
+/phpmyadmin/ 1 -
+/upload/ 1 -
+/admin/.env 3 -
+/humans.txt 2 -
+/vendor/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/public/FCKeditor/editor/ 1 http://www.baidu.com/
+/careers/ 1 -
+/default/images/logo.gif 1 -
+/lib/phpunit/phpunit/Util/PHP/eval-stdin.php 2 -
+/wp-content/ 4 -
+/ids/admin/login.jsp 1 -
+/wp-content/plugins/super-forms/countries.txt 1 -
+/User/Login.aspx 1 -
+/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 3 -
+/web/wp-includes/wlwmanifest.xml 11 -
+/weblog/ 1 -
+/api/api_user.xml 1 -
+/xmlrp.php 2 www.google.com
+/include/install_ocx.aspx 1 -
+/e/data/js/ajax.js 1 -
+/login/Jeecms.do 1 -
+/tools/rss.aspx 1 -
+/wp-admin/admin-ajax.php 2 -
+/images/logo_product-cml.png 1 -
+/admin.php 2 -
+/wp/wp-includes/wlwmanifest.xml 12 -
+/plus/sitemap.html 1 -
+/bbs/rss.php 1 -
+/License.txt 1 -
+/wp2/wp-includes/wlwmanifest.xml 11 -
+/app/js/source/wcmlib/WCMConstants.js 1 -
+/admin/FCKeditor/editor/ 1 http://www.baidu.com/
+/asp.net/README.txt 1 -
+/wp-content/plugins/ioptimizations/IOptimizes.php 1 -
+/images/login/icon-up.gif 1 -
+/wcm/ 1 -
+/public/fckeditor/editor/ 1 http://www.baidu.com/
+/install 1 -
+/console/js/CWCMDialogHead.js 1 -
+/inc/rsd.php 1 -
+/blog/ 2 -
+/editor/fckeditor.js 1 -
+/bbs/public/js/ipb.js 1 -
+/wordpress/wp-includes/wlwmanifest.xml 12 -
+/kindeditor.js 1 -
+/kindeditor-min.js 1 -
+/fckeditor/license.txt 1 -
+/themes/default/graphics/horde-power1.png 1 -
+/blog/xmlrpc.php 1 -
+/system/.env 2 -
+/wordpress/wp-login.php 10 -
+/console/include/not_login.htm 1 -
+/site/wp-includes/wlwmanifest.xml 12 -
+/addons/theme/stv1/_static/ts2/layout.css 1 -
+/plus/download.php 1 -
+/help/user/index.html 1 -
+/inc/playerKinds.xml 1 -
+/cms/wp-includes/wlwmanifest.xml 12 -
+/wp-login.php 54 -
+/custom/SkinTemplate/skin/public/images/sys-logo-1caitong-180.jpg 1 -
+/UserCenter/css/admin/bgimg/admin_all_bg.png 1 -
+/plugins/anchor/anchor.js 1 -
+/Admin/Images/LoginImages/admin_text.gif 1 -
+/images/logo-white.png 1 -
+/API/DW/Dwplugin/TemplateManage/save_template.htm 1 -
+/Images/login/biaoti.jpg 1 -
+/examples/readonly.html 1 -
+/css/album.css 1 -
+/wp-content/plugins/easy-wp-smtp/ 1 -
+/forum.php 1 -
+/index.php 7 -
+/style/default/hdwiki.css 1 -
+/uc_server/control/admin/db.php 1 -
+/licence.txt 1 -
+/shop/wp-includes/wlwmanifest.xml 11 -
+/maintlogin.jsp 1 -
+/tpl/user/tpl1/css/skins/blue.css 1 -
+/system/language/zh-cn.xml 1 -
+/404.jpg 1 -
+/webbuilder/script/locale/wb-lang-zh_CN.js 1 -
+/was/help.jsp 1 -
+/mini.php 1 http://simplesite.com
+/system/skins/default/system.login.htm 1 -
+/examples/index.html 1 -
+/jcms/index.jsp 1 -
+/wp-content/plugins/ioptimization/IOptimize.php 2 www.google.com
+/CuteSoft_Client/CuteEditor/Help/default.htm 1 -
+/rss.php 1 -
+/sito/wp-includes/wlwmanifest.xml 11 -
+/README.txt 1 -
+/media/wp-includes/wlwmanifest.xml 10 -
+/themes/graphics/horde-power1.png 1 -
+/list.php 1 -
+/CuteSoft_Client/CuteEditor/Images/log.gif 1 -
+/blog/wp-includes/wlwmanifest.xml 12 -
+/fckeditor/fckeditor.js 1 -
+/sitemap.xml 4 -
+/addons/theme/stv2/_static/ts2/layout.css 1 -
+/ckfinder/install.txt 1 -
+/bbs/index.php 1 -
+/admin/images/ 1 -
+/fckeditor/fckconfig.js 1 -
+/images/login/logo.gif 1 -
+/bbs/archiver/ 1 -
+/bbs/max-templates/classic/styles/app.css 1 -
+/ckeditor/ckfinder/install.txt 1 -
+/admin/inc/xml.xslt 1 -
+/history.txt 1 -
+/license.txt 1 -
+/digg.php 1 -
+/ 4 -
+/wp-cron.php 1 -
+/Images/login/lefttu.jpg 1 -
+/fckeditor/editor/dtd/fck_dtd_test.html 1 -
+/common/common.js 1 -
+/FCK/editor/js/fckeditorcode_ie.js 1 -
+/Admin/Login.aspx 1 -
+/Install/logo.gif 1 -
+/index.cgi 1 -
+/robots.txt 263 -
+/script/login.js 1 -
+/bbs/archiver 1 -
+/js/ajax_x.js 1 -
+/js/editor/editor/ 1 http://www.baidu.com/
+/extman/default/images/logo.gif 1 -
+/images/zh-CN/logo.ico 1 -
+/xmlrpc.php 12 -
+/changelog.txt 1 -
+/script/valid_formdata.js 1 -
+/admin/login.asp 1 -
+/career/ 1 -
+/docs/DOCUMENTATION.txt 1 -
+/static/hgicon.png 1 -
+/2019/wp-includes/wlwmanifest.xml 11 -
+/adminsoft/templates/images/login_bg_top.jpg 1 -
+/rss.aspx 1 -
+/uploads/ 1 -
+/test/wp-includes/wlwmanifest.xml 11 -
+/bbs/images/logo_88x31.gif 1 -
+/templates/jsn_glass_pro/ext/hikashop/jsn_ext_hikashop.css 1 -
+/phpmyadmin/themes/original/img/logo_right.png 1 -
+/examples/file-manager.html 1 -
+/wp-content/wp-1ogin_bak.php 2 -
+/CuteSoft_Client/CuteEditor/ImageEditor/listfiles.aspx 1 -
+/auth/login 1 -
+/console/auth/reg_newuser.jsp 1 -
+/xxxss 1 -
+/archiver/ 1 -
+/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/.env 24 -
+/wp/wp-admin/ 1 http://falcon-pro.com/
+/config.bak.php 3 -
+/siteserver/upgrade/default.aspx 1 -
+/CHANGELOG.txt 1 -
+/FCKeditor/editor/ 1 http://www.baidu.com/
+/bbs/forums/list.page 1 -
+/Site/Pages/WebResources.ashx/PoweredByKodakImage 1 -
+/ckeditor/ckfinder/ckfinder.html 1 -
+/admin/SouthidcEditor/Dialog/dialog.js 1 -
+/bbs/licence.txt 1 -
+/max-templates/classic/styles/app.css 1 -
+/docs.css 1 -
+/ids/admin/userhome/forgetPwd.jsp 1 -
+/bbs/inc/Templates/rss.xslt 1 -
+/OLD/wp-admin/ 2 http://falcon-pro.com/
+/deptWebsiteAction.do 1 -
+/Error.aspx 1 -
+/bbs/robots.txt 1 -
+/images/Default_bg_002.gif 1 -
+/apple-touch-icon-precomposed.png 4 -
+/system/Update.aspx 1 -
+/Template/Default/Skin/user/images/login_back.jpg 1 -
+/wp-includes/wlwmanifest.xml 10 -
+/themes/default/default.css 1 -
+/admin/login.php 1 -
+/shop/.env 2 -
+/system/Login.aspx 1 -
+/ks_inc/ajax.js 1 -
+/public/about.html 1 -
+/data/images/wap_logo.gif 1 -
+/laravel/.env 4 -
+/data/admin/ver.txt 1 -
+/admin/start/index.php 1 -
+/wp-admin/ 2 http://falcon-pro.com/
+/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 2 -
+/public/js/ipb.js 1 -
+/public/Fckeditor/editor/ 1 http://www.baidu.com/
+/app/Tpl/fanwe_1/js/DD_belatedPNG_0.0.8a-min.js 1 -
+/forum/ 1 -
+/Prompt/images/P_Wrong.gif 1 -
+/images/login9/login_33.jpg 1 -
+/whir_system/module/security/login.aspx 1 -
+/pub/guiedit/guiedit.js 1 -
+/m 1 -
+/help/en/h_authenticate.html 1 -
+/Site/SystemThemes/7917A0869761B5458281E407AE0090F5/Images/ISBanner58px.jpg 1 -
+/business/images/index-gg1.jpg 1 -
+/js/buttons.js 1 -
+/admin/Fckeditor/editor/ 1 http://www.baidu.com/
+/coremail/common/help/images/helplogo.gif 1 -
+/bbs/extern.php 1 -
+/next/img/logo.gif 1 -
+/uploads/resume/ 1 -
+/master/login.aspx 1 -
+/wp1/wp-includes/wlwmanifest.xml 11 -
+/siteserver/login.aspx 1 -
+/fm.php 1 -
+/archiver 1 -
+/test/.env 3 -
+/inc/Templates/rss.xslt 1 -
+/admin/index.php 1 -
+/API/DW/Dwplugin/ThirdPartyTags/SiteFactory.xml 1 -
+/google-site-verification-content-fpk8ez12pdbewljjo9xhbxlv7lhxa9nplpcode87.php 1 http://simplesite.com
+/vendor/.env 3 -
+/app/home/skins/default/style.css 1 -
+/emergency.php 2 -
+/CuteSoft_Client/CuteEditor/Style/IE.css 1 -
+/images/branding/logo.gif 1 -
+/site/biographies/henri.html 1 -
+/Editor.js 1 -
+/2018/wp-includes/wlwmanifest.xml 10 -
+/editor/editor/ 1 http://www.baidu.com/
+/wp/wp-login.php 10 -
+/static/images/logo/webserver_small.gif 1 -
+/editor/js/fckeditorcode_ie.js 1 -
+/fckeditor/editor/js/fckeditorcode_ie.js 1 -
+/was5/web/index.jsp 1 -
+/site/doug.html 7 -
+/Admin/Images/LoginImages/admin_top.gif 1 -
+/sites/.env 3 -
+/new_gb/help/images/usage/3.3.gif 1 -
+/test_404_page/ 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 206
+66.246.224.12 12 12 9768 20210330152441
+35.225.194.25 8 8 6512 20210324101311
+34.70.26.177 6 6 4884 20210329211202
+125.64.94.221 5 5 4694 20210325145649
+50.38.173.137 5 6 133679 20210330202915
+151.138.13.148 4 4 3256 20210325072754
+194.49.69.174 4 4 3256 20210313175033
+144.217.135.204 3 3 2442 20210328200117
+20.50.126.246 3 3 2442 20210306170147
+45.132.227.240 3 3 2442 20210306165946
+192.99.18.122 3 3 2442 20210330083900
+42.83.147.202 3 3 2442 20210320163802
+92.204.170.186 3 3 2442 20210326031535
+20.52.181.19 3 3 2442 20210323035425
+3.15.26.53 3 3 2442 20210330121242
+52.15.238.90 3 3 2442 20210302182113
+82.102.25.164 3 3 2442 20210312151711
+35.232.61.61 3 3 2442 20210330131933
+191.235.110.29 3 3 2442 20210310102321
+180.76.240.243 3 3 2442 20210331003953
+51.77.52.160 3 3 2442 20210321080424
+46.150.252.69 2 2 44676 20210320151649
+34.77.162.11 2 2 1628 20210323115419
+144.76.162.206 2 2 6371 20210325095526
+23.100.232.233 2 2 880453 20210304155122
+34.77.162.28 1 1 814 20210320073412
+52.40.56.4 1 1 814 20210313014450
+54.200.255.168 1 1 814 20210319022208
+34.216.186.133 1 1 814 20210304010700
+91.121.108.74 1 1 814 20210313221931
+34.220.175.183 1 1 814 20210331021404
+65.19.141.115 1 1 814 20210302033322
+151.55.2.124 1 1 814 20210301031340
+34.77.162.18 1 1 814 20210305014600
+34.218.242.117 1 1 814 20210314013415
+92.118.160.45 1 1 814 20210307064535
+54.218.76.8 1 1 814 20210303012316
+34.68.170.220 1 1 814 20210308201543
+34.86.35.3 1 1 814 20210330081721
+54.203.81.53 1 1 814 20210324023705
+52.24.71.138 1 1 814 20210330025346
+34.220.23.117 1 1 814 20210301015550
+35.80.33.202 1 1 814 20210322021230
+54.244.173.60 1 1 814 20210317023503
+216.158.194.94 1 1 814 20210319220021
+94.181.47.232 1 1 814 20210304022619
+34.211.62.10 1 1 814 20210331024312
+52.252.229.236 1 1 814 20210328232035
+54.154.192.253 1 1 814 20210331123436
+196.207.177.243 1 1 814 20210313012306
+175.44.42.66 1 1 814 20210318202923
+52.24.142.49 1 1 814 20210316023657
+173.254.201.209 1 1 814 20210324160813
+34.123.127.56 1 1 814 20210314040538
+209.126.3.30 1 1 814 20210319062717
+34.223.110.5 1 1 814 20210316022142
+34.220.199.215 1 1 814 20210308012515
+59.175.144.14 1 1 814 20210317213121
+52.42.4.193 1 1 814 20210308013539
+157.90.227.221 1 1 814 20210330161057
+99.144.137.221 2 2 824 20210325193555
+34.221.130.152 1 1 814 20210309012650
+52.13.10.22 1 1 814 20210309011829
+62.210.92.175 1 1 814 20210329140517
+100.21.218.158 1 1 814 20210331174509
+45.77.87.134 2 2 1628 20210328180057
+54.188.249.109 1 1 814 20210318031157
+54.219.181.191 1 1 814 20210305080654
+44.233.146.222 1 1 814 20210301005859
+34.77.162.22 1 1 814 20210326200407
+158.51.121.69 1 1 814 20210305020815
+34.214.234.31 1 1 814 20210304010820
+143.198.121.206 1 1 814 20210331014008
+35.167.55.114 1 1 814 20210323021025
+141.157.204.139 1 1 5169 20210323054645
+34.222.189.13 1 1 814 20210326020505
+45.158.15.36 1 1 814 20210303004519
+34.222.137.151 1 1 814 20210310011507
+34.211.12.67 1 1 814 20210307013619
+54.191.153.16 1 1 814 20210303013610
+58.53.128.148 1 1 814 20210310110246
+54.191.174.160 1 1 814 20210318024000
+35.80.18.154 1 1 814 20210301011719
+66.160.140.184 1 1 814 20210309044405
+39.101.217.74 1 1 814 20210316000354
+34.221.88.253 1 1 814 20210315023015
+54.194.205.170 1 1 814 20210321065813
+158.51.121.14 1 1 814 20210319121723
+104.131.163.71 1 1 814 20210317105019
+92.118.160.61 1 1 814 20210319195320
+52.88.65.42 1 1 814 20210312013632
+89.46.62.34 1 1 814 20210306102030
+34.77.162.10 1 1 814 20210310181741
+162.154.114.91 1 1 814 20210313111119
+54.185.177.115 1 1 814 20210321025134
+199.244.88.132 2 2 0 20210330140723
+54.191.18.75 1 1 814 20210328020435
+23.108.52.48 1 1 814 20210310084616
+46.105.122.63 1 1 814 20210310192307
+37.236.122.242 1 1 814 20210320222209
+195.24.67.44 1 1 814 20210316104717
+52.27.126.237 1 1 814 20210314011635
+204.9.73.220 1 1 814 20210321033853
+23.104.184.136 1 1 814 20210304115142
+35.176.23.6 1 1 814 20210311171703
+34.77.230.195 2 2 1628 20210326120132
+34.219.134.30 1 1 814 20210314011658
+3.239.181.102 1 1 814 20210323093157
+51.158.164.205 1 1 814 20210306113837
+103.136.41.60 2 2 1628 20210321032210
+34.221.62.11 1 1 814 20210322021248
+54.153.30.123 1 1 814 20210324193432
+34.68.195.242 1 1 814 20210322213156
+64.246.165.190 1 1 814 20210307081225
+54.189.230.128 1 1 814 20210322131126
+91.224.92.171 1 1 814 20210312183244
+18.236.218.108 1 1 814 20210305013612
+62.113.112.68 1 1 814 20210313233649
+212.86.102.26 1 1 5169 20210305094402
+168.119.11.187 1 1 5169 20210325095501
+144.76.102.243 1 1 1202 20210325095700
+159.89.237.47 1 1 814 20210331163722
+34.96.130.15 1 1 814 20210331052519
+193.228.59.170 1 1 814 20210302114640
+182.64.34.106 2 2 814 20210301102540
+34.78.184.126 1 1 814 20210329054808
+44.234.72.45 1 1 814 20210316022212
+178.171.38.95 1 1 0 20210317104615
+35.80.13.44 1 1 814 20210326020439
+192.99.18.136 1 1 814 20210313121454
+124.206.180.139 1 1 814 20210322211851
+51.77.246.204 1 1 814 20210328200730
+54.213.213.148 1 1 814 20210302011646
+45.148.242.92 1 1 5169 20210328163109
+85.208.3.18 1 1 814 20210314203217
+45.132.129.115 1 1 43474 20210321232229
+18.202.35.94 1 1 814 20210331090223
+34.220.198.112 1 1 814 20210307015103
+212.102.37.207 1 1 814 20210329001635
+93.158.91.180 1 1 814 20210325044149
+34.209.236.44 1 1 814 20210320025957
+129.146.240.194 1 1 814 20210315062339
+196.19.181.26 1 1 814 20210306105352
+35.232.116.34 1 1 814 20210329213904
+34.243.218.229 1 1 814 20210330143946
+34.222.189.5 1 1 814 20210325135232
+54.74.107.10 1 1 814 20210331014536
+34.77.162.5 2 2 1628 20210318210047
+161.35.135.198 1 1 814 20210306090657
+35.180.91.120 1 1 0 20210306145658
+158.51.121.72 1 1 814 20210320000510
+52.152.173.38 1 1 814 20210326102109
+212.102.37.48 2 2 1628 20210322210206
+64.246.165.200 1 1 814 20210329005638
+34.106.63.153 1 1 814 20210316162459
+18.237.235.87 1 1 814 20210302011953
+35.153.101.28 1 1 814 20210315095135
+18.237.34.197 1 1 814 20210305011558
+183.167.193.127 1 1 814 20210308000453
+34.208.183.115 1 1 814 20210313012326
+34.77.162.15 1 1 814 20210316040348
+158.51.121.249 2 2 1628 20210327123952
+45.95.28.247 1 1 5169 20210317232429
+185.255.135.44 1 1 814 20210321120101
+52.59.216.129 1 1 814 20210303173257
+52.192.73.251 1 1 814 20210316081746
+34.211.52.33 1 1 814 20210319031701
+44.238.100.234 1 1 814 20210303011601
+72.13.62.27 1 1 814 20210308151759
+18.237.1.71 1 1 814 20210306011820
+35.239.161.11 1 1 814 20210301200106
+88.198.90.9 1 1 5169 20210325095533
+69.160.160.57 2 2 1628 20210324162349
+54.189.179.177 1 1 814 20210318023920
+103.221.232.251 1 1 814 20210320213851
+34.209.163.52 1 1 814 20210322023730
+54.70.221.87 1 1 814 20210318101512
+23.226.133.70 1 1 814 20210320115205
+46.150.244.53 1 1 1202 20210330052859
+175.44.42.149 1 1 814 20210303165332
+89.144.141.241 1 1 814 20210317143601
+54.69.191.201 1 1 814 20210325030057
+109.234.34.129 1 1 814 20210308153246
+34.67.197.35 1 1 814 20210310022131
+54.188.166.43 1 1 814 20210328021653
+54.176.188.51 1 1 814 20210330215208
+54.155.236.158 1 1 814 20210330150914
+199.117.61.126 1 1 814 20210306184021
+62.210.141.4 1 1 814 20210301070759
+50.252.9.153 1 1 814 20210319185647
+188.165.193.13 2 2 1628 20210305125623
+35.188.139.241 1 1 814 20210315212231
+54.203.73.198 1 1 814 20210306024612
+34.209.47.33 1 1 814 20210311011736
+34.222.206.99 1 1 814 20210310011016
+34.77.162.2 1 1 814 20210312045437
+185.81.158.134 2 2 1628 20210318093446
+54.202.110.17 1 1 814 20210326022332
+54.184.21.105 1 1 814 20210311014237
+34.214.254.85 1 1 814 20210327023838
+51.210.219.11 2 2 1628 20210331104513
+104.236.31.237 1 1 814 20210331023555
+34.215.51.255 1 1 814 20210330022732
+18.237.118.196 1 1 814 20210329025817
+64.62.252.176 1 1 814 20210323082646
+178.63.51.106 1 1 43474 20210301224105
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20210301 11 11 50800 10
+20210302 11 11 8954 9
+20210303 8 8 6512 8
+20210304 8 8 885337 7
+20210305 7 7 10053 7
+20210306 15 15 11396 11
+20210307 4 4 3256 4
+20210308 6 6 4884 6
+20210309 4 4 45916 4
+20210310 10 10 8140 8
+20210311 4 4 3256 4
+20210312 6 6 4884 4
+20210313 14 14 11396 11
+20210314 8 8 6512 6
+20210315 6 6 4884 6
+20210316 11 11 8954 10
+20210317 10 10 10867 8
+20210318 9 9 7326 9
+20210319 7 7 5698 7
+20210320 10 10 8528 10
+20210321 10 10 50800 9
+20210322 9 9 7326 9
+20210323 7 7 10053 7
+20210324 7 7 5698 6
+20210325 18 18 28313 12
+20210326 10 10 8140 10
+20210327 2 2 1628 2
+20210328 10 10 12495 7
+20210329 12 12 9768 8
+20210330 22 23 147091 14
+20210331 12 12 9768 12
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 3
+30mn-1h 1
+0s-30s 242
+30s-2mn 2
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 9
+/ 265 211640 230 229
+/site/biographies/henri.html 7 36183 6 7
+/site/opener.html 4 1236 2 1
+/site/bios.html 4 4808 4 3
+/site/biographies/henriacting.html 3 130422 3 3
+/bbs/ 2 2252 0 1
+/site/main.html 1 792 0 0
+/site/top.html 1 680 0 0
+/intro.swf 1 879639 0 1
+END_SIDER

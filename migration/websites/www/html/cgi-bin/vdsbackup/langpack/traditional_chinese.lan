@@ -1,0 +1,118 @@
+document_meta_charset#BIG5
+l_all_files#所有檔案
+l_not_aval#N/A
+l_back_pwd#使用密碼保護備份
+l_back_to_start#返回 VDS 備份程式
+l_backup_all#全部
+l_backup_all_files#所有檔案
+l_backup_backup_title#備份標題
+l_backup_content_files_only#僅內容檔
+l_backup_data_type#選擇資料類型
+l_backup_days_ago#天以前
+l_backup_directory#目錄
+l_backup_email_mailboxes_only#僅電子郵件郵箱
+l_backup_file#備份檔案
+l_backup_last_modified#檔案修改於最后
+l_backup_select_data_range#選擇資料範圍
+l_backup_total_size#要備份的檔案的總大小 (壓縮前)
+l_backup_type#備份類型
+l_backup_virtual_user#虛擬使用者 (FTP + 電子郵件）
+l_bad_cgi_param#CGI 參數非法
+l_choose_backup_name#備份名稱
+l_choose_select#選擇要從其進行還原的備份
+l_content_files#內容檔
+l_date_create#建立日期
+l_default_backup#備份檔案和目錄
+l_default_language#選擇預設語言
+l_default_restore#還原檔案和目錄
+l_default_select#選擇想要進行的作業
+l_delete_entry#刪除項目
+l_delete_index#確定要永久刪除這個項目嗎？
+l_dir#目錄
+l_dir_empty#目錄名稱不可以是空白的
+l_directory#目錄
+l_directory_view#目錄檢視
+l_email_files#電子郵件檔案
+l_er_back_type#不支援備份類型
+l_error#出現錯誤。
+l_error_error#錯誤
+l_error_exclude#無法開啟 Exclude (排除) 檔案清單
+l_error_file_restore#檔案還原不完全
+l_error_retore#還原過程不完全
+l_error_search#搜尋失敗
+l_error_title#錯誤
+l_error_unlink#無法取消文件連結
+l_error_unlock#無法解除文件鎖定
+l_illigal_value#表單欄位包含非法值
+l_in_upload#正在上載，請稍候...
+l_index_use#索引名稱已在使用，請在 1 分鐘後重試
+l_link_delete#刪除
+l_list_view#清單檢視
+l_location#位置
+l_main_title#站台備份和還原
+l_modify#修改時間
+l_must_pass#*
+l_name#名稱
+l_no_action#CGI 執行無效
+l_no_backup_type#選擇備份類型
+l_no_cgi_index#選擇要上載的檔案
+l_no_comp#壓縮前
+l_no_dir#無法存取目錄
+l_no_dir_select#選擇備份目錄
+l_no_dir_vuser#無法存取使用者的主目錄
+l_no_file#無法找到檔案
+l_no_file_find#無法找到檔案
+l_no_file_open#無法開啟檔案
+l_no_file_restor#檔案還原失敗
+l_no_files#沒有檔案
+l_no_freeze#無法凍結 VDS
+l_no_freeze_action#不支援凍結方法
+l_no_html_out#無法分析 HTML 範本
+l_no_index_dir#無法掃瞄索引目錄
+l_no_index_files#沒有任何索引檔案
+l_no_lock#無法鎖定檔案
+l_no_stop_services#無法停止 VDS 服務
+l_no_uid#無法找到使用者的 UID
+l_no_vusers#沒有使用者
+l_no_write_file#無法寫入檔案
+l_pass_one#密碼
+l_pass_two#重新輸入
+l_password_miss#密碼欄位是空的
+l_password_retype#密碼欄位不相符
+l_pwd_backup_name#為所選取的備份檔案輸入密碼
+l_report_restore_results#還原結果
+l_report_results#結果
+l_restore_ok#還原操作順利完成
+l_select_files_restore#選擇要還原的檔案。
+l_select_vuser#選取虛擬使用者
+l_session_exp#您的工作階段已過期
+l_size#大小
+l_tar_stream_error#無法建立備份資料流
+l_top_available_files#可用檔案
+l_top_backup_name#備份名稱
+l_top_backup_type#備份類型
+l_top_leftbottom_select_all#全部選取
+l_top_leftbottom_unselect_all#全部清除
+l_top_lefttop_directory#目錄檢視
+l_top_lefttop_list_view#清單檢視
+l_top_lefttop_tree#樹狀檢視
+l_top_rightbottom_select_all#全部選取
+l_top_rightbottom_unselect_all#全部清除
+l_top_righttop_directory#目錄檢視
+l_top_righttop_list_view#清單檢視
+l_top_righttop_tree#樹狀檢視
+l_top_selected_files#選取的檔案
+l_tree_view#樹狀檢視
+l_upload_choose#從您的電腦選擇備份封存檔
+l_upload_filename#上載下面的檔名
+l_v_user#虛擬使用者
+l_wait_backup_download#備份下載
+l_wait_cancel#您可以按一下下載視窗上的 [取消] 按鈕來繼續進行常規
+l_wait_frozen#站台將被凍結，一直到備份完成<br>一旦下載過程完成，<
+l_wait_please_wait#請稍候，正在進行備份...
+l_while_using#備份檔名必須是
+l_wrong_backupfile#備份檔名錯誤
+l_wrong_pwd#備份檔案密碼不正確
+l_zero_files_size#檔案大小為零。 請檢查配額和許可權
+l_zero_size_arhive#封存檔大小為零
+language_file_title#美式英語

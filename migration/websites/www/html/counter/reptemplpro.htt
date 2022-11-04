@@ -1,0 +1,18 @@
+<html><head><title>.....</title></head>
+<body bgcolor="#FFFFFF" vlink="#FF0000" alink="#C0C0C0">
+
+<p>
+${TotalVisitors} 
+<p>
+${Reset}
+<p>
+${AccessRef}
+<p>
+${DailyStats}
+${TodayVisitors}
+${YearToDate}
+${Countries}
+<p>
+${Visitors}
+</body>
+</html>

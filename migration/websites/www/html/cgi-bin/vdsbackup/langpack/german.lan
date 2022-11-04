@@ -1,0 +1,118 @@
+document_meta_charset#ISO-8859-1
+l_all_files#Alle Dateien
+l_not_aval#N/A
+l_back_pwd#Backup durch Passwort schützen
+l_back_to_start#Zurück zu VDS-Backup
+l_backup_all#Alle
+l_backup_all_files#Alle Dateien
+l_backup_backup_title#Titel des Backups
+l_backup_content_files_only#Nur Inhaltsdateien
+l_backup_data_type#Datentyp wählen
+l_backup_days_ago#Tage her
+l_backup_directory#Verzeichnis
+l_backup_email_mailboxes_only#Nur E-Mail-Postfächer
+l_backup_file#Backup-Datei
+l_backup_last_modified#Datei zuletzt geändert vor höchstens
+l_backup_select_data_range#Datenbereich wählen
+l_backup_total_size#Gesamtgröße der zu sichernden Dateien (vor Komprimierun)
+l_backup_type#Art des Backups
+l_backup_virtual_user#Virtueller User (FTP und E-Mail)
+l_bad_cgi_param#Unzulässiger CGI-Parameter
+l_choose_backup_name#Name des Backups
+l_choose_select#Wählen Sie eine Backup-Datei aus, deren Inhalt wiederhe
+l_content_files#Inhaltsdateien
+l_date_create#Erstellungsdatum
+l_default_backup#Dateien und Verzeichnisse sichern
+l_default_language#Standardsprache wählen
+l_default_restore#Dateien und Verzeichnisse wiederherstellen
+l_default_select#Wählen Sie die gewünschte Aktion aus
+l_delete_entry#Eintrag löschen
+l_delete_index#Möchten Sie dieses Objekt wirklich endgültig löschen?
+l_dir#Verz
+l_dir_empty#Verzeichnisname darf nicht leer sein
+l_directory#Verzeichnis
+l_directory_view#Verzeichnisansicht
+l_email_files#E-Mail-Dateien
+l_er_back_type#Diese Art von Backup wird nicht unterstützt.
+l_error#Ein Fehler ist aufgetreten.
+l_error_error#Fehler
+l_error_exclude#Liste ausgeschlossener Dateien kann nicht geöffnet werden
+l_error_file_restore#Datei wurde nicht vollständig wiederhergestellt.
+l_error_retore#Wiederherstellung nicht abgeschlossen
+l_error_search#Suchvorgang fehlgeschlagen
+l_error_title#Fehler
+l_error_unlink#Verknüpfung zur Datei kann nicht aufgehoben werden
+l_error_unlock#Gesperrte Datei kann nicht entsperrt werden
+l_illigal_value#Formularfeld enthält ungültigen Wert
+l_in_upload#Übertragung läuft, bitte warten ...
+l_index_use#Indexname wird bereits verwendet. Versuchen Sie es in 1
+l_link_delete#Löschen
+l_list_view#Listenansicht
+l_location#Ort
+l_main_title#Site-Backup und -Wiederherstellung
+l_modify#Geändert
+l_must_pass#*
+l_name#Name
+l_no_action#Unzulässige CGI-Ausführung
+l_no_backup_type#Art des Backups wählen
+l_no_cgi_index#Datei für Upload wählen
+l_no_comp#vor Komprimierung
+l_no_dir#Kein Zugriff auf das Verzeichnis
+l_no_dir_select#Verzeichnis für Backup wählen
+l_no_dir_vuser#Kein Zugriff auf das Verzeichnis für den User
+l_no_file#Datei(en) wurde(n) nicht gefunden
+l_no_file_find#Datei wurde nicht gefunden
+l_no_file_open#Datei kann nicht geöffnet werden
+l_no_file_restor#Datei konnte nicht wiederhergestellt werden
+l_no_files#Keine Dateien
+l_no_freeze#VDS kann nicht gesperrt werden
+l_no_freeze_action#Sperrverfahren wird nicht unterstützt
+l_no_html_out#HTML-Vorlage kann nicht analysiert werden
+l_no_index_dir#Indexverzeichnis kann nicht durchsucht werden
+l_no_index_files#Keine Indexdateien
+l_no_lock#Datei kann nicht gesperrt werden
+l_no_stop_services#VDS-Dienst kann nicht angehalten werden
+l_no_uid#UID für User wurde nicht gefunden
+l_no_vusers#Keine User
+l_no_write_file#Schreiben in Datei nicht möglich
+l_pass_one#Passwort
+l_pass_two#Bestätigen
+l_password_miss#Passwort-Feld ist leer
+l_password_retype#Passwort-Felder stimmen nicht überein
+l_pwd_backup_name#Passwort für gewählte Backup-Datei eingeben
+l_report_restore_results#Ergebnisse wiederherstellen
+l_report_results#Ergebnisse
+l_restore_ok#Wiederherstellung wurde erfolgreich abgeschlossen
+l_select_files_restore#Wählen Sie die wiederherzustellenden Dateien.
+l_select_vuser#Virtuellen User auswählen
+l_session_exp#Ihre Sitzung ist abgelaufen.
+l_size#Größe
+l_tar_stream_error#Backup-Stream kann nicht erstellt werden
+l_top_available_files#Verfügbare Dateien
+l_top_backup_name#Name des Backups
+l_top_backup_type#Art des Backups
+l_top_leftbottom_select_all#Alle wählen
+l_top_leftbottom_unselect_all#Alle löschen
+l_top_lefttop_directory#Verzeichnisansicht
+l_top_lefttop_list_view#Listenansicht
+l_top_lefttop_tree#Baumansicht
+l_top_rightbottom_select_all#Alle wählen
+l_top_rightbottom_unselect_all#Alle löschen
+l_top_righttop_directory#Verzeichnisansicht
+l_top_righttop_list_view#Listenansicht
+l_top_righttop_tree#Baumansicht
+l_top_selected_files#Gewählte Dateien
+l_tree_view#Baumansicht
+l_upload_choose#Wählen Sie das Backup-Archiv auf Ihrem Computer.
+l_upload_filename#Folgenden Dateinamen hochladen
+l_v_user#Virtueller User
+l_wait_backup_download#Download von Backup
+l_wait_cancel#Klicken Sie im Download-Fenster auf "Abbrechen", um
+l_wait_frozen#Die Site ist bis zum Abschluss des Backups nicht verfüg
+l_wait_please_wait#Bitte warten, während Backup läuft ...
+l_while_using#Richtiger Dateiname für Backup
+l_wrong_backupfile#Falscher Dateiname für Backup
+l_wrong_pwd#Falsches Passwort für Backup-Datei
+l_zero_files_size#Datei der Größe Null. Kapazität und Berechtigung prüfen
+l_zero_size_arhve#Archiv der Größe Null
+language_file_title#Englisch USA

@@ -1,0 +1,118 @@
+document_meta_charset#ISO-8859-1
+l_all_files#Alle bestanden
+l_not_aval#N/A
+l_back_pwd#Backup beschermen met password
+l_back_to_start#Terug naar VDS-Backup
+l_backup_all#Alles
+l_backup_all_files#Alle bestanden
+l_backup_backup_title#Backuptitel
+l_backup_content_files_only#Alleen bestanden met inhoud
+l_backup_data_type#Kies gegeventype
+l_backup_days_ago#dagen geleden
+l_backup_directory#Map
+l_backup_email_mailboxes_only#Alleen mailboxen voor e-mail
+l_backup_file#Backupbestand
+l_backup_last_modified#Bestanden bijgewerkt afgelopen
+l_backup_select_data_range#Kies gegevenbereik
+l_backup_total_size#Totale omvang van bestanden voor backup (voor compressie)
+l_backup_type#Backuptype
+l_backup_virtual_user#Virtuele gebruiker (FTP + e-mail)
+l_bad_cgi_param#Ongeldige CGI-parameter
+l_choose_backup_name#Backupnaam
+l_choose_select#Kies een backup waarvan u bestanden wilt herstellen
+l_content_files#Bestanden met inhoud
+l_date_create#Aanmaakdatum
+l_default_backup#Backup bestanden en directory's
+l_default_language#Kies standaardtaal
+l_default_restore#Herstellen bestanden en directory's
+l_default_select#Kies de bewerking die u wilt uitvoeren
+l_delete_entry#Vermelding wissen
+l_delete_index#Wilt u dit item permanent verwijderen?
+l_dir#dir
+l_dir_empty#Mapnaam mag niet leeg zijn
+l_directory#Map
+l_directory_view#Mapbeeld
+l_email_files#E-mailbestanden
+l_er_back_type#Backuptype wordt niet ondersteund
+l_error#Er is een fout opgetreden.
+l_error_error#Fout
+l_error_exclude#Kan exclude-file-lijst niet openen
+l_error_file_restore#Herstel niet voltooid voor bestand
+l_error_retore#Herstelproces niet voltooid
+l_error_search#Zoeken mislukt
+l_error_title#Fout
+l_error_unlink#kan koppeling bestand niet opheffen
+l_error_unlock#kan blokkering geblokkeerd bestand niet opheffen
+l_illigal_value#Vormveld bevat ongeldige waarde
+l_in_upload#Bezig met upload, even geduld...
+l_index_use#Indexnaam is al in gebruik, probeer opnieuw in 1 mi
+l_link_delete#Wissen
+l_list_view#Lijstweergave
+l_location#Locatie
+l_main_title#Backup en herstellen site
+l_modify#Bijgewerkt
+l_must_pass#*
+l_name#Naam
+l_no_action#Ongeldige CGI-uitvoering
+l_no_backup_type#Kies backuptype
+l_no_cgi_index#Selecteer bestand voor upload
+l_no_comp#voor compressie
+l_no_dir#Kan geen toegang krijgen tot map
+l_no_dir_select#Kies map voor backup
+l_no_dir_vuser#Kan geen toegang krijgen tot home-map voor gebruike
+l_no_file#Kan bestand/bestanden niet vinden
+l_no_file_find#Kan bestand niet vinden
+l_no_file_open#Kan bestand niet openen
+l_no_file_restor#Herstellen mislukt voor bestand
+l_no_files#Geen bestanden
+l_no_freeze#VDS kan niet worden opgeschort
+l_no_freeze_action#Opschortingsmethode niet ondersteund
+l_no_html_out#Kan HTML-sjabloon niet parsen
+l_no_index_dir#Kan indexmap niet scannen
+l_no_index_files#Geen indexbestanden
+l_no_lock#Kan bestand niet blokkeren
+l_no_stop_services#Kan VDS-services nite afsluiten
+l_no_uid#Kan UID niet vinden voor gebruiker
+l_no_vusers#Geen gebruikers
+l_no_write_file#Kan niet naar bestand schrijven
+l_pass_one#Wachtwoord
+l_pass_two#Opnieuw typen
+l_password_miss#Wachtwoordveld is leeg
+l_password_retype#Wachtwoordvelden komen niet overeen
+l_pwd_backup_name#Voer wachtwoord voor geselecteerd backup-bestand in
+l_report_restore_results#Resultaten herstellen
+l_report_results#Resultaten
+l_restore_ok#Uitvoeren herstel is voltooid
+l_select_files_restore#Kies te herstellen bestanden
+l_select_vuser#Selecteer virtuele gebruiker
+l_session_exp#Sessie is verstreken
+l_size#Grootte
+l_tar_stream_error#Kan geen backup-stream creëeren
+l_top_available_files#Beschikbare bestanden
+l_top_backup_name#Backupnaam
+l_top_backup_type#Backuptype
+l_top_leftbottom_select_all#Alles selecteren
+l_top_leftbottom_unselect_all#Alles wissen
+l_top_lefttop_directory#Mapbeeld
+l_top_lefttop_list_view#Lijstweergave
+l_top_lefttop_tree#Boomweergave
+l_top_rightbottom_select_all#Alles selecteren
+l_top_rightbottom_unselect_all#Alles wissen
+l_top_righttop_directory#Mapbeeld
+l_top_righttop_list_view#Lijstweergave
+l_top_righttop_tree#Boomweergave
+l_top_selected_files#Geselecteerde bestanden
+l_tree_view#Boomweergave
+l_upload_choose#Kies backup-archief van uw machine
+l_upload_filename#Upload de volgende bestandsnaam
+l_v_user#Virtuele gebruiker
+l_wait_backup_download#Backup download
+l_wait_cancel#U kunt in het downloadvenster op de knop "Annuler"
+l_wait_frozen#Site wordt opgeschort totdat de backup wordt voltoo
+l_wait_please_wait#Even geduld terwijl de backup wordt uitgevoerd...
+l_while_using#Correcte naam backbestand:
+l_wrong_backupfile#Foutieve naam backupbestand
+l_wrong_pwd#Onjuist wachtwoord voor backupbestand
+l_zero_files_size#Bestandgrootte nul. Controleer quota en toestemming
+l_zero_size_arhive#Archiefgrootte nul
+language_file_title#Amerikaans Engels

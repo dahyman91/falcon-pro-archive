@@ -1,0 +1,76 @@
+<html>
+<head>
+<LINK REL="STYLESHEET" HREF="/vdsbackup/Sphera.css" TYPE="TEXT/CSS">
+<base target="_self">
+</head>
+<body leftmargin=0 topmargin=0>
+<FORM name="form1" method="post" target="_self" enctype="multipart/form-data" action="/cgi-bin/vdsbackup/upload.cgi?<<USERFILE>>">
+
+<CENTER>
+<table width=100% border=0 cellspacing=0 cellpadding=5>
+<tr class="MainHeader">
+        <td nowrap width=55%>&nbsp;&nbsp;&nbsp;&nbsp;<font face="Verdana" size="3" color="#FFFFFF"><b>Sphera Backup</b></font></td>
+        <td>&nbsp;</td>
+        <td align="right"><img src="/vdsbackup/sphera_logo_small.gif" width="38" height="46">&nbsp;&nbsp;&nbsp;&nbsp</td>
+</tr><tr>
+        <td colspan=3 bgcolor="#CBD4F1">&nbsp;&nbsp;&nbsp;&nbsp;<a  class="tabFocus">Select data type:</a></td>
+</tr>
+		<tr>
+			<td><B><UL><a class="BrownFont"><input type="radio" value="all" name="type"> All files</td>
+		</tr>
+		<tr>
+                        <td><B><UL><a class="BrownFont"><input type="radio" value="email" name="type"> Email mailboxes only</td>
+                </tr>
+		<tr>
+                        <td><B><UL><a class="BrownFont"><input type="radio" value="content" name="type"> Content files only</td>
+                </tr>
+		<tr>
+                        <td><B><UL><a class="BrownFont"><input type="radio" value="virtual" name="type"> Virtual user (FTP + Email): 
+				&nbsp;&nbsp;&nbsp;<select size="1" name="vusers">
+			        <<VIRTUAL>>
+			        </select>
+			</td>
+                </tr>
+		<tr>
+                        <td><B><UL><a class="BrownFont"><input type="radio" value="directory" name="type"> Directory:&nbsp;&nbsp;&nbsp;
+				<input type="text" name="dirname" size="20"><BR>&nbsp;
+			</td>
+                </tr>
+</tr>
+<tr>
+        <td colspan=3 bgcolor="#CBD4F1">&nbsp;&nbsp;&nbsp;&nbsp;<a  class="tabFocus">Select data range:</a></td>
+</tr>
+		<tr>
+                        <td><B><UL><a class="BrownFont">File modified in the last:
+				<select size="1" name="filterdate">
+				<option value="1" >&nbsp;&nbsp;1&nbsp;&nbsp;</option>
+				<option value="2" >&nbsp;&nbsp;2&nbsp;&nbsp;</option>
+				<option value="7" >&nbsp;&nbsp;7&nbsp;&nbsp;</option>
+				<option value="14" >&nbsp;&nbsp;14&nbsp;&nbsp;</option>
+				<option value="21" >&nbsp;&nbsp;21&nbsp;&nbsp;</option>
+				<option value="28" >&nbsp;&nbsp;28&nbsp;&nbsp;</option>
+				<option value="31" >&nbsp;&nbsp;31&nbsp;&nbsp;</option>
+				<option value="All" >&nbsp;&nbsp;All&nbsp;&nbsp;</option>
+        			</select> days ago
+                        </td>
+                </tr>
+			<td><B><UL><a class="BrownFont"> Total size of files to backup: 
+				0 K
+				&nbsp;&nbsp;&nbsp;&nbsp;<img src="/vdsbackup/english/next.gif" border=0">
+                        </td>
+		</tr>
+	
+<tr><td colspan=3 bgcolor="#FFFFFF" height="40">	
+		<table width=100% border=0 cellspacing=0>
+		<tr>
+		        <td align="right" width="70%">&nbsp;</td>
+		        <td align="right" width="20%"><a href="#" onClick="top.location=document.DURL; return false;"><IMG SRC="/vdsbackup/english/next.gif" border=0></a></td>
+		        <td>&nbsp;</td>
+		</tr></table>
+</td></tr>
+
+
+</tr></table>
+</FORM>
+</body>
+</html>

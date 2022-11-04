@@ -1,0 +1,31 @@
+<html>
+  <head>
+    <title>WWWBoard Version 2.0!</title>
+  </head>
+  <body bgcolor="#ffffff">
+    <center>
+      <h1>falcon-pro Message Board!</h1>
+    </center>
+<p><hr size=7 width=75%>
+<center>[ <a href="#post">Post Message</a> ] [ <a href="faq.html">FAQ</a> ]</center> <hr size=7 width=75%>
+<center>You are the
+<!--#exec cgi="/cgi-falcon-pro/counters/counter.cgi"-->
+ visitor.</center>
+<ul>
+<!--begin-->
+</ul>
+
+<a name="post"><center><h2>Post A Message!</h2></center></a>
+<form method=POST action="http://falcon-pro.com/cgi-falcon-pro/wwwboard.pl">
+Name:<br> <input type=text name="name" size=50><br>
+E-Mail:<br> <input type=text name="email" size=50><p>
+
+Subject:<br> <input type=text name="subject" size=50><p>
+Message:<br>
+<textarea COLS=55 ROWS=10 name="body"></textarea><p>
+Optional Link URL: <input type=text name="url" size=45><br>
+Link Title: <input type=text name="url_title" size=50><br>
+Optional Image URL: <input type=text name="img" size=45><p>
+<input type=submit value="Post Message"> <input type=reset>
+</form><p>
+</body></html>

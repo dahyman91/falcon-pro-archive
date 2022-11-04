@@ -1,0 +1,118 @@
+document_meta_charset#ISO-8859-1
+l_all_files#Alle filer
+l_not_aval#N/A
+l_back_pwd#Beskytt sikkerhetskopi med passord
+l_back_to_start#Gå tilbake til VDS-sikkerhetskopi
+l_backup_all#Alle
+l_backup_all_files#Alle filer
+l_backup_backup_title#Navn på sikkerhetskopi
+l_backup_content_files_only#Kun filer med innhold
+l_backup_data_type#Velg datatype
+l_backup_days_ago#dager siden
+l_backup_directory#Katalog
+l_backup_email_mailboxes_only#Kun e-postbokser
+l_backup_file#Sikkerhetskopieringsfil
+l_backup_last_modified#Filen er endret de siste
+l_backup_select_data_range#Definer område for data
+l_backup_total_size#Total størrelse på filer som skal sikkerhetskopiere
+l_backup_type#Type sikkerhetskopieringsfil
+l_backup_virtual_user#Virtuell bruker (FTP + e-post)
+l_bad_cgi_param#Ulovlig CGI-parameter
+l_choose_backup_name#Navn på sikkerhetskopi
+l_choose_select#Velg en sikkerhetskopi som du vil gjenopprette fra
+l_content_files#Filer med innhold
+l_date_create#Opprettelsesdato
+l_default_backup#Sikkerhetskopier og kataloger
+l_default_language#Velg standard språk
+l_default_restore#Gjenopprett filer og kataloger
+l_default_select#Velg den operasjonen som du ønsker å utføre
+l_delete_entry#Slett oppføring
+l_delete_index#Er du sikker på at du vil slette dette elementet for alltid?
+l_dir#katalog
+l_dir_empty#Feltet for katalognavn kan ikke være tomt
+l_directory#Katalog
+l_directory_view#Katalogvisning
+l_email_files#E-postfiler
+l_er_back_type#Denne typen sikkerhetskopiering støttes ikke
+l_error#Det har oppstått en feil.
+l_error_error#Feil
+l_error_exclude#Kan ikke åpne listen over ekskluderte filer
+l_error_file_restore#Gjenopprettingen av filen ble ikke fullført
+l_error_retore#Gjenoppretingsprosessen ble ikke fullført
+l_error_search#Søket lykkes ikke
+l_error_title#Feil
+l_error_unlink#kan ikke fjerne kobling til fil
+l_error_unlock#kan ikke åpne låst fil
+l_illigal_value#Feltet inneholder en ulovlig verdi
+l_in_upload#Opplasting pågår, vennligst vent...
+l_index_use#Indeksnavnet er allerede i bruk. Prøv på nytt om 1
+l_link_delete#Slett
+l_list_view#Listeoversikt
+l_location#Plassering
+l_main_title#Sikkerhetskopiering og gjenoppretting av område
+l_modify#Modifisert
+l_must_pass#*
+l_name#Navn
+l_no_action#Ugyldig CGI-kjøring
+l_no_backup_type#Velg type sikkerhetskopiering
+l_no_cgi_index#Velg fil for opplasting
+l_no_comp#før komprimering
+l_no_dir#Har ikke tilgang til katalogen
+l_no_dir_select#Velg katalog for sikkerhetskopiering
+l_no_dir_vuser#Har ikke tilgang til brukers hjemmekatalog
+l_no_file#Kan ikke finne filen/filene
+l_no_file_find#Kan ikke finne filen
+l_no_file_open#Kan ikke åpne filen
+l_no_file_restor#Gjenoppretting av filen mislykkes
+l_no_files#Ingen filer
+l_no_freeze#Kan ikke sperre VDS for tilgang
+l_no_freeze_action#Metode for sperring støttes ikke
+l_no_html_out#Kan ikke analysere HTML-mal
+l_no_index_dir#Kan ikke skanne indekskatalogen
+l_no_index_files#Ingen indeksfiler
+l_no_lock#Kan ikke låse filen
+l_no_stop_services#Kan ikke avslutte VDS-tjenester
+l_no_uid#Kan ikke finne bruker-ID
+l_no_vusers#Ingen brukere
+l_no_write_file#Kan ikke skrive til filen
+l_pass_one#Passord
+l_pass_two#Gjenta
+l_password_miss#Feltet for passord er tomt
+l_password_retype#Feltene for passord er ikke identiske
+l_pwd_backup_name#Angi passord for valgt sikkerhetskopieringsfil
+l_report_restore_results#Resultater for gjenoppretting
+l_report_results#Resultater
+l_restore_ok#Gjenopprettingen var vellykket
+l_select_files_restore#Velg filer som skal gjenopprettes.
+l_select_vuser#Velg virtuell bruker
+l_session_exp#Tiden for arbeidsøkten er ute
+l_size#Størrelse
+l_tar_stream_error#Kan ikke opprette overføring fra sikkerhetskopi
+l_top_available_files#Tilgjengelige filer
+l_top_backup_name#Navn på sikkerhetskopi
+l_top_backup_type#Type sikkerhetskopi
+l_top_leftbottom_select_all#Merk alle
+l_top_leftbottom_unselect_all#Fjern all merking
+l_top_lefttop_directory#Katalogoversikt
+l_top_lefttop_list_view#Listeoversikt
+l_top_lefttop_tree#Treoversikt
+l_top_rightbottom_select_all#Merk alle
+l_top_rightbottom_unselect_all#Fjern all merking
+l_top_righttop_directory#Katalogoversikt
+l_top_righttop_list_view#Listeoversikt
+l_top_righttop_tree#Treoversikt
+l_top_selected_files#Merkede filer
+l_tree_view#Treoversikt
+l_upload_choose#Velg pakket sikkerhetskopi  fra maskinen
+l_upload_filename#Last opp følgende filnavn
+l_v_user#Virtuell bruker
+l_wait_backup_download#Nedlasting av sikkerhetskopi
+l_wait_cancel#Du kan klikke på "Avbryt" -knappen i nedlastingsv
+l_wait_frozen#Området vil være sperret inntil sikkerhetskopiering
+l_wait_please_wait#Vennligst vent mens sikkerhetskopiering pågår...
+l_while_using#Filnavnet på sikkerhetskopien må være
+l_wrong_backupfile#Feil filnavn på sikkerhetskopien
+l_wrong_pwd#Feil passord for sikkerhetskopifilen
+l_zero_files_size#Fil uten innhold. Kontroller kvote og tilgang for
+l_zero_size_arhive#Pakket fil uten innhold
+language_file_title#Amerikansk engelsk

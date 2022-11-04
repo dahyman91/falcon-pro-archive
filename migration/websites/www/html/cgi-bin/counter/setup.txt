@@ -1,0 +1,9 @@
+[PARAMETERS]
+HtmlDir=/www/falcon-pro/counter
+HtmlUrl=http://falcon-pro.com/counter
+ScriptUrl=http://falcon-pro.com/cgi-bin/counter/counter.cgi
+LogsDir=logs
+AccFileName=access
+[TEMPLATES]
+ReportTemplate=reptemplpro.htt
+AccessTemplate=acctempl.htt

@@ -1,0 +1,4 @@
+AuthName "Restricted Area"
+AuthType Basic
+AuthUserFile /usr/local/apache/.htpasswd
+require user falcon-pro

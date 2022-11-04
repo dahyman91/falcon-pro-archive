@@ -1,0 +1,128 @@
+#!/usr/local/bin/perl
+
+# This setup file accompanies database_search.cgi.  If you are installing
+# the script on to your own server, this is the file which you want to edit.
+
+
+#$domain="falcon-pro.com";
+
+#######################################################################
+#                       Basic Instructions.                           #
+#######################################################################
+
+# This script should be placed in a directory from which the web
+# server is allowed to execute cgis.  It should also have its
+# permissions set appropriately.    If you are not sure what
+# appropriate means relative to your own server setup, try setting
+# everything to chmod 777 and then work your way backwards boosting
+# security each time until you hit errors.  You may also have to
+# change the ownership or group of the files so that they are set to
+# what your server wants.  It'll be something like chgrp wwwadmin *
+# or chgrp web *
+
+#######################################################################
+#          What all Should be Here and What Does it Do?               #
+#######################################################################
+
+# Accompanying this script should be...
+#
+# guestbook.cgi is the main script which manages the guestbook.  This 
+#     should be placed in the same direcdtory as this setup file, and have 
+#     its permissions set appropriately.
+# guestbook.html is the actual guestbook which should be placed in an 
+#     HTML directory and made readable by the web browser.
+
+# You will also need a couple of library files: 
+#
+# cgi-lib.pl which will be used to gather form data
+# mail-lib.pl will be used by guestbook.cgi to send mail.    
+#
+# These library files should be placed either in your library
+# directory or in the same directory as this script.  These files
+# must be readable by the web server.  Why use a library file?  Well, it
+# is good to have one central directory for files which all of your CGIs
+# share.  For example...you may want to have user authentication for other
+# scripts besides this one.  If you create a central CGI library for
+# yourself, you can just make one copy of the authentication routines and
+# have every script refernce them there rather than keeping track of
+# duplicate files (which may, over time, become slightly different and
+# thus totally unmanageable) in several directories.
+
+#######################################################################
+#                        Define Variables.                            #
+#######################################################################
+
+# Set some server specific variables that we'll use in this script.  When
+# customizing this script to your site, these variables will need to be
+# changed to their local values.
+
+# $guestbookurl is the location of the html document that you will use to
+# display the contents of your guestbook.
+
+  $guestbookurl = "http://falcon-pro.com/Guestbook/guestbook.html";
+
+# $guestbookreal is the actual location of that file on your server.
+# Domain is the name of your domain without the .com extension
+
+  $guestbookreal = "/www/falcon-pro/Guestbook/guestbook.html";
+
+# $cgiurl is the url of this script
+# change  "domain" to your domain name
+  $cgiurl = "http://falcon-pro.com/Guestbook/guestbook.cgi";
+
+# $cgi_lib_location and $mail_lib_location are the locations on the 
+# server of the two library files that accompany this script.
+##### Dont Change ###############
+
+  $cgi_lib_location = "/library/cgi-lib.pl";
+  $mail_lib_location = "/library/mail-lib.pl";
+
+# @bad_words is a list of words which we do not want to appear in our 
+# guestbook.  Anyword in this list will be removed before the guestbook 
+# is modified.  If you don't want to censor, make the following line...
+# @bad_words = ();
+
+  @bad_words = ("fuck", "shit", "piss", "damn", "hell");
+
+#######################################################################
+#                     Define your options.                            #
+#######################################################################
+
+# $mail determines whether or not to email the guestbook administrator 
+# when a new entry has been made.  If it is set to 1, the admin will be 
+# emailed, zero, she won't.  $recipient is the email address of the admin 
+# who should receive the email notification and $recipient_server is their 
+# email server.  $email_subject is the subject of the email you will send 
+# the admin.
+
+  $mail = 0;
+  $recipient = 'email@email.com';
+  $email_subject = "Entry to Guestbook";
+
+# $linkmail determines if you want email address on your guestbook to be 
+# clickable...if you want them to be, set this equal to ojne, if not, 0
+
+  $linkmail = 1;
+
+# $separator defines how each guestbook entry will be separated.  If you 
+# set this variable equal to 1, each record will be separated by an 
+# <HR>.  If you set it equal to zero, they will be separated by a <P>
+
+  $separator = 1; 
+
+# $remote_mail determines whether or not a thank you note is sent back to 
+# the guest who signed the guest book.  If you set this equal to 1, they 
+# will reeive a thank you note.  Set it equal to 0 and they won't.
+
+  $remote_mail = 0;
+
+# $allow_html allows you to disallow or allow the use of HTML tags in 
+# guestbook entries.  If you set this equal to one, guests will be able to 
+# use HTML, o, they won't.
+
+  $allow_html = 1;
+
+# @required_fields is the list of fields which the guest MUST fill in in 
+# order to submit their information.
+
+  @required_fields = ("realname", "comments");

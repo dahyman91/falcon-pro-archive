@@ -1,0 +1,80 @@
+<html>
+<head>
+<META HTTP-EQUIV="Expires" CONTENT="Mon, 06 Jan 1990 00:00:01 GMT">
+<META HTTP-EQUIV="Pragma" CONTENT="No-cache">
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=<<document_meta_charset>>">
+<LINK REL="STYLESHEET" HREF="/vdsbackup/Sphera.css" TYPE="TEXT/CSS">
+</head>
+<body leftmargin=0 topmargin=0 marginwidth="0" marginheight="0">
+<CENTER>
+<table width=100% border=0 cellspacing=0>
+<tr class="MainHeader">
+	<td nowrap width=55% height="50">&nbsp;&nbsp;&nbsp;&nbsp;<font face="Verdana" size="3" color="#FFFFFF"><b><<TITLE>></b></font></td>
+	<td>&nbsp;</td>
+	<td align="right"><img src="/vdsbackup/sphera_logo_small.gif" width="38" height="46">&nbsp;&nbsp;&nbsp;&nbsp</td>
+</tr><tr>
+	<td colspan=1 bgcolor="#CBD4F1" height="24">&nbsp;&nbsp;&nbsp;&nbsp;<a class="tabFocus" style="text-align: left;"><<l_top_backup_name>>: <i><<BACKUPNAME>></a></td>
+	<td colspan=1 bgcolor="#CBD4F1" height="24">&nbsp;&nbsp;&nbsp;&nbsp;<a class="tabFocus" style="text-align: left;"><<l_top_backup_type>>: <i><<BACKUPTYPE>></a></td>
+<td bgcolor="#CBD4F1" align="right" valign="bottom">
+	<a href="#"  onclick="window.open('<<HELPURL>>','help_file','scrollbars=yes,location=no,menubar=no,status=no,titlebar=no,resizable,height=550px width=750px,left=1,top=1, copyhistory=yes');">
+<img src="/vdsbackup/english/help.gif" border=0></a>&nbsp;&nbsp;&nbsp;&nbsp;
+</td>
+</tr><tr>
+	<td nowrap>&nbsp;&nbsp;&nbsp;&nbsp;<a class="BrownFont"><<l_top_available_files>></a></td>
+	<td nowrap colspan=2>&nbsp;&nbsp;&nbsp;&nbsp;<a class="BrownFont"><<l_top_selected_files>></a></td>
+</tr></table>
+</FORM>
+<script>
+
+//--------------------- Generate the LEFT - TOP Frame ---------------------
+parent.left_top.document.close();
+parent.left_top.document.write("<html><head><META HTTP-EQUIV=\"Content-Type\" CONTENT=\"text/html; charset=<<document_meta_charset>>\"><LINK REL=\"STYLESHEET\" HREF=\"/vdsbackup/Sphera.css\" TYPE=\"TEXT/CSS\"><sc");
+parent.left_top.document.write("ript>function Switch(Frame,URL){Frame.location=URL; return false;}\</sc");
+parent.left_top.document.writeln("ript>");
+parent.left_top.document.writeln("</head><body leftmargin=0 topmargin=0 bgcolor=\"#F4E5B8\"><form name=form1><table width=100% border=0 cellspacing=0><tr><td nowrap align=center valign=\"middle\"><a class=\"BrownFont\"><<l_top_lefttop_list_view>>:");
+parent.left_top.document.writeln("<select name=\"View\" id=\"View\" size=\"1\" onChange=\"Switch(parent.left,parent.left.document.LeftForm.SwitchToView.value)\"><option value=\"1\" SELECTED>&nbsp;&nbsp;<<l_top_lefttop_directory>>&nbsp;&nbsp;</option>");
+parent.left_top.document.writeln("<option value=\"2\">&nbsp;&nbsp;<<l_top_lefttop_tree>>&nbsp;&nbsp;</option></select></a></tr></table></form></body></html>");
+parent.left_top.document.close();
+
+
+//--------------------- Generate the RIGHT - TOP Frame ---------------------
+//parent.right_top.document.close();
+//parent.right_top.document.write("<html><head><META HTTP-EQUIV=\"Content-Type\" CONTENT=\"text/html; charset=<<document_meta_charset>>\"><LINK REL=\"STYLESHEET\" HREF=\"/vdsbackup/Sphera.css\" TYPE=\"TEXT/CSS\"><sc");
+//parent.right_top.document.write("ript>function Switch(Frame,URL){Frame.location=URL; return false;}\</sc");
+//parent.right_top.document.writeln("ript>");
+//parent.right_top.document.writeln("</head><body leftmargin=0 topmargin=0 bgcolor=\"#F4E5B8\"><form name=form1><table width=100% border=0 cellspacing=0><tr><td nowrap align=center valign=\"middle\"><a class=\"BrownFont\"><<l_top_righttop_list_view>>:");
+//parent.right_top.document.writeln("<select name=\"View\" id=\"View\" size=\"1\" onChange=\"Switch(parent.right,parent.right.document.RightForm.SwitchToView.value)\"><option value=\"1\" SELECTED>&nbsp;&nbsp;<<l_top_righttop_directory>>&nbsp;&nbsp;</option>");
+//parent.right_top.document.writeln("<option value=\"2\">&nbsp;&nbsp;<<l_top_righttop_tree>>&nbsp;&nbsp;</option></select></a></tr></table></form></body></html>");
+
+//--------------------- Generate the LEFT - BOTTOM Frame ---------------------
+parent.left_bottom.document.close();
+parent.left_bottom.document.writeln("<html><head><META HTTP-EQUIV=\"Content-Type\" CONTENT=\"text/html; charset=<<document_meta_charset>>\"><LINK REL=\"STYLESHEET\" HREF=\"/vdsbackup/Sphera.css\" TYPE=\"TEXT/CSS\"></head><body topmargin=\"0\" leftmargin=\"0\"  bgcolor=\"#F4E5B8\">");
+parent.left_bottom.document.writeln("<table border=\"0\" width=\"100%\" height=\"100%\" cellspacing=\"1\" cellpadding=\"1\"><tr><td colspan=4 height=\"25\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;");
+parent.left_bottom.document.writeln("<font face=\"Arial\" size=\"2\"><b><a href=\"#\" onClick=\"parent.left.SelectAll(true); return false;\"><<l_top_leftbottom_select_all>></a></b></font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;");
+parent.left_bottom.document.writeln("<font face=\"Arial\" size=\"2\"><b><a href=\"#\" onClick=\"parent.left.SelectAll(false); return false;\"><<l_top_leftbottom_unselect_all>></a></b></font>&nbsp;</td></tr></table></body></html>");
+parent.left_bottom.document.close();
+
+
+//--------------------- Generate the RIGHT - BOTTOM Frame ---------------------
+parent.right_bottom.document.close();
+parent.right_bottom.document.writeln("<html><head><META HTTP-EQUIV=\"Content-Type\" CONTENT=\"text/html; charset=<<document_meta_charset>>\"><LINK REL=\"STYLESHEET\" HREF=\"/vdsbackup/Sphera.css\" TYPE=\"TEXT/CSS\"></head><body topmargin=\"0\" leftmargin=\"0\"  bgcolor=\"#F4E5B8\">");
+parent.right_bottom.document.writeln("<table border=\"0\" width=\"100%\" height=\"100%\" cellspacing=\"1\" cellpadding=\"1\"><tr><td colspan=4 height=\"25\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;");
+parent.right_bottom.document.writeln("<font face=\"Arial\" size=\"2\"><b><a href=\"#\" onClick=\"parent.right.SelectAll(true); return false;\"><<l_top_rightbottom_select_all>></a></b></font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;");
+parent.right_bottom.document.writeln("<font face=\"Arial\" size=\"2\"><b><a href=\"#\" onClick=\"parent.right.SelectAll(false); return false;\"><<l_top_rightbottom_unselect_all>></a></b></font>&nbsp;</td></tr></table></body></html>");
+parent.right_bottom.document.close();
+
+
+//--------------------- Generate the BOTTOM Frame ---------------------
+parent.bottom.document.close();
+parent.bottom.document.writeln("<html><head><META HTTP-EQUIV=\"Content-Type\" CONTENT=\"text/html; charset=<<document_meta_charset>>\"><LINK REL=\"STYLESHEET\" HREF=\"/vdsbackup/Sphera.css\" TYPE=\"TEXT/CSS\"></head><body leftmargin=0 topmargin=\"5\" marginheight=\"5\" marginwidth=\"5\" marginheight=\"5\"><CENTER><table width=100% border=0 cellspacing=0><tr>");
+parent.bottom.document.writeln("<td align=\"right\" width=\"70%\"><a href=\"/cgi-bin/vdsbackup/vdsbackup.cgi?action=chooseindex&userfile=<<USERFILE>>&lang=<<LANG>>\" target=\"_top\"><img src=\"/vdsbackup/english/back.gif\" border=0></a></td><td align=\"right\" width=\"20%\">");
+parent.bottom.document.writeln("<a href=\"/cgi-bin/vdsbackup/vdsbackup.cgi?action=upload&indexname=<<BACKUPFILE>>&userfile=<<USERFILE>>&lang=<<LANG>>\" target=\"_top\"><img src=\"/vdsbackup/english/next.gif\" border=0></td><td>&nbsp;</td></tr></table></body></html>");
+parent.bottom.document.close();
+
+
+</script>
+
+</body>
+</html>
+
+

@@ -1,0 +1,11 @@
+<!-- frames -->
+<frameset  rows="100,74%,*">
+    <frame name="top" src="top.htm" marginwidth="0" marginheight="0" scrolling="no" frameborder="0">
+    <frameset  cols="45%,10%,*">
+        <frame name="left" src="/cgi-bin/eran/vdsbackup.cgi?action=chooseindex" marginwidth="0" marginheight="0" scrolling="auto" frameborder="1">
+        <frame name="center" src="buttons.htm" marginwidth="0" marginheight="0" scrolling="no" frameborder="0">
+        <frame name="right" src="right.htm" marginwidth="0" marginheight="0" scrolling="auto" frameborder="0">
+    </frameset>
+    <frame name="buttom" src="buttom.htm" marginwidth="0" marginheight="0" scrolling="auto" frameborder="0">
+</frameset>
+

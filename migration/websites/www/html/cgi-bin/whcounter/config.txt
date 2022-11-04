@@ -1,0 +1,41 @@
+#============================================================================================#
+# Modify this file to your liking!  But make sure the requests you set up in your HTML files #
+# match the names you add here!                                                              #
+#                                                                                            #
+# To customize your own images, just follow the example of the images provided with this     #
+# script (found in the images directory).  You'll name each image file                       # 
+# [style name][number].gif.  For example: odometer1.gif.                                     #
+# Once you've created the image files, make an entry in this setup file (like one of the     #
+# defaults provided below).  The name of the style and the name of the images don't have to  #
+# be the same.  But to make things simple, you might want to make sure they are the same.    #
+# For each image style, you'll need to provide the name in braces [] on it's own line.  Then #
+# you will need to provide the name of the file with it's extension (.gif .jpg .png) on the  #
+# line below.  Don't put any numbers after the image name and before the extension.  The     #
+# script will do that for you.  So odometer.gif will automatically be converted to           #
+# odometer5.gif if the number five is required by the counter.                               #
+#                                                                                            #
+# Text styles are a little bit easier.  They can be any single-line chunk of HTML you wish.  #
+# All you need to do is put the word "COUNTER" in all-caps where you want the counter number #
+# to appear.                                                                                 #
+#============================================================================================#
+
+# ----------------->SET THIS FIRST!  This is the URL where we will find the counter images!
+[image_dir]
+/images/whcounter
+
+# ----------------->Image style here
+[odometer]
+odometer.gif
+
+[blue]
+blue_on_white_.gif
+
+# ----------------->Text styles here.  YOUR STYLE MUST ONLY TAKE UP 1(ONE) LINE!
+[bigblue]
+<span style="color:#0C2D82;font:15px Verdana, Geneva, Arial, Helvetica, sans-serif;">COUNTER</span>
+
+[smallblack]
+<span style="color:#000000;font:10px Verdana, Geneva, Arial, Helvetica, sans-serif;">COUNTER</span>
+
+[nostyle]
+COUNTER

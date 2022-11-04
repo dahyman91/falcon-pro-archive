@@ -1,0 +1,19 @@
+<FORM name="someform2" method="post" target="_self" enctype="multipart/form-data" action="/cgi-bin/vdsbackup/upload.cgi">
+<table border="0" width="300" height="100"  cellspacing="0" cellpadding="0" bgcolor="#FFFFFF">
+      <tr>
+        <td width="236"  hight="50" colspan=2 > <font face="Arial" size="2"><b><<LOCATION>><<VIEW>></b></font></td>
+     </tr>
+      <tr>
+        <td width="44" hight="2" ></td>
+        <td width="236" hight="2" ><input type="file" name="filename"></td>
+     </tr>
+     <tr>
+        <td width="300" colspan="4" height="100" >
+        <input type="submit" name="Submit" value="Restore Files"><input type="reset" value="Reset" name="B1">
+        <input type="hidden" value="<<DIR>>" name="dir">
+        <input type="hidden" value="restore" name="action">
+        <input type="hidden" value="<<INDEXFILE>>" name="indexname">
+      </td>
+    </tr>
+</table>
+</FORM>
